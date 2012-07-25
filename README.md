@@ -8,9 +8,15 @@ Googol GLaDOS - YouTube
 
 http://www.youtube.com/watch?v=sDhc4mKtMkU
 
+Simulator in action
+
+http://www.hakobaito.co.uk/googolglados:simulator/
+
 =======================
 
 Alex I'Anson's original link is 404'd and does not exist.
+
+http://www.ienvyu.org/?googolglados
 
 =======================
 
