@@ -3,7 +3,8 @@ googol-glados-simulator
 
 A JS experimental recreation of the animation Googol GLaDOS.
 
-Googol GLaDOS - YouTube 
+Googol GLaDOS - YouTube
+-
 http://www.youtube.com/watch?v=sDhc4mKtMkU
 
 =======================
@@ -12,7 +13,7 @@ Alex I'Anson's original link is 404'd and does not exist.
 
 =======================
 
-TODO
+TODO:
 -
 
 OS Browser compatibility.*
@@ -29,6 +30,7 @@ Sound fixes.
 
 
 Credits:
+-
 
 Alex I'Anson (@BlahBlah_BEN) - Original author + code
 
