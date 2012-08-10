@@ -34,6 +34,24 @@ Sound fixes.
 
 *Apparently the current state of the simulator only works perfectly on Mac OS X :S
 
+=======================
+Instructions
+-
+From Alex I'Anson
+
+Before you continue this simulator, watch this video http://www.youtube.com/watch?v=sDhc4mKtMkU (if you haven't already)
+
+Please note, everything you see is just animations, nothing is actually being downloaded & installed onto your computer.
+
+Please wait for a bit because currently the audio files are being cached.
+
+(this is so the audio plays instantly when it loads so the animations doesn't become out of sync)
+
+Also on the note of audio files, you need to click "allow" if you already haven't, otherwise,
+
+the audio will not play The audio files are M4A and AAC encoded (Which will be changed), so you will need something like Quicktime to play (iTunes)
+
+=======================
 
 
 Credits:
