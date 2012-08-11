@@ -1,3 +1,5 @@
+<?php
+
 <!doctype html>
 
 <html>
@@ -7,6 +9,7 @@
 (C) Copyright Hakobyte 2012 
 
 -->
+
 
 <head>
 

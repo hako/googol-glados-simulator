@@ -1,3 +1,7 @@
+<?php
+
+<!doctype html>
+
 <html>
 
 <!--
@@ -124,3 +128,5 @@ h1
 <script>setTimeout('click_bomb()',6000)</script>
 
 </div>
+
+</html>

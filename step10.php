@@ -1,3 +1,7 @@
+<?php
+
+<!doctype html>
+
 <html>
 
 <!--
@@ -142,3 +146,5 @@ h1
 <div id="apDiv1"><script>setTimeout('give_link()',12000)</script></div>
 
 </div>
+
+</html>

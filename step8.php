@@ -1,3 +1,7 @@
+<?php
+
+<!doctype html>
+
 <html>
 
 <!--
@@ -109,3 +113,5 @@ h1
 <script>setTimeout('scan_cv()',4000)</script>
 
 </div>
+
+</html>

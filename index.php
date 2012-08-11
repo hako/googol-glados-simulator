@@ -1,13 +1,20 @@
+<?php
+
 <!doctype html>
+
 <html>
+
+<!--
+
+(C) Copyright Hakobyte 2012 
+
+-->
 
 <head>
 
 <meta charset="ISO-8859-1">
 
-<title>Index page</title>
-
-<meta name="google-translate-customization" content="63fbf869928a7f97-d29e34bc776152e4-g21506ed855530fb0-2b"></meta>
+<title>Example Index page</title>
 
 <link rel="icon" href="images/GDOS.gif" type="image/gif" >
 
@@ -182,14 +189,9 @@ window.location = "IE9.html";
   <input value="Launch simulator" onClick="window.location='step1.php'" type="button">
 </p>
 <p>&nbsp;</p>
-<div id="google_translate_element"></div>
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true, gaTrack: true, gaId: 'UA-25782369-1'}, 'google_translate_element');
-}
-  </script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 
 </html>
+
+?>

@@ -1,3 +1,5 @@
+<?php
+
 <!doctype html>
 
 <html>
@@ -7,6 +9,8 @@
 (C) Copyright Hakobyte 2012 
 
 -->
+
+<head>
 
 <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
 
@@ -35,5 +39,7 @@
 <script>setTimeout('give_link()',11000)</script>
 
 </body>
+
+</html>
 
 </html>

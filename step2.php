@@ -1,3 +1,7 @@
+<?php
+
+<!doctype html>
+
 <html>
 
 <!--
@@ -9,6 +13,7 @@
 <head>
 
 <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
 <link href="fonts.css" rel="stylesheet" type="text/css">
 
 <link rel="icon" href="images/GDOS.gif" type="image/gif" >
@@ -147,8 +152,6 @@ h1
 </body>
 
 </html>
-
-
 
 
 

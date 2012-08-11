@@ -1,3 +1,7 @@
+<?php
+
+<!doctype html>
+
 <html>
 
 <!--
@@ -112,3 +116,5 @@ h1
 </script>
 
 </div>
+
+</html>
