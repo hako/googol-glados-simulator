@@ -6,12 +6,13 @@
 
 <!--
 
-(C) Copyright Hakobyte 2012 
+This work is licensed under the Creative Commons Attribution-NonCommercial 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/3.0/.
 
 -->
 
-
 <head>
+
+<title>Googol GLaDOS:simulator</title>
 
 <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
 

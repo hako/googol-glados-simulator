@@ -6,7 +6,7 @@
 
 <!--
 
-(C) Copyright Hakobyte 2012 
+This work is licensed under the Creative Commons Attribution-NonCommercial 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/3.0/.
 
 -->
 
@@ -14,10 +14,9 @@
 
 <meta charset="ISO-8859-1">
 
+<title>Googol GLaDOS:simulator</title>
 
 <link rel="icon" href="images/GDOS.gif" type="image/gif" >
-
-<title>Googol GLaDOS:simulator</title>
 
 <link href="fonts.css" rel="stylesheet" type="text/css">
 

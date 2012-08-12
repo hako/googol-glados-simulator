@@ -2,11 +2,14 @@
 
 <!--
 
-(C) Copyright Hakobyte 2012 
+This work is licensed under the Creative Commons Attribution-NonCommercial 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/3.0/.
 
 -->
 
 <head>
+
+<title>Googol GLaDOS:simulator</title>
+
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 
@@ -138,8 +141,6 @@ h1,h2,h3,h4,h5,h6 {
 
 <p>&nbsp;</p>
 
-<a href="https://twitter.com/intent/tweet?button_hashtag=googolgladossimulator" class="twitter-hashtag-button" data-size="large" data-related="hakobyte">Tweet #googolgladossimulator</a>
-
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 <p>&nbsp;</p>
@@ -149,6 +150,7 @@ h1,h2,h3,h4,h5,h6 {
 
 <p align="center"><a href="index.php"><font size="1">Googol GLaDOS:<span class="Googol_Simulator_Font_Colour">simulator</span></a> | <a href="http://www.hakobaito.co.uk" title="hakobaito.co.uk" class="Googol_Simulator_Font_Colour">hakobaito.co.uk </a>|<a href="http://www.hakobaito.co.uk/ha.ko/4rbr4" title="privacy policy">	privacy policy</a></p>
 
-<p align="center" class="Googol_Simulator_Font_Colour">&copy; 2012</p>
+&nbsp;
+<p align="center" <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Googol GLaDOS Simulator</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.hakobaito.co.uk/googolglados:simulator" property="cc:attributionName" rel="cc:attributionURL"> Alex I'Anson</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://www.ienvyu.org" rel="dct:source">http://www.ienvyu.org</a>.</p>
     
 </center>

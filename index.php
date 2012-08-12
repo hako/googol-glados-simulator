@@ -6,7 +6,7 @@
 
 <!--
 
-(C) Copyright Hakobyte 2012 
+This work is licensed under the Creative Commons Attribution-NonCommercial 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/3.0/.
 
 -->
 
@@ -188,10 +188,11 @@ window.location = "IE9.html";
   &nbsp;
   <input value="Launch simulator" onClick="window.location='step1.php'" type="button">
 </p>
+&nbsp;
+<p align="center" <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Googol GLaDOS Simulator</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.hakobaito.co.uk/googolglados:simulator" property="cc:attributionName" rel="cc:attributionURL"> Alex I'Anson</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://www.ienvyu.org" rel="dct:source">http://www.ienvyu.org</a>.</p>
 <p>&nbsp;</p>
 
 </body>
 
 </html>
 
-?>
