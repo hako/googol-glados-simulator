@@ -1,17 +1,18 @@
-googol-glados-simulator
+googol glados simulator
 -
 
 
-A JS experimental recreation of the animation Googol GLaDOS.
+A JS + PHP experimental recreation of the animation Googol GLaDOS.
+
 
 Googol GLaDOS - YouTube
 
 http://www.youtube.com/watch?v=sDhc4mKtMkU
 
+
 Simulator in action
 
 http://www.hakobaito.co.uk/googolglados:simulator/
-
 
 
 Alex I'Anson's original link is 404'd and does not exist.
@@ -21,6 +22,16 @@ http://www.ienvyu.org/?googolglados
 =======================
 
 
+Misc
+- 
+
+There's a poll going on my site in request to put this simulator on one other console.
+(1st to 100 votes)
+
+http://poll.pollcode.com/nu9y
+
+=======================
+
 TODO:
 -
 
@@ -28,12 +39,16 @@ OS Browser compatibility.*
 
 + add support for Windows browsers
 + add support for Linux browsers
+-
++ Sound fixes.
 
-Sound fixes.
++ Open for any requests
+
++ More enhancements.
 
 =======================
 
-*Apparently the current state of the simulator only works perfectly on Mac OS X :S
+*Apparently the current state of the simulator only works (perfectly) on Mac OS X :S
 
 
 Instructions:
