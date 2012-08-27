@@ -40,6 +40,8 @@ OS Browser compatibility.*
 + add support for Windows browsers
 + add support for Linux browsers
 
+*Apparently the current state of the simulator only works (perfectly) on Mac OS X :S
+
 + Sound fixes.
 
 + Open for any requests
@@ -48,7 +50,7 @@ OS Browser compatibility.*
 
 =======================
 
-*Apparently the current state of the simulator only works (perfectly) on Mac OS X :S
+
 
 
 Instructions:
