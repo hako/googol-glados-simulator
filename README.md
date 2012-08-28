@@ -22,13 +22,14 @@ http://www.ienvyu.org/?googolglados
 =======================
 
 
-Misc
-- 
+Downloads
+-
 
-There's a poll going on my site in request to put this simulator on one other console.
-(1st to 100 votes)
+You can download the latest source of the googol glados simulator here
 
-http://poll.pollcode.com/nu9y
+http://git.io/ZL5moQ
+
+(compiled weekly)
 
 =======================
 
@@ -48,16 +49,16 @@ OS Browser compatibility.*
 
 + More enhancements.
 
+
 =======================
 
-Downloads
--
+Misc
+- 
 
-You can download the latest source of the googol glados simulator here
+There's a poll going on my site in request to put this simulator on one other console.
+(1st to 100 votes)
 
-http://git.io/ZL5moQ
-
-(compiled weekly)
+http://poll.pollcode.com/nu9y
 
 =======================
 
