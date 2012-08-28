@@ -50,7 +50,15 @@ OS Browser compatibility.*
 
 =======================
 
+Downloads
+-
 
+You can download the latest source of the googol glados simulator here
+http://git.io/ZL5moQ
+
+(compiled weekly)
+
+=======================
 
 
 Instructions:
