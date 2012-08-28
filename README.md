@@ -52,17 +52,6 @@ OS Browser compatibility.*
 
 =======================
 
-Misc
-- 
-
-There's a poll going on my site in request to put this simulator on one other console.
-(1st to 100 votes)
-
-http://poll.pollcode.com/nu9y
-
-=======================
-
-
 Instructions:
 -
 From Alex I'Anson
@@ -78,6 +67,16 @@ From Alex I'Anson
 
 + Also on the note of audio files, you need to click "allow" if you already haven't, otherwise,
 the audio will not play The audio files are M4A and AAC encoded (Which will be changed), so you will need something like Quicktime to play (iTunes)
+
+=======================
+
+Misc
+- 
+
+There's a poll going on my site in request to put this simulator on one other console.
+(1st to 100 votes)
+
+http://poll.pollcode.com/nu9y
 
 =======================
 
