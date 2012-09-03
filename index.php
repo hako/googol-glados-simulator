@@ -146,14 +146,6 @@ body {
 }(document, 'script', 'facebook-jssdk'));</script>
 
 
- <embed src="Sound/glados_s6.m4a" id="gladoss6" hidden="True" autostart="False" loop="False" cache="true">  </embed>
-  <embed src="Sound/glados_s7.m4a" id="gladoss6" hidden="True" autostart="False" loop="False" cache="true">  </embed>
-  <embed src="Sound/glados_s8.m4a" id="gladoss6" hidden="True" autostart="False" loop="False" cache="true">  </embed>
-  <embed src="Sound/glados_s9.m4a" id="gladoss6" hidden="True" autostart="False" loop="False" cache="true">  </embed>
-  <embed src="Sound/glados_s10.m4a" id="gladoss6" hidden="True" autostart="False" loop="False" cache="true">
-</embed>
-
-
 
 <!--[if IE]>
 <script type="text/javascript">

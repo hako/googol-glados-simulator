@@ -32,7 +32,7 @@ This work is licensed under the Creative Commons Attribution-NonCommercial 3.0 U
 
 <body>
 
-<embed src="Sound/glados_s6.m4a" id="gladoss6" autostart="true" loop="false" cache="true" hidden="true">
+<embed src="Sound/glados_s6.wav" id="gladoss6" autostart="true" loop="false" cache="true" hidden="true">
 
 <img src="images/googol_glados.png" style="position: absolute; top: 20px; left: 50%; margin-left: -150px; width: 300px;">
 

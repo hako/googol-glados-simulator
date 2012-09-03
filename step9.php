@@ -106,7 +106,7 @@ h1
 
 <div style="position:absolute;top:0;left:0;width:100%;height:100%;" id="gladosbody">
 
-<embed src="Sound/glados_s9.m4a" id="gladoss6" hidden="true" autostart="true" loop="false" cache="true">
+<embed src="Sound/glados_s9.wav" id="gladoss9" hidden="true" autostart="true" loop="false" cache="true">
 
 <img src="images/googol_glados_evil.png" id="gladosimg" style="position:absolute;top:120;left:40%;margin-left:-150;width:150;z-index:1;"></img>
 
