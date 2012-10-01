@@ -172,7 +172,7 @@ window.location = "IE9.html";
 <p align="center">
 <p align="center">---</p>
 <p align="center">If you wish to contribute to the project in making it better, please fork or download the files from the repo!</p>
-<p align="center"><a href="https://github.com/hak0/googol-glados-simulator">https://github.com/hak0/googol-glados-simulator</a></p>
+<p align="center"><a href="https://github.com/hako/googol-glados-simulator">https://github.com/hako/googol-glados-simulator</a></p>
 <p align="center"><font size="1">=[],</font></p>
 <p align="center" class="RPi">v.1.0</p>
 <p align="center">---</p>
