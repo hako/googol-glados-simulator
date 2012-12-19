@@ -25,11 +25,10 @@ http://www.ienvyu.org/?googolglados
 Downloads
 -
 
-You can download the latest source of the googol glados simulator here
+You can download the latest source of the googol glados simulator here.
 
-http://git.io/gvKXjQ
+http://git.io/UH9SpA
 
-(compiled weekly)
 
 =======================
 
