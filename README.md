@@ -1,5 +1,5 @@
-googol glados simulator
--
+#googol glados simulator
+
 
 
 A JS + PHP experimental recreation of the animation Googol GLaDOS.
@@ -15,7 +15,7 @@ Simulator in action
 http://www.hakobaito.co.uk/googolglados:simulator/
 
 
-Alex I'Anson's original link is 404'd and does not exist.
+NOTE: _Alex I'Anson's original link is 404'd and does not exist._
 
 http://www.ienvyu.org/?googolglados
 
@@ -40,7 +40,9 @@ OS Browser compatibility.*
 + add support for Windows browsers
 + add support for Linux browsers
 
-*Apparently the current state of the simulator only works (perfectly) on Mac OS X :S
++ Fun
+
+_*Apparently the current state of the simulator only works (perfectly) on Mac OS X :S_
 
 + Sound fixes.
 
@@ -48,8 +50,11 @@ OS Browser compatibility.*
 
 + More enhancements.
 
++ FUN STUFF
+
 
 =======================
+
 
 Instructions:
 -
@@ -68,6 +73,22 @@ From Alex I'Anson
 the audio will not play The audio files are M4A and AAC encoded (Which will be changed), so you will need something like Quicktime to play (iTunes)
 
 =======================
+
+Install
+-
+
++Windows - WAMP or UniServer
+
++Mac OS - Homebrew - Apache (with the Apache PHP module installed (mod_php) )
+
++Linux - LAMP Server
+
+Use any of these to get cracking with the googol glados simulator on your server.
+
+_Place the whole source in www_
+
+=======================
+
 
 Misc
 - 
