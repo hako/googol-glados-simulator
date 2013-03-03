@@ -77,11 +77,11 @@ the audio will not play The audio files are M4A and AAC encoded (Which will be c
 Install
 -
 
-+Windows - WAMP or UniServer
++ Windows - WAMP or UniServer
 
-+Mac OS - Homebrew - Apache (with the Apache PHP module installed (mod_php) )
++ Mac OS - Homebrew - Apache (with the Apache PHP module installed (mod_php) )
 
-+Linux - LAMP Server
++ Linux - LAMP Server
 
 Use any of these to get cracking with the googol glados simulator on your server.
 
