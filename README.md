@@ -1,7 +1,6 @@
 #googol glados simulator
 
 
-
 A JS + PHP experimental recreation of the animation Googol GLaDOS.
 
 
@@ -12,12 +11,12 @@ http://www.youtube.com/watch?v=sDhc4mKtMkU
 
 Simulator in action
 
-http://www.hakobaito.co.uk/googolglados:simulator/
+http://ggs.hakobaito.co.uk
 
 
 NOTE: _Alex I'Anson's original link is 404'd and does not exist._
 
-http://www.ienvyu.org/?googolglados
+<del>http://www.ienvyu.org/?googolglados<del>
 
 =======================
 
@@ -35,42 +34,49 @@ http://git.io/UH9SpA
 TODO:
 -
 
-OS Browser compatibility.*
++ <del>Sound fixes.</del> ☑
 
-+ add support for Windows browsers
-+ add support for Linux browsers
++ Cross browser compatibility. ☑
+ + **Google Chrome** - **perfect! :D** ☑
+ + **Mozilla Firefox** - font rendering is a disaster simulator works as usual :\ ☐
+ + **Internet Explorer 10** - fair enough.. ☑
+ + **Opera** - same as Firefox.
+ + **Safari** - need to test. ☐
+ + **Haiku WebPositive** - need to test. ☐
+ + **< insertanyotherwebbrowserthatshouldsupporthtml5 >** - draw your own conclusion... ☐
 
-+ Fun
+<br>
 
-_*Apparently the current state of the simulator only works (perfectly) on Mac OS X :S_
++ More enhancements. ☐
 
-+ Sound fixes.
++ Facebook version
 
-+ Open for any requests
++ FUN STUFF ☐
 
-+ More enhancements.
-
-+ FUN STUFF
-
++ Open for any requests ☐
 
 =======================
 
 
 Instructions:
 -
-From Alex I'Anson
+ 
+>
+**Before you continue this simulator, watch this video [Googol GLaDOS](http://www.youtube.com/watch?v=sDhc4mKtMkU) (if you haven't already)**
 
-+ Before you continue this simulator, watch this video http://www.youtube.com/watch?v=sDhc4mKtMkU 
-  (if you haven't already)
+   
+> Please note, **everything you see is just animations**, **_nothing_** is actually being downloaded & installed onto your computer.
 
-+ Please note, everything you see is just animations, nothing is actually being downloaded & installed onto your computer.
+   
+> You must wait before running the simulator because it will cache all the files needed to run smoothly.
+   
+> The simulator can also be run offline once the files are all cached.
+(you will know this if the page has finished loading.)
 
-+ Please wait for a bit because currently the audio files are being cached.
+   
+> The simulator has been extensively **TESTED** on all major browsers. **Google Chrome is prefered.** 
 
-  (this is so the audio plays instantly when it loads so the animations doesn't become out of sync)
-
-+ Also on the note of audio files, you need to click "allow" if you already haven't, otherwise,
-the audio will not play The audio files are M4A and AAC encoded (Which will be changed), so you will need something like Quicktime to play (iTunes)
+> _(other browsers may vary, use at your own risk.)_
 
 =======================
 
@@ -85,7 +91,7 @@ Install
 
 Use any of these to get cracking with the googol glados simulator on your server.
 
-_Place the whole source in www_
+_Place the whole source in var/www if you use *nix OS_
 
 =======================
 
@@ -115,4 +121,3 @@ Licence
 
 Googol GLaDOS Simulator by Alex I'Anson is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License.
 Based on a work at http://www.ienvyu.org.
-
