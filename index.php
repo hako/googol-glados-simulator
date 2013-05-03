@@ -161,6 +161,11 @@ index.php
 				
 			}
 			
+			.social
+			{
+			float: none !important;
+			}
+			
 			
 			 html,
 		  body {
@@ -419,6 +424,33 @@ index.php
 		
 			<p align="center">&nbsp;</p>
 
+		<script>
+		
+		var offlinecache = window.applicationCache;
+
+		offlinecache.update(); // Try to update users cache
+		
+			// Check if a new cache is available on page load.
+		window.addEventListener('load', function(e) {
+
+	  window.applicationCache.addEventListener('updateready', function(e) {
+		if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+		  // Browser downloaded a new app cache.
+		  // Swap it in and reload the page to get the new hotness.
+		  window.applicationCache.swapCache();
+		  if (confirm('A new version of the site is now available online for offline use. Refresh?')) {
+			window.location.reload();
+		  }
+		} else {
+		 
+		}
+	  }, false);
+
+	}, false);
+		
+		
+		</script>
+
 
 <div class="Googol animated fadeInDownBig" id="Logo">	
 
@@ -585,6 +617,8 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 	
 	<p class="animated fadeOutRightBig"><img src="img/cake.png" id="iliedcake"></p>
     <p span style="color:#FFF;" class="peekaboo2" align="center">I LIED</p> 
+
+  <p class="shake" align="center"><img src="img/digitalocean-badge-gray.png" ></p>
   
   </div>
   
@@ -613,6 +647,7 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 
 		</script>
 
+
 </div>
 
 <footer>
@@ -629,6 +664,20 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 	src="http://hit-counter.info/hit.php?id=437571&counter=34"></div>
 
 <p class"muted credit"><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span></p>
+<br>
+
+	<!-- AddThis Button BEGIN -->
+<div style="margin: 0 auto; width: 328px; position:relative; text-align:center" class="social addthis_toolbox addthis_default_style" >
+
+<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+<a class="addthis_button_tweet"></a>
+<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+<a class="addthis_button_reddit"></a>
+</div>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-517822a417f80f0d"></script>
+<!-- AddThis Button END -->
+
+
 
 <p class"muted credit">
   <a href="http://goo.gl/I7w8X" class="openwebicons-cc" title="Googol GLaDOS Simulator by Alex I'Anson is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License."></a><a href="http://goo.gl/I7w8X" class="openwebicons-cc-by"></a><a href="http://goo.gl/I7w8X" class="openwebicons-cc-nc active"></a><a href="http://goo.gl/I7w8X" class="openwebicons-cc-share"></a><a href="http://goo.gl/I7w8X" class="openwebicons-cc-remix"></a>
@@ -721,7 +770,12 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 </script>
 <!-- End Piwik Code -->
 
-
+<script type="text/javascript">
+var _cdj = _cdj || [];
+_cdj.push(['_setAccount', 8864]);
+_cdj.push(['_init']);
+document.write('<scr'+'ipt src="'+document.location.protocol+'//dssja7qsifeak.cloudfront.net/experimently.js"></scr'+'ipt>');
+</script>
 
 	<!-- Load JS here for the greater good =============================-->
 
@@ -735,5 +789,3 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 
 
 </html>
-
-
