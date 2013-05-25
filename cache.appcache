@@ -1,7 +1,7 @@
 CACHE MANIFEST
 
-# Version 2.0 
-# Last Edited: Sat, 25 May 2013 03:32:28 GMT
+# GOOGOL GLADOS CACHE MANIFEST Version 2.0 
+# Last Edited: Sat, 25 May 2013 21:22:35 GMT
 
 CACHE:
 
@@ -31,6 +31,11 @@ favicon.ico
 /css/fonts/Catull.svg
 /css/fonts/Catull.ttf
 /css/fonts/Catull.woff
+/css/fonts/icomoon.eot
+/css/fonts/icomoon.svg
+/css/fonts/icomoon.woff
+/css/fonts/icomoon.ttf
+
 
 # images
 
@@ -68,7 +73,9 @@ http://198.199.72.158/css/real-world.css
 http://fonts.googleapis.com/css?family=Averia+Sans+Libre
 http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic
 http://fonts.googleapis.com/css?family=Press+Start+2P
-http://weloveiconfonts.com/api/?family=entypo|fontawesome|fontelico|openwebicons|typicons|zocial
+http://weloveiconfonts.com/api/?family=entypo|fontelico|openwebicons|typicons|zocial
+http://198.199.72.158/css/icomoon.css
+
 
 # style sheet images
 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAT0lEQVQIW2NkQAP/94j4MLq82YIuzogs8FrHwUf0yoEt2BTDFcIUwTQyTxH3+ZvzEm4yWKFO9GufK0tFMaxDVsyISxHMZJg8ihvRPYCsGADh7CXFSnU+WgAAAABJRU5ErkJggg==

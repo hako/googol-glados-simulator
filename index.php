@@ -99,6 +99,7 @@ index.php
 		<link href="css/bootstrap-responsive.css" rel="stylesheet">
         	<link href="css/real-world.css" rel="stylesheet">
 		<link href="css/fonts.css" rel="stylesheet">
+		<link href="css/icomoon.css" rel="stylesheet">
 		
 		
 		<link rel="apple-touch-icon" href="apple-touch-icon-iphone.png" /> 
@@ -416,7 +417,9 @@ index.php
 	</head>
 
 	<body>
-     
+	
+		
+	
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 			
         	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
@@ -448,12 +451,14 @@ index.php
 	  }, false);
 
 	}, false);
-		
-		
+	
 		</script>
+	
 
 
 <div class="Googol animated fadeInDownBig" id="Logo">	
+
+
 
   <div class="jumbotron masthead">
   <div class="container">
@@ -463,14 +468,24 @@ index.php
         <div align="center"> <span class="Googol_Colour"><span class="Googol">G</span><span class="Googol_Colour_0">o</span><span class="Googol_Colour_1">o</span><span class="Googol_Colour_2">g</span><span class="Googol_Colour_3">o</span><span class="Googol_Colour_4">l</span> <span class="Googol_Colour_5">G</span><span class="Googol_Colour_6">L</span><span class="Googol_Colour_7">a</span><span class="Googol_Colour_8">D</span><span class="Googol_Colour_9">O</span><span class="Googol_Colour_10">S</span> </span> <span class="Googol_Simulator_Font_Colour"> simulator </span> <span class="Googol_Simulator_Font_Colour blue"> <sup><small> beta</small></sup></span></div>
         <p> This simulator is an <b>open source experiment</b> of recreating the animation <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU"><b>'Googol GLaDOS'</b></a> in <strong> <abbr title="Javascript">JS</abbr>.</strong>
         
-        <p align="center" class=lead> <small> If you find any bugs or issues, report them at<a href="https://www.facebook.com/GoogolGLadosSimulator"> Facebook</a> and on <a href="http://git.io/3OCKtQ">Github</a>.</small></span></p>
+        <p align="center" class=lead> <small> If you find any bugs or issues, report them at<a href="https://www.facebook.com/GoogolGLadosSimulator"> Facebook</a> and on <a href="http://git.io/3OCKtQ">Github</a></small></span></p>
 		<p>
-          <button class="btnl btn btn-large btn-success"onClick="next()" type="button"><span class="Launch">Launch Simulator</span></button></p>
+          <button class="btnl btn btn-large btn-success"onClick="next()" id="Note" type="note"><span class="Launch">Launch Simulator</span></button></p>
+		  
+		  
 		  
 		<p align="center" class=lead> <small>You <b>must</b> read the instructions before continuing.</small></span></p>
-		
-	<span style="color:#666666;" class="Masthead_icons_smaller fontelico-chrome"></span>
+	
+	<span style="color:#666666;" class="Masthead_icons_smaller" data-icon="&#x24;"></span>
+	
+	<span style="color:#666666;" class="Masthead_icons_smaller" data-icon="&#x25;"></span>
+	
+	<span style="color:#666666;" class="Masthead_icons_smaller" data-icon="&#x23;"></span>
 
+	<span style="color:#666666;" class="Masthead_icons_smaller" data-icon="&#x22;"></span>
+	
+	<span style="color:#666666;" class="Masthead_icons_smaller" data-icon="&#x21;"></span>
+	
       </div>
 	</div></div><!-- End centered Googol GlaDOS Font Colours & Simulator Font --></div>
 </div>
@@ -481,7 +496,7 @@ index.php
 	  
   </div> <!-- End Googol animated fadeInDownBig Jumbotron -->
 	  
-	  <p align="center">
+	 <p align="right">
   <ul align="center" id="Info" class="nav nav-tabs">
     <li align="center"><a href="#Instructions" data-toggle="tab">Instructions</a></li>
     <li align="center"><a href="#Mirrors" data-toggle="tab">Mirrors</a></li>
@@ -496,39 +511,41 @@ index.php
   
   &nbsp;
   
-  <h1 align="center" class="animated shake fontawesome-warning-sign"></h1>
-  <p align="center" class="lead">Instructions</p></h1>
-    <p align="center" class="lead"><u><b>READ BEFORE CONTINUING:</b></u></h1>
+  <h1 align="center" <span class="animated shake" data-icon="&#x29;"></span> </h1>
+  
+  
+  <p align="center" class="lead"><b>Instructions</b></p></h1>
+    <p align="center" class="lead RPi"><u><b>READ BEFORE CONTINUING:</b></u></h1>
 	&nbsp;
 	&nbsp;
 	<p align="center">
-Before you continue this simulator, watch this video <b><a href="http://www.youtube.com/watch?v=sDhc4mKtMkU">Googol GLaDOS</a></b> (if you haven't already)
+1. Before you continue this simulator, watch this video <b><a href="http://www.youtube.com/watch?v=sDhc4mKtMkU">Googol GLaDOS</a></b> (if you haven't already)
 </p>
 &nbsp;
 	&nbsp;
-<p align="center">
-<b><i>Please note, everything you see is just animations, nothing is actually being downloaded & installed onto your computer.</i></b></p>
+<p align="center"  class="RPi">
+<b><span class="animated flash " data-icon="&#x2f;"></span> - Everything you see is just animations, nothing is actually being downloaded & installed onto your computer.</b></p>
 &nbsp;
 	&nbsp;
 <p align="center">
-<b>You must wait before running the simulator</b> because it will cache all the files needed to run smoothly.</p>
+2. <b> You must wait before running the simulator</b> because it will cache all the files needed to run smoothly.</p>
 &nbsp;
 &nbsp;
-<p align="center"> The simulator can also be run offline once the files are all cached.</p>
+<p align="center" class="blue"> <span data-icon="&#x2f;"></span> - The simulator can also be run offline once the files are all cached.</p>
 </p>
 
-<p align="center">(you will know this if the page has finished loading.)</p>
+<p align="center" class="blue"> (you will know this if the page has finished loading.)</p>
 &nbsp;
 &nbsp;
 
-<p align="center" class=lead> <small> The simulator has been extensively <b>TESTED</b> on all major browsers. <b>Google Chrome is prefered.</b> (other browsers may vary, use at your own risk.)  </small></span></p>
+<p align="center" class=lead> <small> <b>TESTED</b> on all major browsers. <b>Google Chrome is prefered.</b> (other browsers may vary)  </small></span></p>
 
 
   </div>
   
   <div id="Mirrors" class="tab-pane fade">
-   <h1 align="center" class="fontawesome-globe"></h1>
-   <p align="center" class="lead">Mirrors</p></h1>
+   <h1 align="center" <span data-icon="&#x2d;"> </h1>
+   <p align="center" class="lead"><b>Mirrors</b></p></h1>
     
   
   
@@ -540,35 +557,35 @@ Before you continue this simulator, watch this video <b><a href="http://www.yout
 Click here to go to the original site (may be down.) <span class="ienvyu"><a href="http://www.ienvyu.org/?googolglados" title="This is the original site for the javascript googol glados simulator." target="_blank">original site</a>. </span><br>
 </p>
 
-<p align="center">Click here for the original (and now obsolete) Googol GLaDOS Simulator link (<a href="http://www.hakobaito.co.uk/googolglados:simulator" target="_new" class="Hako_Colour">hakobaito.co.uk</a>).
+<p align="center">Click here for the original (and now obsolete) Googol GLaDOS Simulator (<a href="http://www.hakobaito.co.uk/googolglados:simulator" target="_new" class="Hako_Colour">hakobaito.co.uk</a>).
 
-<p align="center"> Try the simulator on Facebook! (will be updated) (<a href="https://www.facebook.com/appcenter/googolgladosimulator" title="server= website. this goes to facebook's app center" target="_new" class="Googol_Colour_1&quot;">Simulator on facebook</a>).
+<p align="center"> Try the simulator on Facebook. (will be updated) (<a href="https://www.facebook.com/appcenter/googolgladosimulator" title="server= website. this goes to facebook's app center" target="_new" class="Googol_Colour_1&quot;">Simulator on facebook</a>).
 </p>
 
 	
   </div>
   
   <div id="Downloads" class="tab-pane fade">
-    <h1 align="center" class="entypo-install"></h1> 
-    <p align="center" class="lead">Downloads</p> 
+    <h1 align="center" <span data-icon="&#x2c;"> </h1> 
+    <p align="center" class="lead"><b>Downloads</b></p> 
 	<p align="center">You can download the source code of the simulator from github and other mirrors</p>
 	
-	<p class="entypo-install" align="center"><a href="https://github.com/hako/googol-glados-simulator/archive/master.zip"> &nbsp; GitHub</a> </p>
+	<p data-icon="&#x2c;" align="center"><a href="https://github.com/hako/googol-glados-simulator/archive/master.zip"> &nbsp; GitHub</a> </p>
 
 	<p align="center">(More download links coming soon.)</p>
 	
   </div> 
   
   <div id="About" class="tab-pane fade">
-  <h1 align="center" class="fontawesome-info-sign"></h1> 
-  <p align="center" class="lead">About</p>
+  <h1 align="center" <span data-icon="&#x2a;"> </h1> 
+  <p align="center" class="lead"><b>About</b></p>
   
   
 	<p align="center"> This open simulator is an experiment of recreating the animation 'Googol GLaDOS' in JavaScript.</p>
 
 	<p align="center">Watch this video before using! - <a href="http://youtu.be/sDhc4mKtMkU">http://youtu.be/sDhc4mKtMkU</a></p>
 
-	<p align="center" class="lead">Why I made it open source + story</p>
+	<p align="center" class="lead"><b>Why open source + story</b></p>
 
 	<p align="center">I started to work on this when a user (Alex) wrote this application and
   sent his recreated attempt to emulate the animation hakobyte made (googol
@@ -590,21 +607,23 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
   <div id="Attributions" class="tab-pane fade">
   
   
-<h1 align="center" class="animated bouncefinger fontawesome-hand-down"></h1>
-<p align="center" class="lead">Attributions</p>
+<h1 align="center" <span class="animated bouncefinger" data-icon="&#x28;"> </span></h1>
+
+
+<p align="center" class="lead"><b>Attributions</b></p>
 
 
 <p align="center"> The Googol GLaDOS Simulator was completely <b>(re)designed</b>, <b>coded</b>, <b>crafted</b> and made from scratch using <b>open source</b> tools and libraries:</p>
   &nbsp;
   <p align="center">  
-  <p align="center"> crafted with <b>Flat UI</b></p>
-  <p align="center">constructed with <b>Flatstrap</b> (Based on twitter's wonderful bootstrap framework by <a href="https://twitter.com/mdo">@mdo</a> & <a href="https://twitter.com/fat">@fat</a></p>
+  <p align="center"> Crafted with <b>Flat UI</b></p>
+  <p align="center"> Constructed with <b>Flatstrap</b> (Based on twitter's wonderful bootstrap framework by <a href="https://twitter.com/mdo">@mdo</a> & <a href="https://twitter.com/fat">@fat</a></p>
   <p align="center"> HTML5 Audio processed by the loud and proud <b>howler.js</b></p>
   <p align="center"> Server provided by <b>Digital Ocean</b></p>
-  <p align="center">Dynamic CSS3 animations made with the help of <b>Animate.css</b>
-  <p align="center"> Icons by <b><a href="http://weloveiconfonts.com/">weloveiconfonts.com</a></b></p>
+  <p align="center"> Dynamic CSS3 animations made with the help of <b>Animate.css</b>
+  <p align="center"> Icons by <b><a href="http://weloveiconfonts.com/">weloveiconfonts.com</a></b> & <b><a href="http://icomoon.io">iconmoon.io</a></b> by <a href="http://twitter.com/keyamoon">@keyamoon</a> </p>
   <p align="center"> Fonts used <b><a href="http://iotic.com/averia/">Averia Sans Libre</a> hosted by <a href="http://www.google.com/webfonts">The Google Web Fonts Directory</a></b></p>
-<p align="center"> Built with <b>HTML 5</b> <i>(using the HTML5 Boilerplate)</i> and <b>Javascript</b> as a backend</p>
+  <p align="center"> Built with <b>HTML 5</b> <i>(using the HTML5 Boilerplate)</i> and <b>Javascript</b> as a backend</p>
   <p align="center"> Originally created and coded by (again) <b>Alex I'Anson</b> - <a href="https://twitter.com/BlahBlah_BEN">@BlahBlah_BEN</a></p>
   <p align="center"> But rewritten and revived by <b>Wesley Hill</b> - <a href="https://twitter.com/hakobyte">@hakobyte</a> </p>
   
@@ -635,10 +654,12 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 		</script> 
 
 		<script>
+		
 
 		 function next()
 
 		 {
+		
 
 		$("body").fadeOut(400);
 
@@ -647,7 +668,8 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 		}
 
 		</script>
-
+		
+	
 
 </div>
 
@@ -686,7 +708,7 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 
 
 <p class"muted credit">Maintained and (re)created with 
-<span style="color:#FF7373;" class="fontawesome-heart"></span> in England by <a href="https://www.twitter.com/hakobyte">@hakobyte</a> 
+<span style="color:#FF7373;" data-icon="&#x2e;"></span> in England by <a href="https://www.twitter.com/hakobyte">@hakobyte</a> 
 
 |  Originally made by <a href="https://twitter.com/BlahBlah_BEN">@BlahBlah_BEN</a>
 </p> 
@@ -695,9 +717,9 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 </p>
 
 
-<p span style="color:#FF7373;" class"muted credit"><a href="http://git.io/7O4kKQ" title="fork me on github!" class="entypo-github"></a>
+<p span style="color:#FF7373;" class"muted credit"><a href="http://git.io/7O4kKQ" title="fork me on github!"><span data-icon="&#x32;"></span></a>
 &nbsp;
-<a href="https://www.facebook.com/GoogolGLadosSimulator" title="like us on facebook!" class="entypo-facebook"></a>
+<a href="https://www.facebook.com/GoogolGLadosSimulator" title="like us on facebook!" <span data-icon="&#x31;"> </span></a>
 &nbsp;
 <a href="https://www.youtube.com/watch?v=sDhc4mKtMkU" title="watch the video on youtube!" class="zocial-youtube active"></a>
 &nbsp;
@@ -709,8 +731,9 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 
 <p class"muted credit"><small>V 2.0b</small></p>
 
-
 </div>
+
+
 </p>
 </p>
 
@@ -721,6 +744,8 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 
 </div>
 </footer>
+
+
 	<!-- Load JS here for the greater good =============================-->
 
 	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
@@ -736,7 +761,6 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 	<script type="text/javascript" src="http://vjs.zencdn.net/c/video.js"></script>
 	<script type="text/javascript" src="js/application.js"></script>
 	<script type="text/javascript" src="js/howler.js"></script>
-
 	
 <script type="text/javascript">
 

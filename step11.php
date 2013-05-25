@@ -93,9 +93,10 @@ LAST PAGE
 		<link href="css/main.css" rel="stylesheet" >
 		<link href="css/animate-custom.css" rel="stylesheet">	
 		<link href="css/flat-ui.css" rel="stylesheet">
-		<link href="css/fonts.css" rel="stylesheet">
 		<link href="css/bootstrap-responsive.css" rel="stylesheet">
-        <link href="css/real-world.css" rel="stylesheet">
+        	<link href="css/real-world.css" rel="stylesheet">
+		<link href="css/fonts.css" rel="stylesheet">
+		<link href="css/icomoon.css" rel="stylesheet">
 		
 		<link rel="apple-touch-icon" href="apple-touch-icon-iphone.png" /> 
 		<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-ipad.png" /> 
@@ -431,7 +432,7 @@ LAST PAGE
   </div> <!-- End Googol animated fadeInDownBig Jumbotron -->
 	  
 
-<h1 align="center" class="animated bouncefinger fontawesome-hand-down"></h1>
+<h1 align="center" <span class="animated bouncefinger" data-icon="&#x28;"></span></h1>
 <p align="center" class="lead">Credits & Attributions</p>
 
 
@@ -439,13 +440,14 @@ LAST PAGE
   align="center"> The Googol GLaDOS Simulator was completely <b>(re)designed</b>, <b>coded</b>, <b>crafted</b> and made from scratch using <b>open source</b> tools and libraries:</p>
   &nbsp;
   <p align="center">  
-  <p align="center"> crafted with <b>Flat UI</b></p>
-  <p align="center">constructed with <b>Flatstrap</b> (Based on twitter's wonderful bootstrap framework by <a href="https://twitter.com/mdo">@mdo</a> & <a href="https://twitter.com/fat">@fat</a></p>
+  <p align="center"> Crafted with <b>Flat UI</b></p>
+  <p align="center"> Constructed with <b>Flatstrap</b> (Based on twitter's wonderful bootstrap framework by <a href="https://twitter.com/mdo">@mdo</a> & <a href="https://twitter.com/fat">@fat</a></p>
   <p align="center"> HTML5 Audio processed by the loud and proud <b>howler.js</b></p>
-  <p align="center">Dynamic CSS3 animations made with the help of <b>Animate.css</b>
+  <p align="center"> Server provided by <b>Digital Ocean</b></p>
+  <p align="center"> Dynamic CSS3 animations made with the help of <b>Animate.css</b>
   <p align="center"> Icons by <b><a href="http://weloveiconfonts.com/">weloveiconfonts.com</a></b></p>
   <p align="center"> Fonts used <b><a href="http://iotic.com/averia/">Averia Sans Libre</a> hosted by <a href="http://www.google.com/webfonts">The Google Web Fonts Directory</a></b></p>
-<p align="center"> Built with <b>HTML 5</b> <i>(using the HTML5 Boilerplate)</i> and <b>Javascript</b> as a backend</p>
+<p align="center">   Built with <b>HTML 5</b> <i>(using the HTML5 Boilerplate)</i> and <b>Javascript</b> as a backend</p>
   <p align="center"> Originally created and coded by (again) <b>Alex I'Anson</b> - <a href="https://twitter.com/BlahBlah_BEN">@BlahBlah_BEN</a></p>
   <p align="center"> But rewritten and revived by <b>Wesley Hill</b> - <a href="https://twitter.com/hakobyte">@hakobyte</a> </p>
   
@@ -461,7 +463,7 @@ LAST PAGE
 	<p class="animated fadeOutRightBig"><img src="img/cake.png" id="iliedcake"></p>
     <p span style="color:#FFF;" class="peekaboo2" align="center">I LIED</p> 
 	
-	 <p class="shake" align="center"><img src="img/digitalocean-badge-gray.png"></p>
+	   <p class="shake" align="center"><a href="https://www.digitalocean.com/?refcode=c9489c76b1b2"><img src="img/digitalocean-badge-gray.png"></a></p>
   
 <footer>
 <div id="wrap">
@@ -485,7 +487,7 @@ LAST PAGE
 
 
 <p class"muted credit">Maintained and (re)created with 
-<span style="color:#FF7373;" class="fontawesome-heart"></span> in England by <a href="https://www.twitter.com/hakobyte">@hakobyte</a> 
+<span style="color:#FF7373;" data-icon="&#x2e;"></span> in England by <a href="https://www.twitter.com/hakobyte">@hakobyte</a> 
 
 |  Originally made by <a href="https://twitter.com/BlahBlah_BEN">@BlahBlah_BEN</a>
 </p> 
@@ -494,9 +496,9 @@ LAST PAGE
 </p>
 
 
-<p span style="color:#FF7373;" class"muted credit"><a href="http://git.io/7O4kKQ" title="fork me on github!" class="entypo-github"></a>
+<p span style="color:#FF7373;" class"muted credit"><a href="http://git.io/7O4kKQ" title="fork me on github!"><span data-icon="&#x32;"></span></a>
 &nbsp;
-<a href="https://www.facebook.com/GoogolGLadosSimulator" title="like us on facebook!" class="entypo-facebook"></a>
+<a href="https://www.facebook.com/GoogolGLadosSimulator" title="like us on facebook!" <span data-icon="&#x31;"> </span></a>
 &nbsp;
 <a href="https://www.youtube.com/watch?v=sDhc4mKtMkU" title="watch the video on youtube!" class="zocial-youtube active"></a>
 &nbsp;

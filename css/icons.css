@@ -1,16 +1,11 @@
 /* Open Web Fonts, For Awesome. By http://weloveiconfonts.com */
 
 
-@import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome|fontelico|openwebicons|typicons|zocial);
+@import url(http://weloveiconfonts.com/api/?family=entypo|fontelico|openwebicons|typicons|zocial);
 
 /* entypo */
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
-}
-
-/* fontawesome */
-[class*="fontawesome-"]:before {
-  font-family: 'FontAwesome', sans-serif;
 }
 
 /* fontelico */
