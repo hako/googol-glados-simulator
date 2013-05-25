@@ -50,13 +50,11 @@ VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
 	   ,ad8888ba,    ,ad8888ba,   ad88888ba   
 	  d8"'    `"8b  d8"'    `"8b d8"     "8b  
 	 d8'           d8'           Y8,          
-       88            88            `Y8aaaaa,    
-       88      88888 88      88888   `"""""8b,  
-       Y8,        88 Y8,        88         `8b  
-        Y8a.    .a88  Y8a.    .a88 Y8a     a8P  
-	  `"Y88888P"    `"Y88888P"   "Y88888P"   
-
-
+        88            88            `Y8aaaaa,    
+        88      88888 88      88888   `"""""8b,  
+        Y8,        88 Y8,        88         `8b  
+         Y8a.    .a88  Y8a.    .a88 Y8a     a8P  
+ 	  `"Y88888P"    `"Y88888P"   "Y88888P"   
 
 <!--
 

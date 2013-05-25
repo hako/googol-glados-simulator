@@ -50,11 +50,11 @@ VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
 	   ,ad8888ba,    ,ad8888ba,   ad88888ba   
 	  d8"'    `"8b  d8"'    `"8b d8"     "8b  
 	 d8'           d8'           Y8,          
-       88            88            `Y8aaaaa,    
-       88      88888 88      88888   `"""""8b,  
-       Y8,        88 Y8,        88         `8b  
-        Y8a.    .a88  Y8a.    .a88 Y8a     a8P  
-	  `"Y88888P"    `"Y88888P"   "Y88888P"   
+        88            88            `Y8aaaaa,    
+        88      88888 88      88888   `"""""8b,  
+        Y8,        88 Y8,        88         `8b  
+         Y8a.    .a88  Y8a.    .a88 Y8a     a8P  
+ 	  `"Y88888P"    `"Y88888P"   "Y88888P"   
 
 
 <!--
@@ -97,8 +97,9 @@ index.php
 		<link href="css/animate-custom.css" rel="stylesheet">	
 		<link href="css/flat-ui.css" rel="stylesheet">
 		<link href="css/bootstrap-responsive.css" rel="stylesheet">
-        <link href="css/real-world.css" rel="stylesheet">
+        	<link href="css/real-world.css" rel="stylesheet">
 		<link href="css/fonts.css" rel="stylesheet">
+		
 		
 		<link rel="apple-touch-icon" href="apple-touch-icon-iphone.png" /> 
 		<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-ipad.png" /> 
@@ -416,7 +417,7 @@ index.php
 
 	<body>
      
-        	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 			
         	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
@@ -618,7 +619,7 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 	<p class="animated fadeOutRightBig"><img src="img/cake.png" id="iliedcake"></p>
     <p span style="color:#FFF;" class="peekaboo2" align="center">I LIED</p> 
 
-  <p class="shake" align="center"><img src="img/digitalocean-badge-gray.png" ></p>
+  <p class="shake" align="center"><a href="https://www.digitalocean.com/?refcode=c9489c76b1b2"><img src="img/digitalocean-badge-gray.png"></a></p>
   
   </div>
   
@@ -770,12 +771,6 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 </script>
 <!-- End Piwik Code -->
 
-<script type="text/javascript">
-var _cdj = _cdj || [];
-_cdj.push(['_setAccount', 8864]);
-_cdj.push(['_init']);
-document.write('<scr'+'ipt src="'+document.location.protocol+'//dssja7qsifeak.cloudfront.net/experimently.js"></scr'+'ipt>');
-</script>
 
 	<!-- Load JS here for the greater good =============================-->
 

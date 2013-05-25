@@ -50,16 +50,15 @@ VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
 	   ,ad8888ba,    ,ad8888ba,   ad88888ba   
 	  d8"'    `"8b  d8"'    `"8b d8"     "8b  
 	 d8'           d8'           Y8,          
-       88            88            `Y8aaaaa,    
-       88      88888 88      88888   `"""""8b,  
-       Y8,        88 Y8,        88         `8b  
-        Y8a.    .a88  Y8a.    .a88 Y8a     a8P  
-	  `"Y88888P"    `"Y88888P"   "Y88888P"   
-
+        88            88            `Y8aaaaa,    
+        88      88888 88      88888   `"""""8b,  
+        Y8,        88 Y8,        88         `8b  
+         Y8a.    .a88  Y8a.    .a88 Y8a     a8P  
+ 	  `"Y88888P"    `"Y88888P"   "Y88888P"   
 
 <!--
 
-LAST PAGE.
+LAST PAGE
 
 -->
 
@@ -413,7 +412,9 @@ LAST PAGE.
       <div class="container">
         <!-- Start centered Googol GlaDOS Font Colours & Simulator Font -->
     <span class="Googol_Simulator_Font_Colour"> Your OS is some how corrupt ;)*</span> </div>
+	<p align="center"> <small>*well not really...</small></p>
         <p> Well I hope you enjoyed the simulator.</p>
+		
         
         <p align="center" class=lead> <small>Here's the <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU">YouTube</a></b> video. or...</p> </small></span>
 		
@@ -459,6 +460,8 @@ LAST PAGE.
 	
 	<p class="animated fadeOutRightBig"><img src="img/cake.png" id="iliedcake"></p>
     <p span style="color:#FFF;" class="peekaboo2" align="center">I LIED</p> 
+	
+	 <p class="shake" align="center"><img src="img/digitalocean-badge-gray.png"></p>
   
 <footer>
 <div id="wrap">

@@ -50,12 +50,11 @@ VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
 	   ,ad8888ba,    ,ad8888ba,   ad88888ba   
 	  d8"'    `"8b  d8"'    `"8b d8"     "8b  
 	 d8'           d8'           Y8,          
-       88            88            `Y8aaaaa,    
-       88      88888 88      88888   `"""""8b,  
-       Y8,        88 Y8,        88         `8b  
-        Y8a.    .a88  Y8a.    .a88 Y8a     a8P  
-	  `"Y88888P"    `"Y88888P"   "Y88888P"   
-
+        88            88            `Y8aaaaa,    
+        88      88888 88      88888   `"""""8b,  
+        Y8,        88 Y8,        88         `8b  
+         Y8a.    .a88  Y8a.    .a88 Y8a     a8P  
+ 	  `"Y88888P"    `"Y88888P"   "Y88888P"   
 
 <!--
 
@@ -311,6 +310,7 @@ step1.php
 	<br>
 
 	<h3>You are about to download:</h3>
+
 
 	<div align="center"><span class="Googol"> <span class="Googol_Colour">G</span><span class="Googol_Colour_0">o</span><span class="Googol_Colour_1">o</span><span class="Googol_Colour_2">g</span><span class="Googol_Colour_3">o</span><span class="Googol_Colour_4">l</span> <span class="Googol_Colour_5">G</span><span class="Googol_Colour_6">L</span><span class="Googol_Colour_7">a</span><span class="Googol_Colour_8">D</span><span class="Googol_Colour_9">O</span><span class="Googol_Colour_10">S</span></span></div>
 	
