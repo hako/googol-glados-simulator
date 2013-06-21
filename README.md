@@ -116,7 +116,7 @@ Credits:
 
 <insert name here>
 
-Licence
+LICENSE
 -
 
 Googol GLaDOS Simulator by Alex I'Anson is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License.
