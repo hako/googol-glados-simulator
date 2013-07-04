@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'Conv_Catull';
+	src: url('fonts/Catull.eot');
+	src: local('☺'), url('fonts/Catull.woff') format('woff'), url('fonts/Catull.ttf') format('truetype'), url('fonts/Catull.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.WOW {
+	font-family: 'Averia Sans Libre', cursive;
+	font-size: 79px;
+}
+.downlaoding {
+	font-family: 'Averia Sans Libre', cursive;
+	font-size: 56px;
+}
+.Warning {
+	color: #F33;
+}
