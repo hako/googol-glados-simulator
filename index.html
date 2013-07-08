@@ -3,50 +3,35 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
     <title>googol glados : simulator by hako</title>
   </head>
 
   <body>
-    <a id="forkme_banner" href="https://github.com/hako/googol-glados-simulator">View on GitHub</a>
-    <div class="shell">
+    <header>
+      <div class="inner">
+        <h1>googol glados : simulator</h1>
+        <h2>A HTML/JS recreation of the animation Googol GLaDOS.</h2>
+        <a href="https://github.com/hako/googol-glados-simulator" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
 
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>googol glados : simulator</h1>
-            <h2>A HTML/JS recreation of the animation Googol GLaDOS.</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <p><img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash4/486568_255564404546345_1426487102_n.jpg" alt=""></p>
 
-      <section id="downloads">
-        <span class="inner">
-          <a href="https://github.com/hako/googol-glados-simulator/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/hako/googol-glados-simulator/tarball/master" class="tgz"><em>download</em> .TGZ</a>
-        </span>
-      </section>
-
-
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
-        <h1>googol glados simulator</h1>
+<h1>
+<a name="googol-glados-simulator" class="anchor" href="#googol-glados-simulator"><span class="octicon octicon-link"></span></a>googol glados simulator</h1>
 
 <p>A JS + PHP experimental recreation of the animation Googol GLaDOS.</p>
 
@@ -64,48 +49,55 @@
 
 <h1></h1>
 
-<h2>Downloads</h2>
+<h2>
+<a name="downloads" class="anchor" href="#downloads"><span class="octicon octicon-link"></span></a>Downloads</h2>
 
-<p>You can download the latest source of the googol glados simulator here.</p>
+<p>You can grab the latest source code of the googol glados simulator here.</p>
 
-<p><a href="http://git.io/UH9SpA">http://git.io/UH9SpA</a></p>
+<p><a href="https://github.com/hako/googol-glados-simulator/releases">https://github.com/hako/googol-glados-simulator/releases</a></p>
 
 <h1></h1>
 
-<h2>TODO:</h2>
-
-<ul>
-<li><p><del>Sound fixes.</del> ☑</p></li>
-<li>
-<p>Cross browser compatibility. ☑</p>
+<h2>
+<a name="todo" class="anchor" href="#todo"><span class="octicon octicon-link"></span></a>TODO:</h2>
 
 <ul>
 <li>
-<strong>Google Chrome</strong> - <strong>perfect! :D</strong> ☑</li>
+<p>Cross browser compatibility. ☐</p>
+
+<p>LAST TESTED: Mon, 08 Jul 2013 14:36:57 GMT</p>
+
+<ul>
 <li>
-<strong>Mozilla Firefox</strong> - font rendering is a disaster simulator works as usual :\ ☐</li>
+<strong>Google Chrome</strong> - <strong>Perfect! :D</strong> ☑</li>
+<li>
+<strong>Mozilla Firefox</strong> - <strong>Perfect! :D</strong> ☑</li>
+<li>
+<strong>Opera</strong> - <strong>Perfect! :D</strong> ☑</li>
 <li>
 <strong>Internet Explorer 10</strong> - fair enough.. ☑</li>
 <li>
-<strong>Opera</strong> - same as Firefox.</li>
-<li>
-<strong>Safari</strong> - need to test. ☐</li>
-<li>
 <strong>Haiku WebPositive</strong> - need to test. ☐</li>
 <li>
-<strong>&lt; insertanyotherwebbrowserthatshouldsupporthtml5 &gt;</strong> - draw your own conclusion... ☐</li>
+<strong>Safari</strong> - audio fail. :/ ✘</li>
+<li>
+<del>3DS</del> - NO AUDIO SUPPORT. ✘✘</li>
 </ul>
 </li>
+<li><p>REAL and better graphics (SVG's) ☐</p></li>
+<li><p>Add <strong>impressive</strong> JS or CSS animations. (my favorite!) ☐</p></li>
+<li><p>Mobile support ☐</p></li>
+<li><p>Improving design. ☐</p></li>
+<li><p>Audio fixes for all browsers (Even mobile) ☐</p></li>
+<li><p>Replace current voices. ☐</p></li>
+<li><p>Make simulator even more cleaner &amp; clearer ☐</p></li>
+<li><p>Minified version. ☐</p></li>
 </ul><p><br></p>
 
-<ul>
-<li><p>More enhancements. ☐</p></li>
-<li><p>Facebook version</p></li>
-<li><p>FUN STUFF ☐</p></li>
-<li><p>Open for any requests ☐</p></li>
-</ul><h1></h1>
+<h1></h1>
 
-<h2>Instructions:</h2>
+<h2>
+<a name="instructions" class="anchor" href="#instructions"><span class="octicon octicon-link"></span></a>Instructions:</h2>
 
 <blockquote>
 <p><strong>Before you continue this simulator, watch this video <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU">Googol GLaDOS</a> (if you haven't already)</strong></p>
@@ -124,11 +116,18 @@
 
 <h1></h1>
 
-<h2>Install</h2>
+<h2>
+<a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h2>
 
 <ul>
 <li><p>Windows - WAMP or UniServer</p></li>
-<li><p>Mac OS - Homebrew - Apache (with the Apache PHP module installed (mod_php) )</p></li>
+<li>
+<p>Mac OS - Homebrew - Apache (with the Apache PHP module installed (mod_php) )</p>
+
+<ul>
+<li>( MAMP Server is fine too.)</li>
+</ul>
+</li>
 <li><p>Linux - LAMP Server</p></li>
 </ul><p>Use any of these to get cracking with the googol glados simulator on your server.</p>
 
@@ -136,43 +135,39 @@
 
 <h1></h1>
 
-<h2>Misc</h2>
-
-<p>There's a poll going on my site in request to put this simulator on one other console.
-(1st to 100 votes)</p>
-
-<p><a href="http://poll.pollcode.com/nu9y">http://poll.pollcode.com/nu9y</a></p>
-
-<h1></h1>
-
-<h2>Credits:</h2>
+<h2>
+<a name="credits" class="anchor" href="#credits"><span class="octicon octicon-link"></span></a>Credits:</h2>
 
 <ul>
 <li><p>Alex I'Anson (@BlahBlah_BEN) - Original author + code</p></li>
 <li><p>Wesley Hill (@hakobyte) - Editing + additional code + Bug fixing</p></li>
 </ul><p></p>
 
-<h2>Licence</h2>
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>LICENSE</h2>
 
 <p>Googol GLaDOS Simulator by Alex I'Anson is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License.
 Based on a work at <a href="http://www.ienvyu.org">http://www.ienvyu.org</a>.</p>
-      </section>
+        </section>
 
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>this project by <a href="https://github.com/hako">hako</a> can be found on <a href="https://github.com/hako/googol-glados-simulator">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
+        <aside id="sidebar">
+          <a href="https://github.com/hako/googol-glados-simulator/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/hako/googol-glados-simulator/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
 
+          <p class="repo-owner"><a href="https://github.com/hako/googol-glados-simulator"></a> is maintained by <a href="https://github.com/hako">hako</a>.</p>
+
+          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
     </div>
 
-              <script type="text/javascript">
+            <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
@@ -182,48 +177,6 @@ Based on a work at <a href="http://www.ienvyu.org">http://www.ienvyu.org</a>.</p
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
-          
-          
-       
-         
-         <!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
- _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-  _paq.push(["setCookieDomain", "*.www.hako.github.com"]);
-  _paq.push(["setDomains", ["*.www.hako.github.com"]]);
-  _paq.push(["trackPageView"]);
-  _paq.push(["enableLinkTracking"]);
-
-  (function() {
-    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://www.hakobaito.co.uk/piwik-analytics/";
-    _paq.push(["setTrackerUrl", u+"piwik.php"]);
-   _paq.push(["setSiteId", "3"]);
-   var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
-    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Piwik Code -->
-
-        <!-- GoSquare --> 
-        <script type="text/javascript">
-    var GoSquared = {};
-   GoSquared.acct = "GSN-072761-O";
-   (function(w){
-      function gs(){
-       w._gstc_lt = +new Date;
-       var d = document, g = d.createElement("script");
-       g.type = "text/javascript";
-       g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
-       var s = d.getElementsByTagName("script")[0];
-       s.parentNode.insertBefore(g, s);
-      }
-     w.addEventListener ?
-       w.addEventListener("load", gs, false) :
-        w.attachEvent("onload", gs);
-   })(window);
-  </script>
- <!-- End GoSquared Tracking Code -->
 
   </body>
 </html>
