@@ -1,3 +1,6 @@
+![](https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash4/486568_255564404546345_1426487102_n.jpg)
+
+
 #googol glados simulator
 
 
@@ -24,9 +27,9 @@ NOTE: _Alex I'Anson's original link is 404'd and does not exist._
 Downloads
 -
 
-You can download the latest source of the googol glados simulator here.
+You can grab the latest source code of the googol glados simulator here.
 
-http://git.io/UH9SpA
+https://github.com/hako/googol-glados-simulator/releases
 
 
 =======================
@@ -34,26 +37,29 @@ http://git.io/UH9SpA
 TODO:
 -
 
-+ <del>Sound fixes.</del> ☑
++ Cross browser compatibility. ☐
 
-+ Cross browser compatibility. ☑
- + **Google Chrome** - **perfect! :D** ☑
- + **Mozilla Firefox** - font rendering is a disaster simulator works as usual :\ ☐
+ LAST TESTED: Mon, 08 Jul 2013 14:36:57 GMT
+
+ + **Google Chrome** - **Perfect! :D** ☑
+ + **Mozilla Firefox** - **Perfect! :D** ☑
+ + **Opera** - **Perfect! :D** ☑
  + **Internet Explorer 10** - fair enough.. ☑
- + **Opera** - same as Firefox.
- + **Safari** - need to test. ☐
  + **Haiku WebPositive** - need to test. ☐
- + **< insertanyotherwebbrowserthatshouldsupporthtml5 >** - draw your own conclusion... ☐
+ + **Safari** - audio fail. :/ ✘
+ + <del>3DS</del> - NO AUDIO SUPPORT. ✘✘
+
+
++ REAL and better graphics (SVG's) ☐
++ Add **impressive** JS or CSS animations. (my favorite!) ☐
++ Mobile support ☐
++ Improving design. ☐
++ Audio fixes for all browsers (Even mobile) ☐
++ Replace current voices. ☐
++ Make simulator even more cleaner & clearer ☐
++ Minified version. ☐
 
 <br>
-
-+ More enhancements. ☐
-
-+ Facebook version
-
-+ FUN STUFF ☐
-
-+ Open for any requests ☐
 
 =======================
 
@@ -87,22 +93,13 @@ Install
 
 + Mac OS - Homebrew - Apache (with the Apache PHP module installed (mod_php) )
 
+ + ( MAMP Server is fine too.)
+
 + Linux - LAMP Server
 
 Use any of these to get cracking with the googol glados simulator on your server.
 
 _Place the whole source in var/www if you use *nix OS_
-
-=======================
-
-
-Misc
-- 
-
-There's a poll going on my site in request to put this simulator on one other console.
-(1st to 100 votes)
-
-http://poll.pollcode.com/nu9y
 
 =======================
 
