@@ -82,8 +82,7 @@ LAST PAGE
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="description" content="A HTML5 Simulator">
 		<meta name="viewport" content="width=device-width">
-	
-
+		<meta name="google-translate-customization" content="23a16271ec91be0-2119bb47f112f540-gdc589541dd9bed5c-13"></meta>
 		<link href="img/GDOS.gif" rel="shortcut icon" >
 		<link rel="icon" type="image/png" href="favicon.png">
 		<link href="css/icons.css" rel="stylesheet">
@@ -460,7 +459,7 @@ LAST PAGE
   <p align="center">And I thank you for trying the simulator! :D here's your cake you've been finally waiting for.</p>
   
 	
-	<p class="animated fadeOutRightBig"><img src="img/cake.png" id="iliedcake"></p>
+	<p class="animated fadeOutRightBig"><img src="img/cake.svg" id="iliedcake"></p>
     <p span style="color:#FFF;" class="peekaboo2" align="center">I LIED</p> 
 	
 	   <p class="shake" align="center"><a href="https://www.digitalocean.com/?refcode=c9489c76b1b2"><img src="img/digitalocean-badge-gray.png"></a></p>
@@ -478,6 +477,13 @@ LAST PAGE
 
 <div align="center">
 
+
+
+        <div align="center"><br> 
+
+		<script src="https://apis.google.com/js/plusone.js"></script>
+
+		<div class="g-ytsubscribe" data-channel="hakobyte" data-layout="default"></div> 
 
 <p class"muted credit"><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span></p>
 
@@ -508,7 +514,7 @@ LAST PAGE
 
 <p class"muted credit"> <a href="http://www.w3.org/html/logo/" class="footercusthtml5 openwebicons-html5"></a></p>
 
-<p class"muted credit"><small>V 2.0b</small></p>
+<p class"muted credit"><small>v 2.0c wheatley</small></p>
 
 </div>
 </p>
@@ -522,6 +528,14 @@ LAST PAGE
 </footer>
 	<!-- Load JS here for the greater good =============================-->
 
+
+	<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
+        
 	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
 	<script type="text/javascript" src="js/jquery-ui-1.10.0.custom.min.js"></script>
 	<script type="text/javascript" src="js/jquery.dropkick-1.0.0.js"></script>
@@ -530,12 +544,26 @@ LAST PAGE
 	<script type="text/javascript" src="js/custom_radio.js"></script>
 	<script type="text/javascript" src="js/jquery.tagsinput.js"></script>
 	<script type="text/javascript" src="js/bootstrap-tooltip.js"></script>
-	<script type="text/javascript" src="js/bootstrap-tab.js"></script>
+	<script type="text/javascript" src="js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="js/bootstrap-alert.js"></script>
+    <script type="text/javascript" src="js/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="js/bootstrap-scrollspy.js"></script>
+    <script type="text/javascript" src="js/bootstrap-tab.js"></script>
+    <script type="text/javascript" src="js/bootstrap-tooltip.js"></script>
+    <script type="text/javascript" src="js/bootstrap-popover.js"></script>
+    <script type="text/javascript" src="js/bootstrap-button.js"></script>
+    <script type="text/javascript" src="js/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="js/bootstrap-carousel.js"></script>
+    <script type="text/javascript" src="js/bootstrap-typeahead.js"></script>
+    <script type="text/javascript" src="js/bootstrap-affix.js"></script>
+    <script type="text/javascript" src="js/application.js"></script>
 	<script type="text/javascript" src="js/jquery.placeholder.js"></script>
 	<script type="text/javascript" src="http://vjs.zencdn.net/c/video.js"></script>
 	<script type="text/javascript" src="js/application.js"></script>
 	<script type="text/javascript" src="js/howler.js"></script>
-	<script>
+
+		<script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';

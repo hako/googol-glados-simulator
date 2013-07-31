@@ -73,23 +73,19 @@ index.php
 
 <html lang="en" class="no-js" manifest="cache.appcache">
 
-
 <head>
-
-
 
 	<title>Googol GLaDOS:simulator</title>
 
-
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="description" content="A HTML5 Simulator">
+		<meta name="description" content="A HTML5 Simulator of the animation Googol GLaDOS">
 		<meta name="viewport" content="width=device-width">
-	
-
+		<meta name="google-translate-customization" content="23a16271ec91be0-2119bb47f112f540-gdc589541dd9bed5c-13"></meta>
 		<link href="img/GDOS.gif" rel="shortcut icon" >
 		<link rel="icon" type="image/png" href="favicon.png">
 		<link href="css/icons.css" rel="stylesheet">
+		<link href="css/component.css" rel="stylesheet" />
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/normalize.min.css" rel="stylesheet" >
 		<link href="css/docs.css" rel="stylesheet">
@@ -97,11 +93,10 @@ index.php
 		<link href="css/animate-custom.css" rel="stylesheet">	
 		<link href="css/flat-ui.css" rel="stylesheet">
 		<link href="css/bootstrap-responsive.css" rel="stylesheet">
-        	<link href="css/real-world.css" rel="stylesheet">
+       	<link href="css/real-world.css" rel="stylesheet">
 		<link href="css/fonts.css" rel="stylesheet">
 		<link href="css/icomoon.css" rel="stylesheet">
-		
-		
+
 		<link rel="apple-touch-icon" href="apple-touch-icon-iphone.png" /> 
 		<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-ipad.png" /> 
 		<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-iphone4.png" />
@@ -115,9 +110,6 @@ index.php
 
 		@import url(http://fonts.googleapis.com/css?family=Averia+Sans+Libre);
 
-		@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
-
-
 			.btnl
 
 			{
@@ -129,7 +121,7 @@ index.php
 			}
 
 			p{
-				font-family: 'Averia Sans Libre', cursive;
+				font-family: 'Averia Sans Libre';
 				text-align: center;
 				color: #000;
 			}
@@ -261,14 +253,20 @@ index.php
 
 			
 			.Googol_Simulator_Font_Colour {
-				font-family: 'Averia Sans Libre', cursive;
+				font-family: 'Averia Sans Libre';
 				color: #000000;
 				font-size: 58px;
 			}
 
+			.Note {
+				font-family: 'Averia Sans Libre';
+				color: #000000;
+				font-size: 17px;
+			}
+
 
 			.Launch {
-				font-family: 'Averia Sans Libre', cursive;
+				font-family: 'Averia Sans Libre';
 				color: #FFF;
 				
 			}
@@ -278,7 +276,7 @@ index.php
 			font-weight: 900;
 			letter-spacing: -2px;
 			line-height: 100px;
-			font-family: 'Averia Sans Libre', cursive;
+			font-family: 'Averia Sans Libre';
 			}
 
 			.blue {
@@ -410,16 +408,29 @@ index.php
 				animation-name: bouncefinger;
 			}
 
-
         </style>
 		
+	<!-- Pingdom satisfaction checking.-->	
+		
+		
+	<script>
+	var _prum = [['id', '51e88df2abe53d9f4c000000'],
+		     ['mark', 'firstbyte', (new Date()).getTime()]];
+	(function() {
+	    var s = document.getElementsByTagName('script')[0]
+	      , p = document.createElement('script');
+	    p.async = 'async';
+	    p.src = '//rum-static.pingdom.net/prum.min.js';
+	    s.parentNode.insertBefore(p, s);
+	})();
+	</script>
+    
 	
 	</head>
 
 	<body>
 	
-		
-	
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 			
         	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
@@ -455,26 +466,50 @@ index.php
 		</script>
 	
 
+		<div class="md-modal md-effect-11" id="modal-11">
+			<div class="md-content">
+				<h3 class="Note">Before you continue...</h3>
+				<div>
+					<center>
+					<p class="Note"> This simulator is an animated simulaton of the cartoon "Googol GLaDOS".</p>
+					<br>
+					<span class="Googol_Colour_7"><b>It is <u>not</u> a virus.</b></span>
+					<br>
+					<br>
+					<p>It's all just animations, <b>nothing</b> will happen to your computer.</p>
+				
+					<small><p>(Just, lettin you know.)</p></small>
 
-<div class="Googol animated fadeInDownBig" id="Logo">	
+					<button class="btn btn-large btn-success md-close Launch" OnClick="next()">Continue!</button> 
+					<br>
+					<div class="animated wobble"><button class="btn btn-large btn-warning Launch" OnClick="chicken()">I'm too scared!</button></div>
+				</center>
+				</div>
+			</div>
+		</div>
 
+<div class="md-overlay"></div>
 
+<div class="Googol animated fadeInDownBig" id="Logo">
+
+			<div class="alert alert-info Note">
+		<button type="button" class="close" data-dismiss="alert">×</button>
+ <span class="label label-success">NEW!</span> <b> The Windows version of the simulator is coming soon.</b> If You're on a <b>Windows PC</b> you can sign up free to beta test for the GG:S Simulator on Windows. <a href="http://rbn.co/8c6e8b">http://rbn.co/8c6e8b</a>
+</div>
 
   <div class="jumbotron masthead">
   <div class="container">
     <div align="center">
       <div class="container">
         <!-- Start centered Googol GlaDOS Font Colours & Simulator Font -->
-        <div align="center"> <span class="Googol_Colour"><span class="Googol">G</span><span class="Googol_Colour_0">o</span><span class="Googol_Colour_1">o</span><span class="Googol_Colour_2">g</span><span class="Googol_Colour_3">o</span><span class="Googol_Colour_4">l</span> <span class="Googol_Colour_5">G</span><span class="Googol_Colour_6">L</span><span class="Googol_Colour_7">a</span><span class="Googol_Colour_8">D</span><span class="Googol_Colour_9">O</span><span class="Googol_Colour_10">S</span> </span> <span class="Googol_Simulator_Font_Colour"> simulator </span> <span class="Googol_Simulator_Font_Colour blue"> <sup><small> beta</small></sup></span></div>
+        <div align="center"> <span class="Googol_Colour"><span class="Googol">G</span><span class="Googol_Colour_0">o</span><span class="Googol_Colour_1">o</span><span class="Googol_Colour_2">g</span><span class="Googol_Colour_3">o</span><span class="Googol_Colour_4">l</span> <span class="Googol_Colour_5">G</span><span class="Googol_Colour_6">L</span><span class="Googol_Colour_7">a</span><span class="Googol_Colour_8">D</span><span class="Googol_Colour_9">O</span><span class="Googol_Colour_10">S</span> </span> <span class="Googol_Simulator_Font_Colour"> simulator </span></span></div>
         <p> This simulator is an <b>open source experiment</b> of recreating the animation <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU"><b>'Googol GLaDOS'</b></a> in <strong> <abbr title="Javascript">JS</abbr>.</strong>
         
         <p align="center" class=lead> <small> If you find any bugs or issues, report them at<a href="https://www.facebook.com/GoogolGLadosSimulator"> Facebook</a> and on <a href="http://git.io/3OCKtQ">Github</a></small></span></p>
 		<p>
-          <button class="btnl btn btn-large btn-success"onClick="next()" id="Note" type="note"><span class="Launch">Launch Simulator</span></button></p>
+          <button class="md-trigger btnl btn btn-large btn-success"data-modal="modal-11"id="Note" type="note"><span class="Launch">Launch Simulator</span></button></p>
 		  
-		  
-		  
-		<p align="center" class=lead> <small>You <b>must</b> read the instructions before continuing.</small></span></p>
+	<p align="center" class=lead> <small>You <b>must</b> read the instructions before continuing.</small></span></p>
 	
 	<span style="color:#666666;" class="Masthead_icons_smaller" data-icon="&#x24;"></span>
 	
@@ -485,7 +520,14 @@ index.php
 	<span style="color:#666666;" class="Masthead_icons_smaller" data-icon="&#x22;"></span>
 	
 	<span style="color:#666666;" class="Masthead_icons_smaller" data-icon="&#x21;"></span>
+
 	
+<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
       </div>
 	</div></div><!-- End centered Googol GlaDOS Font Colours & Simulator Font --></div>
 </div>
@@ -496,7 +538,8 @@ index.php
 	  
   </div> <!-- End Googol animated fadeInDownBig Jumbotron -->
 	  
-	 <p align="right">
+
+	 <p align="center">
   <ul align="center" id="Info" class="nav nav-tabs">
     <li align="center"><a href="#Instructions" data-toggle="tab">Instructions</a></li>
     <li align="center"><a href="#Mirrors" data-toggle="tab">Mirrors</a></li>
@@ -549,17 +592,17 @@ index.php
     
   
   
-  <p align="center">NOTE: This simulator is running on this mirror: (<a href="http://ggs.hakobaito.co.uk" target="_new" class="Hako_Colour">ggs.hakobaito.co.uk -  New York</a>).
+  <p align="center">NOTE: This simulator is running on this mirror: (<a href="http://ggs.hakobaito.co.uk" target="_new" class="Hako_Colour">ggs.hakobaito.co.uk -  San Francisco</a>).
 &lt;---</p>
 
-<p align="center"><b>Minified & Optimised simulator of the redesign coming soon.</b><span class="Googol_Colour_3"></span><br>
+<p align="center"><b><a href="http://ggs.hakobaito.co.uk/minified">minified & optimised simulator</a></b><span class="Googol_Colour_3"></span><br>
 <br>
 Click here to go to the original site (may be down.) <span class="ienvyu"><a href="http://www.ienvyu.org/?googolglados" title="This is the original site for the javascript googol glados simulator." target="_blank">original site</a>. </span><br>
 </p>
 
 <p align="center">Click here for the original (and now obsolete) Googol GLaDOS Simulator (<a href="http://www.hakobaito.co.uk/googolglados:simulator" target="_new" class="Hako_Colour">hakobaito.co.uk</a>).
 
-<p align="center"> Try the simulator on Facebook. (will be updated) (<a href="https://www.facebook.com/appcenter/googolgladosimulator" title="server= website. this goes to facebook's app center" target="_new" class="Googol_Colour_1&quot;">Simulator on facebook</a>).
+<p align="center"> Try the updated simulator on Facebook. <a href="https://www.facebook.com/appcenter/googolgladosimulator" title="server= website. this goes to facebook's app center" target="_new" class="Googol_Colour_1&quot;">Simulator on facebook</a>).
 </p>
 
 	
@@ -568,11 +611,9 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
   <div id="Downloads" class="tab-pane fade">
     <h1 align="center" <span data-icon="&#x2c;"> </h1> 
     <p align="center" class="lead"><b>Downloads</b></p> 
-	<p align="center">You can download the source code of the simulator from github and other mirrors</p>
+	<p align="center">You can download the <b>source code</b> of the simulator from github and other mirrors.</p>
 	
-	<p data-icon="&#x2c;" align="center"><a href="https://github.com/hako/googol-glados-simulator/archive/master.zip"> &nbsp; GitHub</a> </p>
-
-	<p align="center">(More download links coming soon.)</p>
+	<p data-icon="&#x2c;" align="center"><a href="http://git.io/TIKuIw"> &nbsp; GitHub - v2.0c-wheatley</a> </p>
 	
   </div> 
   
@@ -635,7 +676,7 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
   <p align="center">And I thank you for trying the simulator! :D here's your cake you've been finally waiting for.</p>
   
 	
-	<p class="animated fadeOutRightBig"><img src="img/cake.png" id="iliedcake"></p>
+	<p class="animated fadeOutRightBig"><img src="img/cake.svg" id="iliedcake"></p>
     <p span style="color:#FFF;" class="peekaboo2" align="center">I LIED</p> 
 
   <p class="shake" align="center"><a href="https://www.digitalocean.com/?refcode=c9489c76b1b2"><img src="img/digitalocean-badge-gray.png"></a></p>
@@ -654,12 +695,17 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 		</script> 
 
 		<script>
-		
 
+
+		function redirect()
+
+		{
+			window.location='http://www.hakobaito.co.uk/b/q-is-the-gg-s-simulator-a-virus';
+		}
+		
 		 function next()
 
 		 {
-		
 
 		$("body").fadeOut(400);
 
@@ -668,8 +714,28 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 		}
 
 		</script>
+
+
+		<script>
 		
-	
+
+		 function chicken()
+
+		 {
+		
+		 var chicken = new Howl({
+  urls: ['/Sound/chicken.wav']
+		}).play();
+
+		 $("body").fadeOut(400);
+
+		setTimeout('redirect()',3000);
+
+		}
+
+
+
+		</script>	
 
 </div>
 
@@ -684,21 +750,65 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 <div align="center">
 
   <img style="border: 0px solid ; display: inline;" alt="counter" 
-	src="http://hit-counter.info/hit.php?id=437571&counter=34"></div>
+	src="http://hit-counter.info/hit.php?id=437571&counter=34">
+	
+	&nbsp;
+	
+	<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t26.14;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: number of visitors for today is"+
+" shown' "+
+"border='0' width='88' height='15'><\/a>")
+//--></script><!--/LiveInternet-->
+
+</div>
+
+
+
+<div align="center"><br> 
+
+
+
+<script src="https://apis.google.com/js/plusone.js"></script>
+
+<div class="g-ytsubscribe" data-channel="hakobyte" data-layout="default"></div> 
+
+</div>
 
 <p class"muted credit"><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span></p>
 <br>
 
-	<!-- AddThis Button BEGIN -->
-<div style="margin: 0 auto; width: 328px; position:relative; text-align:center" class="social addthis_toolbox addthis_default_style" >
 
-<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-<a class="addthis_button_tweet"></a>
-<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
-<a class="addthis_button_reddit"></a>
+<div style="margin: 0 auto; width: 328px; position:relative; text-align:center" >
+<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fggs.hakobaito.co.uk&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font=lucida+grande&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=341474015936755" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:79px; height:21px;" allowTransparency="true"></iframe>
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://ggs.hakobaito.co.uk">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+<div class="g-plusone" data-size="medium" data-href="http://ggs.hakobaito.co.uk"></div>
+<script>
+    
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+
+</script>
+
 </div>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-517822a417f80f0d"></script>
-<!-- AddThis Button END -->
+
+
 
 
 
@@ -713,7 +823,7 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 |  Originally made by <a href="https://twitter.com/BlahBlah_BEN">@BlahBlah_BEN</a>
 </p> 
 
-<p class"muted credit"><a href="http://www.hakobaito.co.uk">hakobaito.co.uk</a> | <a href="http://www.hakobaito.co.uk/ha.ko/4rbr4" title="privacy policy">privacy policy</a>
+<p class"muted credit"><a href="http://www.hakobaito.co.uk">hakobaito.co.uk</a> | <a href="http://www.hakobaito.co.uk/ha.ko/4rbr4">privacy policy</a> | <a href="http://status.ggs.hakobaito.co.uk/">simulator status</a>
 </p>
 
 
@@ -729,7 +839,7 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 
 <p class"muted credit"> <a href="http://www.w3.org/html/logo/" class="footercusthtml5 openwebicons-html5"></a></p>
 
-<p class"muted credit"><small>V 2.0b</small></p>
+<p class"muted credit"><small>v 2.0c wheatley</small></p>
 
 </div>
 
@@ -756,11 +866,32 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
 	<script type="text/javascript" src="js/custom_radio.js"></script>
 	<script type="text/javascript" src="js/jquery.tagsinput.js"></script>
 	<script type="text/javascript" src="js/bootstrap-tooltip.js"></script>
-	<script type="text/javascript" src="js/bootstrap-tab.js"></script>
+	<script type="text/javascript" src="js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="js/bootstrap-alert.js"></script>
+    <script type="text/javascript" src="js/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="js/bootstrap-scrollspy.js"></script>
+    <script type="text/javascript" src="js/bootstrap-tab.js"></script>
+    <script type="text/javascript" src="js/bootstrap-tooltip.js"></script>
+    <script type="text/javascript" src="js/bootstrap-popover.js"></script>
+    <script type="text/javascript" src="js/bootstrap-button.js"></script>
+    <script type="text/javascript" src="js/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="js/bootstrap-carousel.js"></script>
+    <script type="text/javascript" src="js/bootstrap-typeahead.js"></script>
+    <script type="text/javascript" src="js/bootstrap-affix.js"></script>
+    <script type="text/javascript" src="js/application.js"></script>
 	<script type="text/javascript" src="js/jquery.placeholder.js"></script>
 	<script type="text/javascript" src="http://vjs.zencdn.net/c/video.js"></script>
 	<script type="text/javascript" src="js/application.js"></script>
 	<script type="text/javascript" src="js/howler.js"></script>
+	<script type="text/javascript" src="js/classie.js"></script>
+	<script type="text/javascript" src="js/modalEffects.js"></script>
+	<script type="text/javascript" src="js/cssParser.js"></script>
+
+	<script>
+			// this is important for IEs
+			var polyfilter_scriptpath = "js/css-filters-polyfill/";
+	</script>
 	
 <script type="text/javascript">
 
@@ -793,6 +924,7 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
     g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
   })();
 </script>
+
 <!-- End Piwik Code -->
 
 
@@ -803,8 +935,6 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
       <script src="js/icon-font-ie7-24.js"></script>
     <![endif]-->
 
-
     </body>
-
 
 </html>

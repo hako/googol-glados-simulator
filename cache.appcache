@@ -1,7 +1,7 @@
 CACHE MANIFEST
 
-# GOOGOL GLADOS CACHE MANIFEST Version 2.0 
-# Last Edited: Mon, 17 Jun 2013 18:06:22 GMT
+# GOOGOL GLADOS CACHE MANIFEST Version 2.0c wheatley
+# Last Edited: Wed, 31 Jul 2013 20:09:20 GMT
 
 CACHE:
 
@@ -35,26 +35,32 @@ favicon.ico
 /css/fonts/icomoon.svg
 /css/fonts/icomoon.woff
 /css/fonts/icomoon.ttf
-
+/css/fonts/Averia/averia_sans_libre_regular.eot
+/css/fonts/Averia/averia_sans_libre_regular.svg
+/css/fonts/Averia/averia_sans_libre_regular.ttf
+/css/fonts/Averia/averia_sans_libre_regular.woff
+/css/fonts/Averia/stylesheet.css
 
 # images
 
 /img/GDOS.gif
-/img/loading2.gif
-/img/loading.gif
 /img/umad.gif
-/img/cake.png
-/img/driver.png
 /img/favicon.png
-/img/googol_glados.png
-/img/googol_glados_evil.png
 /img/digitalocean-badge-gray.png
+/img/CAC.gif
+/img/driver.svg
+/img/CACM.gif
+/img/FRAUD.png
+/img/cake.svg
+/img/googol_glados_evil.svg
+/img/googol_glados.svg
 
 /Sound/glados_s6.wav
 /Sound/glados_s7.wav
 /Sound/glados_s8.wav
 /Sound/glados_s9.wav
 /Sound/glados_s10.wav
+/Sound/chicken.wav
 
 # internal HTML documents
 http://192.241.192.226/
@@ -75,6 +81,7 @@ http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic
 http://fonts.googleapis.com/css?family=Press+Start+2P
 http://weloveiconfonts.com/api/?family=entypo|fontelico|openwebicons|typicons|zocial
 http://192.241.192.226/css/icomoon.css
+/css/component.css 
 
 
 # style sheet images
@@ -114,6 +121,10 @@ http://www.google-analytics.com/ga.js
 /js/tc.js
 /js/vendor/jquery-1.9.1.min.js
 /js/vendor/modernizr-2.6.2-respond-1.1.0.min.js
+/js/classie.js
+/js/cssParser.js
+/js/modalEffects.js
+/js/css-filters-polyfill/css-filters-polyfill.js
 
 
 NETWORK:

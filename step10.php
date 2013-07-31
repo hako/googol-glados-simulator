@@ -78,7 +78,7 @@ step10.php
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="description" content="Googol GLaDOS:simulator">
 		<meta name="viewport" content="width=device-width">
-
+		<meta name="google-translate-customization" content="23a16271ec91be0-2119bb47f112f540-gdc589541dd9bed5c-13"></meta>
 		<link href="img/GDOS.gif" rel="shortcut icon" >
 		<link rel="icon" type="image/png" href="favicon.png">
 		<link href="css/icons.css" rel="stylesheet">
@@ -253,13 +253,13 @@ step10.php
         $('#webbrowser').fadeIn(1500);
 
 	
-        setTimeout('overload()',13000);
+        setTimeout('overload()',11000);
     }
 
 
    	function overload(){
-        $("body").fadeOut(1500);
-       setTimeout("next()",1500);
+        $("body").fadeOut(1000);
+       setTimeout("next()",1000);
     }
 	
 	var glados10 = new Howl({
@@ -278,36 +278,22 @@ step10.php
 <body>
 
 
-<div style="position:absolute;top:0;left:0;width:100%;height:100%;" id="gladosbody">
 
-<img src="img/googol_glados_evil.png" id="gladosimg" style="position:absolute;top:120;left:40%;margin-left:-160;width:210;z-index:1;"></img>
 
-<div class="animated bounceInRight">
+<img src="img/googol_glados_evil.svg" id="gladosimg" style="position:absolute;top:120;left:40%;margin-left:-160;width:210;z-index:1;"></img>
 
-<table id="webbrowser" border="1" style="display:none;position:absolute;right:10;top:10;border:1px solid #000000;border-collapse:collapse;"><tr><td><p>< ></p></td><td><p align="center">adsense.google.com</p></td><td><p>- + x</p></td></tr><tr><td colspan="3" style="" align="left" valign="top"><h2 align="center" class="Googol_Simulator_Font_Colour"></h2>
-
-  <h1 align="center" class="Googol_Simulator_Adsense">AdSense</h1>
-
-  <p>-----------------------------------</p><center><p>Click Activity For Today</p><br>
-
-<h1 class="animated flip Googol_Simulator_Adsense_Colour">&pound;10,000,000.03</h1>
+<img align="right" class="animated flipInY" src="img/FRAUD.png" id="webbrowser"></img>
 
 <span id="gladosbody" style="position:absolute;right:37%;width:120;"></span>
 
 </center>
 
-</td>
-
-</tr>
-
-</table>
 
 </div>
 
 <center>
 
 <div id="linkdiv" style="position:absolute;bottom:54;left:50%;margin-left:-150;width:300;"></div>
-
 
 <script>umad()</script>
 
@@ -316,21 +302,41 @@ step10.php
 </div>
 
 
+	<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
 
 	<!-- Load JS here for the greater good =============================-->
 
-	<script type="text/javascript" src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
 	<script type="text/javascript" src="js/jquery-ui-1.10.0.custom.min.js"></script>
 	<script type="text/javascript" src="js/jquery.dropkick-1.0.0.js"></script>
+	<script type="text/javascript" src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	<script type="text/javascript" src="js/custom_checkbox_and_radio.js"></script>
 	<script type="text/javascript" src="js/custom_radio.js"></script>
 	<script type="text/javascript" src="js/jquery.tagsinput.js"></script>
 	<script type="text/javascript" src="js/bootstrap-tooltip.js"></script>
-	<script type="text/javascript" src="js/bootstrap-tab.js"></script>
+	<script type="text/javascript" src="js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="js/bootstrap-alert.js"></script>
+    <script type="text/javascript" src="js/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="js/bootstrap-scrollspy.js"></script>
+    <script type="text/javascript" src="js/bootstrap-tab.js"></script>
+    <script type="text/javascript" src="js/bootstrap-tooltip.js"></script>
+    <script type="text/javascript" src="js/bootstrap-popover.js"></script>
+    <script type="text/javascript" src="js/bootstrap-button.js"></script>
+    <script type="text/javascript" src="js/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="js/bootstrap-carousel.js"></script>
+    <script type="text/javascript" src="js/bootstrap-typeahead.js"></script>
+    <script type="text/javascript" src="js/bootstrap-affix.js"></script>
+    <script type="text/javascript" src="js/application.js"></script>
 	<script type="text/javascript" src="js/jquery.placeholder.js"></script>
 	<script type="text/javascript" src="http://vjs.zencdn.net/c/video.js"></script>
 	<script type="text/javascript" src="js/application.js"></script>
+	<script type="text/javascript" src="js/howler.js"></script>
 
 	
 	<script type="text/javascript">

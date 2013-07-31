@@ -78,7 +78,7 @@ step9.php
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="description" content="Googol GLaDOS:simulator">
 		<meta name="viewport" content="width=device-width">
-
+		<meta name="google-translate-customization" content="23a16271ec91be0-2119bb47f112f540-gdc589541dd9bed5c-13"></meta>
 		<link href="img/GDOS.gif" rel="shortcut icon" >
 		<link rel="icon" type="image/png" href="favicon.png">
 		<link href="css/icons.css" rel="stylesheet">
@@ -315,7 +315,6 @@ step9.php
 }
 
 
-
 	</style>
 
 <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
@@ -329,9 +328,9 @@ step9.php
 
    	function click_bomb_exe(){$('#gladosbody').append('<span style="position:absolute;right:30;top:40;display:none;" id="cbexe"><p> xterm clckbmb ping -i </p></span>');$('#cbexe').fadeIn();setTimeout('imaginable_scale()',1000);}
 
-   	function imaginable_scale(){$('#cbexe').fadeOut(500,function(){$('#cbexe').remove()});$('#gladosbody').append('<div style="position:absolute;right:50;top:40;display:none;" id="cbapp"><p>Enter click bomb integer below</p><br><input type="text" value="" id="cbstf" readonly="readonly"></div>');$('#cbapp').fadeIn(1000);setTimeout('agoogol()',2300);}
+   	function imaginable_scale(){$('#cbexe').fadeOut(500,function(){$('#cbexe').remove()});$('#gladosbody').append('<div style="position:absolute;right:50;top:40;display:none;" id="cbapp"><p>RCB Value</p><br><input class="Googol_Simulator_Font_Colour" type="text" value="" id="cbstf" readonly="readonly"></div>');$('#cbapp').fadeIn(1000);setTimeout('agoogol()',2300);}
 
-   	function agoogol(){document.getElementById('cbstf').value='10^100';setTimeout('next()',3000);}
+   	function agoogol(){document.getElementById('cbstf').value='10^100';setTimeout('next()',2000);}
 	
 		var glados9 = new Howl({
 	  urls: ['/Sound/glados_s9.wav']
@@ -347,27 +346,9 @@ step9.php
 
 <div style="position:absolute;top:0;left:0;width:100%;height:100%;" id="gladosbody">
 
-<img src="img/googol_glados_evil.png" id="gladosimg" style="position:absolute;top:120;left:40%;margin-left:-150;width:150;z-index:1;"></img>
+<img src="img/googol_glados_evil.svg" id="gladosimg" style="position:absolute;top:120;left:40%;margin-left:-150;width:150;z-index:1;"></img>
 
-<table class="animated bounceOut_Adsense" id="webbrowser" border="1" style="position:absolute;right:20;top:20;border:1px solid #000000;border-collapse:collapse;"><tr><td><p><center>< ></center></p></td><td><h2 align="center" class="Googol_Simulator_Font_Colour">adsense.google.com</h2></td><td><p><center>- + x</center></p></td></tr><tr><td colspan="3" style="height:100;" align="left" valign="top"><h2 align="center" class="Googol_Simulator_Font_Colour">&nbsp;</h2>
-
-  <h1 align="center" class="Googol_Simulator_Adsense">AdSense</h1>
-
-  <p>-----------------------------------</p>
-
-  <center>
-
-    <p>Click Activity For Today<br></p>
-
-        <h2 class="animated flashing Warning Googol_Simulator_Adsense_Account">&pound;0.03p </h2> <br>
-
-	</center>
-
-	</td>
-
-	</tr>
-
-	</table>
+<img class="animated bounceOut_Adsense" src="img/CACM.gif" id="webbrowser"></img>
 
 <div id="linkdiv" style="position:absolute;bottom:0;left:50%;margin-left:-150;width:300;"></div>
 
@@ -375,20 +356,41 @@ step9.php
 
 </div>
 
+
+	<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
 	<!-- Load JS here for the greater good =============================-->
 
-	<script type="text/javascript" src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
 	<script type="text/javascript" src="js/jquery-ui-1.10.0.custom.min.js"></script>
 	<script type="text/javascript" src="js/jquery.dropkick-1.0.0.js"></script>
+	<script type="text/javascript" src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	<script type="text/javascript" src="js/custom_checkbox_and_radio.js"></script>
 	<script type="text/javascript" src="js/custom_radio.js"></script>
 	<script type="text/javascript" src="js/jquery.tagsinput.js"></script>
 	<script type="text/javascript" src="js/bootstrap-tooltip.js"></script>
-	<script type="text/javascript" src="js/bootstrap-tab.js"></script>
+	<script type="text/javascript" src="js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="js/bootstrap-alert.js"></script>
+    <script type="text/javascript" src="js/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="js/bootstrap-scrollspy.js"></script>
+    <script type="text/javascript" src="js/bootstrap-tab.js"></script>
+    <script type="text/javascript" src="js/bootstrap-tooltip.js"></script>
+    <script type="text/javascript" src="js/bootstrap-popover.js"></script>
+    <script type="text/javascript" src="js/bootstrap-button.js"></script>
+    <script type="text/javascript" src="js/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="js/bootstrap-carousel.js"></script>
+    <script type="text/javascript" src="js/bootstrap-typeahead.js"></script>
+    <script type="text/javascript" src="js/bootstrap-affix.js"></script>
+    <script type="text/javascript" src="js/application.js"></script>
 	<script type="text/javascript" src="js/jquery.placeholder.js"></script>
 	<script type="text/javascript" src="http://vjs.zencdn.net/c/video.js"></script>
 	<script type="text/javascript" src="js/application.js"></script>
+	<script type="text/javascript" src="js/howler.js"></script>
 
 	
 	

@@ -80,7 +80,7 @@ step3.php
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="description" content="Googol GLaDOS:simulator">
 		<meta name="viewport" content="width=device-width">
-
+		<meta name="google-translate-customization" content="23a16271ec91be0-2119bb47f112f540-gdc589541dd9bed5c-13"></meta>
 		<link href="img/GDOS.gif" rel="shortcut icon" >
 		<link rel="icon" type="image/png" href="favicon.png">
 		<link href="css/icons.css" rel="stylesheet">
@@ -166,6 +166,60 @@ step3.php
 			color:#333
 			font-size: 32px;
 		}
+
+@-webkit-keyframes wobble {
+  0% { -webkit-transform: translateX(0%); }
+  15% { -webkit-transform: translateX(-25%) rotate(-5deg); }
+  30% { -webkit-transform: translateX(20%) rotate(3deg); }
+  45% { -webkit-transform: translateX(-15%) rotate(-3deg); }
+  60% { -webkit-transform: translateX(10%) rotate(2deg); }
+  75% { -webkit-transform: translateX(-5%) rotate(-1deg); }
+  100% { -webkit-transform: translateX(0%); }
+}
+
+@-moz-keyframes wobble {
+  0% { -moz-transform: translateX(0%); }
+  15% { -moz-transform: translateX(-25%) rotate(-5deg); }
+  30% { -moz-transform: translateX(20%) rotate(3deg); }
+  45% { -moz-transform: translateX(-15%) rotate(-3deg); }
+  60% { -moz-transform: translateX(10%) rotate(2deg); }
+  75% { -moz-transform: translateX(-5%) rotate(-1deg); }
+  100% { -moz-transform: translateX(0%); }
+}
+
+@-o-keyframes wobble {
+  0% { -o-transform: translateX(0%); }
+  15% { -o-transform: translateX(-25%) rotate(-5deg); }
+  30% { -o-transform: translateX(20%) rotate(3deg); }
+  45% { -o-transform: translateX(-15%) rotate(-3deg); }
+  60% { -o-transform: translateX(10%) rotate(2deg); }
+  75% { -o-transform: translateX(-5%) rotate(-1deg); }
+  100% { -o-transform: translateX(0%); }
+}
+
+@keyframes wobble {
+  0% { transform: translateX(0%); }
+  15% { transform: translateX(-25%) rotate(-5deg); }
+  30% { transform: translateX(20%) rotate(3deg); }
+  45% { transform: translateX(-15%) rotate(-3deg); }
+  60% { transform: translateX(10%) rotate(2deg); }
+  75% { transform: translateX(-5%) rotate(-1deg); }
+  100% { transform: translateX(0%); }
+}
+
+.wobble {
+	-webkit-animation-name: wobble;
+	-moz-animation-name: wobble;
+	-o-animation-name: wobble;
+	animation-name: wobble;
+
+	-webkit-animation-delay: 12.5s;
+	-moz-animation-delay: 12.5s;
+	-ms-animation-delay: 12.5s;
+	-o-animation-delay: 12.5s;
+	animation-delay: 12.5s;
+}
+
 </style>
 
 <script>
@@ -180,9 +234,7 @@ step3.php
 
 	{
 
-        if(installstatus=="1"){document.getElementById('whatisinstalling').innerHTML='unzipping';installstatus='2';setTimeout("in_progress()",900);return false;
-
-}
+        if(installstatus=="1"){document.getElementById('whatisinstalling').innerHTML='unzipping';installstatus='2';setTimeout("in_progress()",900);return false;}
 
         if(installstatus=="2"){document.getElementById('whatisinstalling').innerHTML='ViRzz.dll';document.getElementById('pnumber').innerHTML='1';installstatus='3';setTimeout("in_progress()",200);return false;}
         if(installstatus=="3"){document.getElementById('whatisinstalling').innerHTML='goo.exe';document.getElementById('pnumber').innerHTML='5';installstatus='4';setTimeout("in_progress()",500);return false;}
@@ -212,11 +264,12 @@ step3.php
         if(spazstatus=="7"){document.getElementById('pnumber').innerHTML='91';spazstatus='8';setTimeout("install_spaz_attack()",70);return false;}
         if(spazstatus=="8"){document.getElementById('pnumber').innerHTML='93';spazstatus='9';setTimeout("install_spaz_attack()",70);return false;}
         if(spazstatus=="9"){document.getElementById('pnumber').innerHTML='98';spazstatus='1';setTimeout("install_spaz_attack()",70);return false;}
+        if(spazstatus=="9"){document.getElementById('pnumber').innerHTML='98';spazstatus='1';setTimeout("install_spaz_attack()",70);return false;}
         if(spazstatus=="10"){document.getElementById('pnumber').innerHTML='<span class="animated flash">0</span>';return false;}
     }
 
     function wait_for_bang(){setTimeout("bang_keyboard()",7000);}
-	
+
     function bang_keyboard(){spazstatus='10';setTimeout("next()",1500);}
 
 
@@ -227,11 +280,22 @@ step3.php
 	<br>
 	<br>
 	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
 <center>
 
 	
 
-	<div id="installprogress" style="position:relative;opacity:0;">
+	<div id="installprogress" style="position:relative;opacity:0;" class="animated wobble">
 
 	<p span class="Googol_Simulator_Font_Colour">Installing </span> 
 
@@ -244,20 +308,39 @@ step3.php
 	</div>
 
 
+	<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
 </center>
 
 
 	<!-- Load JS here for the greater good =============================-->
 
-	<script type="text/javascript" src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
 	<script type="text/javascript" src="js/jquery-ui-1.10.0.custom.min.js"></script>
 	<script type="text/javascript" src="js/jquery.dropkick-1.0.0.js"></script>
+	<script type="text/javascript" src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	<script type="text/javascript" src="js/custom_checkbox_and_radio.js"></script>
 	<script type="text/javascript" src="js/custom_radio.js"></script>
 	<script type="text/javascript" src="js/jquery.tagsinput.js"></script>
 	<script type="text/javascript" src="js/bootstrap-tooltip.js"></script>
-	<script type="text/javascript" src="js/bootstrap-tab.js"></script>
+	<script type="text/javascript" src="js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="js/bootstrap-alert.js"></script>
+    <script type="text/javascript" src="js/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="js/bootstrap-scrollspy.js"></script>
+    <script type="text/javascript" src="js/bootstrap-tab.js"></script>
+    <script type="text/javascript" src="js/bootstrap-tooltip.js"></script>
+    <script type="text/javascript" src="js/bootstrap-popover.js"></script>
+    <script type="text/javascript" src="js/bootstrap-button.js"></script>
+    <script type="text/javascript" src="js/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="js/bootstrap-carousel.js"></script>
+    <script type="text/javascript" src="js/bootstrap-typeahead.js"></script>
+    <script type="text/javascript" src="js/bootstrap-affix.js"></script>
+    <script type="text/javascript" src="js/application.js"></script>
 	<script type="text/javascript" src="js/jquery.placeholder.js"></script>
 	<script type="text/javascript" src="http://vjs.zencdn.net/c/video.js"></script>
 	<script type="text/javascript" src="js/application.js"></script>

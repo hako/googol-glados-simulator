@@ -80,7 +80,7 @@ step7.php
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="description" content="Googol GLaDOS:simulator">
 		<meta name="viewport" content="width=device-width">
-
+		<meta name="google-translate-customization" content="23a16271ec91be0-2119bb47f112f540-gdc589541dd9bed5c-13"></meta>
 		<link href="img/GDOS.gif" rel="shortcut icon" >
 		<link rel="icon" type="image/png" href="favicon.png">
 		<link href="css/icons.css" rel="stylesheet">
@@ -205,7 +205,7 @@ step7.php
 	<script>
 
 
-    function uninstall_driver(){$('#gladosimg').animate({width:150});$('#gladosbody').append('<img class="animated hinge"src="img/driver.png" id="uninstalleddriver" width="175" style="position:absolute;left:50%;top:50%;opacity:1;"></img>');$('#uninstalleddriver').animate({opacity:1,left:"70%"},
+    function uninstall_driver(){$('#gladosimg').animate({width:150});$('#gladosbody').append('<img class="animated hinge"src="img/driver.svg" id="uninstalleddriver" width="175" style="position:absolute;left:50%;top:50%;opacity:1;"></img>');$('#uninstalleddriver').animate({opacity:1,left:"70%"},
 
 function(){setTimeout('$("#uninstalleddriver").fadeOut(1000,function(){$("#uninstalleddriver").remove()})',1000);});setTimeout('iagreed()',5600);}
 
@@ -215,11 +215,11 @@ function(){setTimeout('$("#uninstalleddriver").fadeOut(1000,function(){$("#unins
 
     function stolendetails(){$('#gladosimg').animate({left:"90%"});$('#gladosbody').append('<div id="logindetails" style="position:absolute;left:10;top:10;opacity:1;z-index:5;"><p class="animated fadeIn">Log.in:</p><br><input type="password" value="keylogs_krispies@keeys.com"><br><p class="animated fadeIn">Password:</p><br><input type="password" value="1">');
 
-$('#logindetails').animate({opacity:1},1500,function(){setTimeout('$("#logindetails").fadeOut(1000,function(){$("#logindetails").remove()})',7000);});setTimeout('decrypting()',4000);
+$('#logindetails').animate({opacity:1},1500,function(){setTimeout('$("#logindetails").fadeOut(1000,function(){$("#logindetails").remove()})',6000);});setTimeout('decrypting()',3000);
 
 }
 
-    function decrypting(){$('#gladosbody').append('<div id="decrypting" style="position:absolute;left:10;bottom:10;opacity:1;z-index:5;"><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <p>  Decrypting...</p>');setTimeout('next()',6000);}
+    function decrypting(){$('#gladosbody').append('<div id="decrypting" style="position:absolute;left:10;bottom:10;opacity:1;z-index:5;"><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <p>  Decrypting...</p>');setTimeout('next()',4500);}
 
 	
 		var glados7 = new Howl({
@@ -250,7 +250,7 @@ $('#logindetails').animate({opacity:1},1500,function(){setTimeout('$("#logindeta
 
 <br>
 
-<img src="img/googol_glados_evil.png" id="gladosimg" style="position:auto;left:0%;"></img>
+<img src="img/googol_glados_evil.svg" id="gladosimg" style="position:auto;left:0%;"></img>
 
 </center>
 
@@ -261,20 +261,41 @@ $('#logindetails').animate({opacity:1},1500,function(){setTimeout('$("#logindeta
 </div>
 
 
+	<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
+
 	<!-- Load JS here for the greater good =============================-->
 
-	<script type="text/javascript" src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
 	<script type="text/javascript" src="js/jquery-ui-1.10.0.custom.min.js"></script>
 	<script type="text/javascript" src="js/jquery.dropkick-1.0.0.js"></script>
+	<script type="text/javascript" src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	<script type="text/javascript" src="js/custom_checkbox_and_radio.js"></script>
 	<script type="text/javascript" src="js/custom_radio.js"></script>
 	<script type="text/javascript" src="js/jquery.tagsinput.js"></script>
 	<script type="text/javascript" src="js/bootstrap-tooltip.js"></script>
-	<script type="text/javascript" src="js/bootstrap-tab.js"></script>
+	<script type="text/javascript" src="js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="js/bootstrap-alert.js"></script>
+    <script type="text/javascript" src="js/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="js/bootstrap-scrollspy.js"></script>
+    <script type="text/javascript" src="js/bootstrap-tab.js"></script>
+    <script type="text/javascript" src="js/bootstrap-tooltip.js"></script>
+    <script type="text/javascript" src="js/bootstrap-popover.js"></script>
+    <script type="text/javascript" src="js/bootstrap-button.js"></script>
+    <script type="text/javascript" src="js/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="js/bootstrap-carousel.js"></script>
+    <script type="text/javascript" src="js/bootstrap-typeahead.js"></script>
+    <script type="text/javascript" src="js/bootstrap-affix.js"></script>
+    <script type="text/javascript" src="js/application.js"></script>
 	<script type="text/javascript" src="js/jquery.placeholder.js"></script>
 	<script type="text/javascript" src="http://vjs.zencdn.net/c/video.js"></script>
 	<script type="text/javascript" src="js/application.js"></script>
+	<script type="text/javascript" src="js/howler.js"></script>
 
 	
 	<script type="text/javascript">

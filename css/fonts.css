@@ -6,15 +6,26 @@
 	font-style: normal;
 }
 
+@font-face {
+    font-family: 'Averia Sans Libre';
+    src: url('fonts/Averia/averia_sans_libre_regular.eot');
+    src: url('fonts/Averia/averia_sans_libre_regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Averia/averia_sans_libre_regular.woff') format('woff'),
+         url('fonts/Averia/averia_sans_libre_regular.ttf') format('truetype'),
+         url('fonts/Averia/averia_sans_libre_regular.svg#averia_sans_libreregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .WOW {
-	font-family: 'Averia Sans Libre', cursive;
+	font-family: 'Averia Sans Libre';
 	font-size: 79px;
 }
 .downlaoding {
-	font-family: 'Averia Sans Libre', cursive;
+	font-family: 'Averia Sans Libre';
 	font-size: 56px;
 }
 .Warning {
 	color: #F33;
 }
+
