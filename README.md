@@ -40,6 +40,8 @@ TODO:
 + Cross browser compatibility. ☐
 
  LAST TESTED: Mon, 08 Jul 2013 14:36:57 GMT
+ 
+ **You might as well use a HTML5 compatiable browser**
 
  + **Google Chrome** - **Perfect! :D** ☑
  + **Mozilla Firefox** - **Perfect! :D** ☑
@@ -50,14 +52,14 @@ TODO:
  + <del>3DS</del> - NO AUDIO SUPPORT. ✘✘
 
 
-+ REAL and better graphics (SVG's) ☐
-+ Add **impressive** JS or CSS animations. (my favorite!) ☐
-+ Mobile support ☐
-+ Improving design. ☐
++ REAL and better graphics (SVG's) ☑
++ Add **impressive** JS or CSS animations. (my favorite!) ☑
++ Mobile support (soso)
++ Improving design. ☑
 + Audio fixes for all browsers (Even mobile) ☐
-+ Replace current voices. ☐
-+ Make simulator even more cleaner & clearer ☐
-+ Minified version. ☐
++ Replace current voices. ☑
++ Make simulator even more cleaner & clearer ☑
++ Minified version. ☑
 
 <br>
 
