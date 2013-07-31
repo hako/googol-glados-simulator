@@ -492,10 +492,6 @@ index.php
 
 <div class="Googol animated fadeInDownBig" id="Logo">
 
-			<div class="alert alert-info Note">
-		<button type="button" class="close" data-dismiss="alert">×</button>
- <span class="label label-success">NEW!</span> <b> The Windows version of the simulator is coming soon.</b> If You're on a <b>Windows PC</b> you can sign up free to beta test for the GG:S Simulator on Windows. <a href="http://rbn.co/8c6e8b">http://rbn.co/8c6e8b</a>
-</div>
 
   <div class="jumbotron masthead">
   <div class="container">
