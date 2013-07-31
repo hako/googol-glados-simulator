@@ -613,7 +613,7 @@ Click here to go to the original site (may be down.) <span class="ienvyu"><a hre
     <p align="center" class="lead"><b>Downloads</b></p> 
 	<p align="center">You can download the <b>source code</b> of the simulator from github and other mirrors.</p>
 	
-	<p data-icon="&#x2c;" align="center"><a href="http://git.io/TIKuIw"> &nbsp; GitHub - v2.0c-wheatley</a> </p>
+	<p data-icon="&#x2c;" align="center"><a href="http://git.io/vVDqqw"> &nbsp; GitHub - v2.0c-wheatley</a> </p>
 	
   </div> 
   
