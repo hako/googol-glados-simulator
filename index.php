@@ -471,7 +471,7 @@ index.php
 				<h3 class="Note">Before you continue...</h3>
 				<div>
 					<center>
-					<p class="Note"> This simulator is an animated simulaton of the cartoon "Googol GLaDOS".</p>
+					<p class="Note"> This simulator is an animated simulation of the cartoon "Googol GLaDOS".</p>
 					<br>
 					<span class="Googol_Colour_7"><b>It is <u>not</u> a virus.</b></span>
 					<br>
