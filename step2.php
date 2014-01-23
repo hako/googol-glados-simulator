@@ -69,7 +69,7 @@ step2.php
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <!--<![endif]-->
 
-<html lang="en" class="no-js" manifest="cache.appcache">
+<html lang="en" class="no-js">
 
 <head>
 

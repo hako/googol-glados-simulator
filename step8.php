@@ -67,7 +67,7 @@ step8.php
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <!--<![endif]-->
 
-<html lang="en" class="no-js" manifest="">
+<html lang="en" class="no-js">
 
 <head>
 
@@ -196,7 +196,7 @@ step8.php
 
 
 	var glados7 = new Howl({
-	  urls: ['/Sound/glados_s8.wav']
+	  urls: ['/new/Sound/glados_s8.wav']
 	}).play();
 	
 	

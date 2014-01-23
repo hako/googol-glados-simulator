@@ -47,14 +47,14 @@ VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
 
 
 
-	   ,ad8888ba,    ,ad8888ba,   ad88888ba   
-	  d8"'    `"8b  d8"'    `"8b d8"     "8b  
-	 d8'           d8'           Y8,          
+     ,ad8888ba,    ,ad8888ba,   ad88888ba   
+    d8"'    `"8b  d8"'    `"8b d8"     "8b  
+   d8'           d8'           Y8,          
         88            88            `Y8aaaaa,    
         88      88888 88      88888   `"""""8b,  
         Y8,        88 Y8,        88         `8b  
          Y8a.    .a88  Y8a.    .a88 Y8a     a8P  
- 	  `"Y88888P"    `"Y88888P"   "Y88888P"   
+    `"Y88888P"    `"Y88888P"   "Y88888P"   
 
 
 <!--
@@ -63,7 +63,6 @@ index.php
 
 -->
 
-
 <!DOCTYPE html>
 
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -71,866 +70,557 @@ index.php
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <!--<![endif]-->
 
-<html lang="en" class="no-js" manifest="cache.appcache">
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A HTML5 Simulator of the animation Googol GLaDOS">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width">
+    <meta name="google-translate-customization" content="23a16271ec91be0-2119bb47f112f540-gdc589541dd9bed5c-13"></meta>
+    <link href="img/GDOS.gif" rel="shortcut icon" >
+    <link rel="icon" type="image/png" href="favicon.png">
 
-<head>
+    <title>Googol GLaDOS:simulator</title>
 
-	<title>Googol GLaDOS:simulator</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="description" content="A HTML5 Simulator of the animation Googol GLaDOS">
-		<meta name="viewport" content="width=device-width">
-		<meta name="google-translate-customization" content="23a16271ec91be0-2119bb47f112f540-gdc589541dd9bed5c-13"></meta>
-		<link href="img/GDOS.gif" rel="shortcut icon" >
-		<link rel="icon" type="image/png" href="favicon.png">
-		<link href="css/icons.css" rel="stylesheet">
-		<link href="css/component.css" rel="stylesheet" />
-		<link href="css/bootstrap.css" rel="stylesheet">
-		<link href="css/normalize.min.css" rel="stylesheet" >
-		<link href="css/docs.css" rel="stylesheet">
-		<link href="css/main.css" rel="stylesheet" >
-		<link href="css/animate-custom.css" rel="stylesheet">	
-		<link href="css/flat-ui.css" rel="stylesheet">
-		<link href="css/bootstrap-responsive.css" rel="stylesheet">
-       	<link href="css/real-world.css" rel="stylesheet">
-		<link href="css/fonts.css" rel="stylesheet">
-		<link href="css/icomoon.css" rel="stylesheet">
-
-		<link rel="apple-touch-icon" href="apple-touch-icon-iphone.png" /> 
-		<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-ipad.png" /> 
-		<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-iphone4.png" />
-		<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-ipad3.png" />
-
-		
-
-		<!--THEY LOAD ONE BY ONE IN PRECEDING ORDER.-->
-
-		<style type="text/css">
-
-		@import url(http://fonts.googleapis.com/css?family=Averia+Sans+Libre);
-
-			.btnl
-
-			{
-
-			
-			box-shadow: 0px 5px 0px #27ad60;
-
-
-			}
-
-			p{
-				font-family: 'Averia Sans Libre';
-				text-align: center;
-				color: #000;
-			}
-			
-
-		.jumbotron a {
-			  color: #2e3436;
-			  color: rgba(2e3436,.5);
-			 -webkit-transition: all .2s ease-in-out;
-		         -moz-transition: all .2s ease-in-out;
-			  transition: all .2s ease-in-out;
-				}
-
-
-			.jumbotron a:hover {
-			  color: #babdb6;
-			  text-shadow: 0 0 10px rgba(255,255,255,.25);
-			}
-			
-			.footercusthtml5
-			
-			{
-			font-size: 34px;
-				
-			}
-			
-			a:hover 
-			
-			{
-			color: #E34C26;
-				
-			}
-			
-			.social
-			{
-			float: none !important;
-			}
-			
-			
-			 html,
-		  body {
-			height: 100%;
-			/* The html and body elements cannot have any padding or margin. */
-		  }
-	
-		  /* Wrapper for page content to push down footer */
-		  #wrap {
-			min-height: 100%;
-			height: auto !important;
-			height: 100%;
-			/* Negative indent footer by it's height */
-			margin: 0 auto -60px;
-		  }
-	
-		  /* Set the fixed height of the footer here */
-		  #push,
-		  #footer {
-			height: 60px;
-		  }
-		  #footer {
-			background-color: #f5f5f5;
-		  }
-	
-		  /* Lastly, apply responsive CSS fixes as necessary */
-		  @media (max-width: 767px) {
-			#footer {
-			  margin-left: -20px;
-			  margin-right: -20px;
-			  padding-left: 20px;
-			  padding-right: 20px;
-			}
-		  }
-				
-			.Googol
-			{
-			font-family: 'Conv_Catull';
-			text-align: center;
-			font-size: 70px;
-			
-
-			}
-
-			.Googol_Colour {
-				color: #2E5CEB;
-				
-			}
-			.Googol_Colour_0 {
-			color: #E92D3F;
-			font-family: "Conv_Catull";
-			}
-			.Googol_Colour_1 {
-				color: #FDBA17;
-			}
-			.Googol_Colour_2 {
-				color: #2E5CEB;
-			}
-			.Googol_Colour_3 {
-				color: #E92D3F;
-			}
-			.Googol_Colour_4 {
-				color: #069519;
-			}
-			.Googol_Colour_5 {
-				color: #FDBA17;
-			}
-			.Googol_Colour_6 {
-				color: #069519;
-			}
-			.Googol_Colour_7 {
-				color: #E92D3F;
-			}
-			.Googol_Colour_8 {
-				color: #2E5CEB;
-			}
-			.Googol_Colour_9 {
-				color: #E92D3F;
-			}
-			.Googol_Colour_10 {
-				color: #2E5CEB;
-			}
-
-			.Masthead_font_smaller {
-				font-size: 15px;
-			}
-			
-			.Masthead_icons_smaller {
-				font-size: 35px;
-			}
-
-			
-			.Googol_Simulator_Font_Colour {
-				font-family: 'Averia Sans Libre';
-				color: #000000;
-				font-size: 58px;
-			}
-
-			.Note {
-				font-family: 'Averia Sans Libre';
-				color: #000000;
-				font-size: 17px;
-			}
-
-
-			.Launch {
-				font-family: 'Averia Sans Libre';
-				color: #FFF;
-				
-			}
-			
-			.horizontal-break {
-			font-size: 90px;
-			font-weight: 900;
-			letter-spacing: -2px;
-			line-height: 100px;
-			font-family: 'Averia Sans Libre';
-			}
-
-			.blue {
-				color: #0083C4;
-			}
-
-			.minified {
-				color: #96C;
-			}
-
-			.RPi {
-				color: #FF3333;
-			}
-
-			.ienvyu {
-				color: #003366;
-			}
-
-			.Hako_Colour {
-				color: #F60;
-			}
-
-			h1,h2,h3,h4,h5,h6 {
-				font-family: "Conv_Catull";
-				color: rgb(0, 0, 0);
-				font-size: 76px;
-			}
-
-
-			#Logo {
-			.animated {
-			    -webkit-animation-duration: 10s;
-			       -moz-animation-duration: 10s;
-				-ms-animation-duration: 10s;
-				 -o-animation-duration: 10s;
-				    animation-duration: 10s;
-			    -webkit-animation-fill-mode: both;
-			       -moz-animation-fill-mode: both;
-				-ms-animation-fill-mode: both;
-				 -o-animation-fill-mode: both;
-				    animation-fill-mode: both;
-			}
-			 
-			.fadeInDownBig {
-				-webkit-animation-name: fadeInDownBig;
-				-moz-animation-name: fadeInDownBig;
-				-o-animation-name: fadeInDownBig;
-				animation-name: fadeInDownBig;
-			}
-	
-			@-webkit-keyframes fadeInDownBig {
-				0% {
-					opacity: 0;
-					-webkit-transform: translateY(-2000px);
-				}
-	
-				100% {
-					opacity: 1;
-					-webkit-transform: translateY(0);
-				}
-			}
-
-			@-moz-keyframes fadeInDownBig {
-				0% {
-					opacity: 0;
-					-moz-transform: translateY(-2000px);
-				}
-	
-				100% {
-					opacity: 1;
-					-moz-transform: translateY(0);
-				}
-			}
-
-			@-o-keyframes fadeInDownBig {
-				0% {
-					opacity: 0;
-					-o-transform: translateY(-2000px);
-				}
-	
-				100% {
-					opacity: 1;
-					-o-transform: translateY(0);
-				}
-			}
-
-			@keyframes fadeInDownBig {
-				0% {
-					opacity: 0;
-					transform: translateY(-2000px);
-				}
-	
-				100% {
-					opacity: 1;
-					transform: translateY(0);
-				}
-			}
-	
-				}
-
-				
-			@-webkit-keyframes bouncefinger {
-				0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
-				40% {-webkit-transform: translateY(-30px);}
-				60% {-webkit-transform: translateY(-15px);}
-			}
-
-			@-moz-keyframes bouncefinger {
-				0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
-				40% {-moz-transform: translateY(-30px);}
-				60% {-moz-transform: translateY(-15px);}
-			}
-
-			@-o-keyframes bouncefinger {
-				0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
-				40% {-o-transform: translateY(-30px);}
-				60% {-o-transform: translateY(-15px);}
-			}
-			@keyframes bouncefinger {
-				0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-				40% {transform: translateY(-30px);}
-				60% {transform: translateY(-15px);}
-			}
-
-			.bouncefinger:hover {
-				-webkit-animation-name: bouncefinger;
-				-moz-animation-name: bouncefinger;
-				-o-animation-name: bouncefinger;
-				animation-name: bouncefinger;
-			}
-
-        </style>
-		
-	<!-- Pingdom satisfaction checking.-->	
-		
-		
-	<script>
-	var _prum = [['id', '51e88df2abe53d9f4c000000'],
-		     ['mark', 'firstbyte', (new Date()).getTime()]];
-	(function() {
-	    var s = document.getElementsByTagName('script')[0]
-	      , p = document.createElement('script');
-	    p.async = 'async';
-	    p.src = '//rum-static.pingdom.net/prum.min.js';
-	    s.parentNode.insertBefore(p, s);
-	})();
-	</script>
+    <!-- Add custom CSS here -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/real-world.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/icons.css" rel="stylesheet">
+    <link href="css/ionicons.css" rel="stylesheet">
+    <link href="css/icomoon.css" rel="stylesheet">
+    <link href="css/modern-buttons.css" rel="stylesheet">
     
-	
-	</head>
+    <link rel="apple-touch-icon" href="apple-touch-icon-iphone.png" /> 
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-ipad.png" /> 
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-iphone4.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-ipad3.png" />
 
-	<body>
-	
+    <style type="text/css">
+   
+     @import url(http://fonts.googleapis.com/css?family=Averia+Sans+Libre);
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-			
-        	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+      p
+      {
+        font-family: 'Averia Sans Libre';
+        text-align: center;
+        color: #000;
+      }
 
-			<!-- When all is finished just un comment this.. and convert html to js  <script src="js/main.js"></script> -->
-		
-			<p align="center">&nbsp;</p>
+      .white
+      
+      {
 
-		<script>
-		
-		var offlinecache = window.applicationCache;
+        color: #FFFFFF;
 
-		offlinecache.update(); // Try to update users cache
-		
-			// Check if a new cache is available on page load.
-		window.addEventListener('load', function(e) {
+      }
 
-	  window.applicationCache.addEventListener('updateready', function(e) {
-		if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
-		  // Browser downloaded a new app cache.
-		  // Swap it in and reload the page to get the new hotness.
-		  window.applicationCache.swapCache();
-		  if (confirm('A new version of the site is now available online for offline use. Refresh?')) {
-			window.location.reload();
-		  }
-		} else {
-		 
-		}
-	  }, false);
+      .black
+      
+      {
 
-	}, false);
-	
-		</script>
-	
+        color: #000000;
 
-		<div class="md-modal md-effect-11" id="modal-11">
-			<div class="md-content">
-				<h3 class="Note">Before you continue...</h3>
-				<div>
-					<center>
-					<p class="Note"> This simulator is an animated simulation of the cartoon "Googol GLaDOS".</p>
-					<br>
-					<span class="Googol_Colour_7"><b>It is <u>not</u> a virus.</b></span>
-					<br>
-					<br>
-					<p>It's all just animations, <b>nothing</b> will happen to your computer.</p>
-				
-					<small><p>(Just, lettin you know.)</p></small>
+      }
 
-					<button class="btn btn-large btn-success md-close Launch" OnClick="next()">Continue!</button> 
-					<br>
-					<div class="animated wobble"><button class="btn btn-large btn-warning Launch" OnClick="chicken()">I'm too scared!</button></div>
-				</center>
-				</div>
-			</div>
-		</div>
+      .red {
+      color: #FF4240;
+      }
 
-<div class="md-overlay"></div>
+      .Googol
+      {
+      font-family: 'Conv_Catull';
+      text-align: center;
+      font-size: 70px;
 
-<div class="Googol animated fadeInDownBig" id="Logo">
+      }
+
+      .Googol_Small
+      {
+      font-family: 'Conv_Catull';
+      text-align: center;
+      font-size: 20px;
+
+      }
+      .Googol_Colour {
+        color: #2E5CEB;
+      }
+      .Googol_Colour_0 {
+      color: #E92D3F;
+      font-family: "Conv_Catull";
+      }
+      .Googol_Colour_1 {
+        color: #FDBA17;
+      }
+      .Googol_Colour_2 {
+        color: #2E5CEB;
+      }
+      .Googol_Colour_3 {
+        color: #E92D3F;
+      }
+      .Googol_Colour_4 {
+        color: #069519;
+      }
+      .Googol_Colour_5 {
+        color: #FDBA17;
+      }
+      .Googol_Colour_6 {
+        color: #069519;
+      }
+      .Googol_Colour_7 {
+        color: #E92D3F;
+      }
+      .Googol_Colour_8 {
+        color: #2E5CEB;
+      }
+      .Googol_Colour_9 {
+        color: #E92D3F;
+      }
+      .Googol_Colour_10 {
+        color: #2E5CEB;
+      }
+
+      .Googol_Simulator_Font_Colour {
+        font-family: 'Averia Sans Libre';
+        color: #000000;
+        font-size: 58px;
+      }
+
+        .Googol_Simulator_Font_Normal {
+        font-family: 'Averia Sans Libre';
+        color: #000000;
+      }
+
+      h1{
+        font-family: "Conv_Catull";
+        color: rgb(0, 0, 0);
+        font-size: 76px;
+      }
+
+      h2
+      {
+
+        font-size: 45px;
+
+      }
 
 
-  <div class="jumbotron masthead">
-  <div class="container">
-    <div align="center">
-      <div class="container">
-        <!-- Start centered Googol GlaDOS Font Colours & Simulator Font -->
-        <div align="center"> <span class="Googol_Colour"><span class="Googol">G</span><span class="Googol_Colour_0">o</span><span class="Googol_Colour_1">o</span><span class="Googol_Colour_2">g</span><span class="Googol_Colour_3">o</span><span class="Googol_Colour_4">l</span> <span class="Googol_Colour_5">G</span><span class="Googol_Colour_6">L</span><span class="Googol_Colour_7">a</span><span class="Googol_Colour_8">D</span><span class="Googol_Colour_9">O</span><span class="Googol_Colour_10">S</span> </span> <span class="Googol_Simulator_Font_Colour"> simulator </span></span></div>
-        <p> This simulator is an <b>open source experiment</b> of recreating the animation <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU"><b>'Googol GLaDOS'</b></a> in <strong> <abbr title="Javascript">JS</abbr>.</strong>
-        
-        <p align="center" class=lead> <small> If you find any bugs or issues, report them at<a href="https://www.facebook.com/GoogolGLadosSimulator"> Facebook</a> and on <a href="http://git.io/3OCKtQ">Github</a></small></span></p>
-		<p>
-          <button class="md-trigger btnl btn btn-large btn-success"data-modal="modal-11"id="Note" type="note"><span class="Launch">Launch Simulator</span></button></p>
-		  
-	<p align="center" class=lead> <small>You <b>must</b> read the instructions before continuing.</small></span></p>
-	
-	<span style="color:#666666;" class="Masthead_icons_smaller" data-icon="&#x24;"></span>
-	
-	<span style="color:#666666;" class="Masthead_icons_smaller" data-icon="&#x25;"></span>
-	
-	<span style="color:#666666;" class="Masthead_icons_smaller" data-icon="&#x23;"></span>
+      h3
+      {
 
-	<span style="color:#666666;" class="Masthead_icons_smaller" data-icon="&#x22;"></span>
-	
-	<span style="color:#666666;" class="Masthead_icons_smaller" data-icon="&#x21;"></span>
+        font-size: 25px;
 
-	
-<div id="google_translate_element"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-        
+      }
+
+      #video_background {
+        opacity: 90;
+        position: fixed; 
+        bottom: -20px;
+        resize: both;
+        width: 100%; 
+        height: 100%; 
+        z-index: -10000;
+        }
+
+    </style>
+
+
+<!-- Video background resizing to fullscreen.-->
+
+  <script type="text/javascript">
+
+    window.onresize = resize; window.onload = resize;
+
+    function resize() {
+      var windowWidth = (window.innerWidth); var windowHeight = (window.innerHeight);
+      var windowProportion = windowWidth / windowHeight;
+      
+     
+      var origWidth = 568; var origHeight = 360; // Video size
+      var origProportion = origWidth / origHeight;
+      
+      var proportion = windowHeight / origHeight;
+      if (windowProportion >= origProportion) {
+        proportion = windowWidth / origWidth;
+      }
+      
+      document.getElementById('video_background').style.width = proportion * origWidth+"px";
+      document.getElementById('video_background').style.height = proportion * origHeight+"px";
+    }
+
+  </script>
+
+  </head>
+
+  <body>
+    <video class="animated-slow fadeIn" id="video_background" preload="auto" muted="true"autoplay="true" loop="loop" >
+    <source src="http://www.transcode.io/app/v1?account_id=527eaee8cc119c0200000003&key=ggs.mp4" type="video/mp4" /> 
+    </video>
+    
+  
+    <!-- Full Page Image Header Area -->
+
+    <div id="top" class="animated fadeInUp header">
+      <div class="vert-text">
+           <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+
+        <div align="center"> <span class="Googol_Colour"><span class="Googol">G</span><span class="Googol Googol_Colour_0">o</span><span class="Googol Googol_Colour_1">o</span><span class="Googol Googol_Colour_2">g</span><span class="Googol Googol_Colour_3">o</span><span class="Googol Googol_Colour_4">l</span> &nbsp;  <span class="Googol Googol_Colour_5">G</span><span class="Googol Googol_Colour_6">L</span><span class="Googol Googol_Colour_7">a</span><span class="Googol Googol_Colour_8">D</span><span class="Googol Googol_Colour_9">O</span><span class="Googol Googol_Colour_10">S</span> </span> <span class="p Googol_Simulator_Font_Colour"> simulator </span></span></div>
+        <p>An <b>open source</b> experiment of recreating the animation <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU"><b>'Googol GLaDOS'</b></a> in <strong> <abbr title="Javascript">JS</abbr> </p>
+        <p><a href="#intro"<small>You <b>must</b> read the instructions before continuing.</small></a></p>
+        <a href="#launch" class="btn btn-1 btn-1a">Launch Simulator!</a>
+
+
+
       </div>
-	</div></div><!-- End centered Googol GlaDOS Font Colours & Simulator Font --></div>
-</div>
+    </div>
+    </div>
+    </div>
 
-<!-- End Jumbotron -->
-	  
-	  
-	  
-  </div> <!-- End Googol animated fadeInDownBig Jumbotron -->
-	  
+    <!-- /Full Page Image Header Area -->
 
-	 <p align="center">
-  <ul align="center" id="Info" class="nav nav-tabs">
-    <li align="center"><a href="#Instructions" data-toggle="tab">Instructions</a></li>
-    <li align="center"><a href="#Mirrors" data-toggle="tab">Mirrors</a></li>
-    <li align="center"><a href="#Downloads" data-toggle="tab">Downloads</a></li>
-    <li align="center"><a href="#About" data-toggle="tab">About</a></li>
-	<li align="center"><a href="#Attributions" data-toggle="tab">Attributions</a></li>
-  </ul>
-	  </p>
-    
-	<div id="Infomation" class="tab-content">
-  <div id="Instructions" class="tab-pane fade">
+    <!-- Intro -->
+
+    <div id="intro" class="intro">
+     
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <center>
+             <h1 class="icon-alert-circled white"></h1>
+           </center>
+                <h2 class="white">Instructions</h2>
+            <hr>
+            <p class="lead">1. Watch the animation <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU">Googol GLaDOS</a></a>.</p>
+            <p class="lead">2. You may have to wait a few seconds because the simulator caches all the files for offline use.</p>
+            <p class="lead">3. <a href="#top">Launch</a> the simulator and have fun! :D</p>
+
+            <h3 class="icon-information-circled white"></h3>
+            <p class="lead">Note: <i>Everything you see from the simulator are just animations, it is harmless.</i></p>
+            <h1 class="white" data-icon="$"></h3>
+            <p class="lead">Google Chrome is the <b>recommended</b> browser for good results.</p>
+            <p class="lead"><i>Use a different browser at your own risk!</i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- /Intro -->
   
-  &nbsp;
-  
-  <h1 align="center" <span class="animated shake" data-icon="&#x29;"></span> </h1>
-  
-  
-  <p align="center" class="lead"><b>Instructions</b></p></h1>
-    <p align="center" class="lead RPi"><u><b>READ BEFORE CONTINUING:</b></u></h1>
-	&nbsp;
-	&nbsp;
-	<p align="center">
-1. Before you continue this simulator, watch this video <b><a href="http://www.youtube.com/watch?v=sDhc4mKtMkU">Googol GLaDOS</a></b> (if you haven't already)
-</p>
-&nbsp;
-	&nbsp;
-<p align="center"  class="RPi">
-<b><span class="animated flash " data-icon="&#x2f;"></span> - Everything you see is just animations, nothing is actually being downloaded & installed onto your computer.</b></p>
-&nbsp;
-	&nbsp;
-<p align="center">
-2. <b> You must wait before running the simulator</b> because it will cache all the files needed to run smoothly.</p>
-&nbsp;
-&nbsp;
-<p align="center" class="blue"> <span data-icon="&#x2f;"></span> - The simulator can also be run offline once the files are all cached.</p>
-</p>
+    <!-- Mirrors -->
 
-<p align="center" class="blue"> (you will know this if the page has finished loading.)</p>
-&nbsp;
-&nbsp;
+    <div id="mirrors" class="mirrors">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <center>
+            <h1 class="icon-ios7-world white"></h1>
+            </center>
+            <h2>Mirrors</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-md-offset-2 text-center">
+            <h5>Current.</h5>
+            <div class="service-item">
+              <a href="http://ggs.hakobaito.co.uk/"><h1 class="icon-ios7-circle-filled white"></h1></a>
+              <h4>New York Server</h4>
+              <p class="white">Official location for the Googol GLaDOS Simulator</p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <h5>Old.</h5>
+            <div class="service-item">
+              <a href="http://www.hakobaito.co.uk/googolglados:simulator/"><h1 class="icon-ios7-circle-outline white"></h1></a>
+              <h4>Old Simulator</h4>
+              <p class="white">(Very old and outdated, still useable)</p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+             <h5>Social.</h5>
+            <div class="service-item">
+              <a href="https://www.facebook.com/appcenter/googolgladosimulator"><h1 class="icon-contrast white"></h1></a>
+              <h4>Facebook</h4>
+              <p class="white">Try the simulator on Facebook!</p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <h5>Genesis.</h5>
+            <div class="service-item">
+              <a href="http://www.ienvyu.org/?googolglados"><h1 class="icon-ios7-minus white"></h1></a>
+              <h4>The Original</h4>
+              <p class="white">The Original Googol GLaDOS Simulator, (link dead.)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<p align="center" class=lead> <small> <b>TESTED</b> on all major browsers. <b>Google Chrome is prefered.</b> (other browsers may vary)  </small></span></p>
+    <!-- /Mirrors -->
 
+    <!-- Downloads -->
 
-  </div>
-  
-  <div id="Mirrors" class="tab-pane fade">
-   <h1 align="center" <span data-icon="&#x2d;"> </h1>
-   <p align="center" class="lead"><b>Mirrors</b></p></h1>
-    
-  
-  
-  <p align="center">NOTE: This simulator is running on this mirror: (<a href="http://ggs.hakobaito.co.uk" target="_new" class="Hako_Colour">ggs.hakobaito.co.uk -  San Francisco</a>).
-&lt;---</p>
+   <div id="download" class="block">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            &nbsp;
+            <br>
+             <br>
+                <center>
+              <h1 class="icon-archive white"></h1>
+        </center>
+            <h2>Downloads</h2>
+            <hr>
+            <p class="white">You can download the source code of the simulator through github.</p>
+             <div class="text-center">
+              <center>
+            <h3>GitHub</h3>
+            <div class="service-item">
+              <button class="white btn btn-6 btn-6d"> <a href="http://git.io/vVDqqw"><h1 class="icon-social-github white "></h1></a></button> 
+              <h4>Download</h4>
+              <p class="white">v2.0.1-wheatley</p>
+                  <br>
+             <br>
+              </center>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<p align="center"><b><a href="http://ggs.hakobaito.co.uk/minified">minified & optimised simulator</a></b><span class="Googol_Colour_3"></span><br>
-<br>
-Click here to go to the original site (may be down.) <span class="ienvyu"><a href="http://www.ienvyu.org/?googolglados" title="This is the original site for the javascript googol glados simulator." target="_blank">original site</a>. </span><br>
-</p>
+    <!-- /Downloads -->
 
-<p align="center">Click here for the original (and now obsolete) Googol GLaDOS Simulator (<a href="http://www.hakobaito.co.uk/googolglados:simulator" target="_new" class="Hako_Colour">hakobaito.co.uk</a>).
+    <!-- Before You Continue... -->
 
-<p align="center"> Try the updated simulator on Facebook. <a href="https://www.facebook.com/appcenter/googolgladosimulator" title="server= website. this goes to facebook's app center" target="_new" class="Googol_Colour_1&quot;">Simulator on facebook</a>).
-</p>
+    <div id="block3" class="block_3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            &nbsp;
+            <br>
+             <br>
+              <br>
+              <br>
+              <p id="launch"></p>
+               <br>
+               <br>
+            <h2>Before you continue...</h2>
+            <hr>
+            <center>
+            <h3>This simulator is an animated simulation of the cartoon "Googol GLaDOS".</h3>
+            <br>
+            <h2><u class="red">It is not a virus.</u></h2> 
+            <br>
+            <h3>It's all just animations, nothing will happen to your computer.</h3>
+            <p><i class="white">(Just, lettin you know.)</i></p>
+            <br>
+            <button class="btn btn-1-1 btn-default" OnClick="next()" style="padding: 29px 48px;">Continue!</button> <button class="btn btn-1-1 btn-warning" OnClick="chicken()" style="padding: 29px 50px;">I'm too scared!</button>
+            <br>
+               <br>
+               <br>
+               <br>
+                <br>
+               <br>
+               <br>
+                 <br>
+               <br>
+          </div>
+        </div>
+        </center>
+          </div>
+        </div>
+      </div>
+    </div>
 
-	
-  </div>
-  
-  <div id="Downloads" class="tab-pane fade">
-    <h1 align="center" <span data-icon="&#x2c;"> </h1> 
-    <p align="center" class="lead"><b>Downloads</b></p> 
-	<p align="center">You can download the <b>source code</b> of the simulator from github and other mirrors.</p>
-	
-	<p data-icon="&#x2c;" align="center"><a href="http://git.io/vVDqqw"> &nbsp; GitHub - v2.0c-wheatley</a> </p>
-	
-  </div> 
-  
-  <div id="About" class="tab-pane fade">
-  <h1 align="center" <span data-icon="&#x2a;"> </h1> 
-  <p align="center" class="lead"><b>About</b></p>
-  
-  
-	<p align="center"> This open simulator is an experiment of recreating the animation 'Googol GLaDOS' in JavaScript.</p>
+    <!-- /Before You Continue-->
 
-	<p align="center">Watch this video before using! - <a href="http://youtu.be/sDhc4mKtMkU">http://youtu.be/sDhc4mKtMkU</a></p>
+   <!-- About -->
 
-	<p align="center" class="lead"><b>Why open source + story</b></p>
-
-	<p align="center">I started to work on this when a user (Alex) wrote this application and
+ <div id="intro" class="block_2">
+     
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <br>
+             <br>
+              <br>
+              <br>
+            <center>
+             <h1 class="icon-information-circled black"></h1>
+           </center>
+                <h2 class="black">About</h2>
+            <hr class="black">
+            <p class="lead">An <b>open source</b> experiment of recreating the animation <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU"><b>'Googol GLaDOS'</b></a> in <strong> <abbr title="Javascript">JS</abbr> </strong></p>
+            <p align="center" class="lead"><b>Why open source + story</b></p>
+            <p align="center">I started to work on this when a user (Alex) wrote this application and
   sent his recreated attempt to emulate the animation hakobyte made (googol
   glados) - search on google.</p>
-  
-	<p align="center">But the application was vulnerable and also close to becoming lost, so
+  <p align="center">But the application was vulnerable and also close to becoming lost, so
   I quickly retrieved the raw files from Alex's hosting website</p>
-  
-	<p align="center">I fixed the raw code from the original simulator which is now a dead link,
+  <p align="center">I fixed the raw code from the original simulator which is now a dead link,
   which is why you are seeing a refined version of the simulator right here.</p>
-  
-	<p align="center">Now that Alex is no-longer working on it, (hakobyte) has responsibility
+  <p align="center">Now that Alex is no-longer working on it, (hakobyte) has responsibility
     of maintaining and improving the simulator until I made it open source
     for anyone to download. </p>
-    <p
-  align="center">- <b>Hako  =[],</b></p>
-  </div>
-  
-  <div id="Attributions" class="tab-pane fade">
-  
-  
-<h1 align="center" <span class="animated bouncefinger" data-icon="&#x28;"> </span></h1>
+    <p align="center">- <b>Hako  =[],</b></p>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- /About-->
 
-<p align="center" class="lead"><b>Attributions</b></p>
+    <!-- Credits -->
 
+    <div id="credits" class="credits">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <h3><script language="php"> $randvars = array('Made', 'Crafted', 'Designed', 'Built', 'Created');  $randint = rand(0,4);  echo($randvars[$randint]); </script> with <span style="color:#FF7373;" data-icon="."></span> in England by:</h3>
+            <br>
+            <a href="https://twitter.com/hakobyte" style="padding: 25px 44px;" class="btn btn-1-1-1 btn-1d">@hakobyte</a>
+            <a href="https://twitter.com/BlahBlah_BEN" style="padding: 25px 44px;" class="btn btn-1-1-1 btn-1d">@BlahBlah_BEN</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<p align="center"> The Googol GLaDOS Simulator was completely <b>(re)designed</b>, <b>coded</b>, <b>crafted</b> and made from scratch using <b>open source</b> tools and libraries:</p>
-  &nbsp;
-  <p align="center">  
-  <p align="center"> Crafted with <b>Flat UI</b></p>
-  <p align="center"> Constructed with <b>Flatstrap</b> (Based on twitter's wonderful bootstrap framework by <a href="https://twitter.com/mdo">@mdo</a> & <a href="https://twitter.com/fat">@fat</a></p>
-  <p align="center"> HTML5 Audio processed by the loud and proud <b>howler.js</b></p>
-  <p align="center"> Server provided by <b>Digital Ocean</b></p>
-  <p align="center"> Dynamic CSS3 animations made with the help of <b>Animate.css</b>
-  <p align="center"> Icons by <b><a href="http://weloveiconfonts.com/">weloveiconfonts.com</a></b> & <b><a href="http://icomoon.io">iconmoon.io</a></b> by <a href="http://twitter.com/keyamoon">@keyamoon</a> </p>
-  <p align="center"> Fonts used <b><a href="http://iotic.com/averia/">Averia Sans Libre</a> hosted by <a href="http://www.google.com/webfonts">The Google Web Fonts Directory</a></b></p>
-  <p align="center"> Built with <b>HTML 5</b> <i>(using the HTML5 Boilerplate)</i> and <b>Javascript</b> as a backend</p>
-  <p align="center"> Originally created and coded by (again) <b>Alex I'Anson</b> - <a href="https://twitter.com/BlahBlah_BEN">@BlahBlah_BEN</a></p>
-  <p align="center"> But rewritten and revived by <b>Wesley Hill</b> - <a href="https://twitter.com/hakobyte">@hakobyte</a> </p>
-  
+    <!-- /Credits -->
 
-<p align="center"> <br>If you'd like to make it <i>even better</i>, grab the source code on <a href="http://git.io/7O4kKQ">github!</a></p>
-  
-  &nbsp;
-  
-  <p align="center">And I thank you for trying the simulator! :D here's your cake you've been finally waiting for.</p>
-  
-	
-	<p class="animated fadeOutRightBig"><img src="img/cake.svg" id="iliedcake"></p>
-    <p span style="color:#FFF;" class="peekaboo2" align="center">I LIED</p> 
+    <!-- Footer -->
 
-  <p class="shake" align="center"><a href="https://www.digitalocean.com/?refcode=c9489c76b1b2"><img src="img/digitalocean-badge-gray.png"></a></p>
-  
-  </div>
-  
-		  <script>
-		  
-		  
-		jQuery('#Info a').click(function (e) {
-		  
-			 e.preventDefault();
-			 jQuery(this).tab('show');
-
-		   });
-		</script> 
-
-		<script>
-
-
-		function redirect()
-
-		{
-			window.location='http://www.hakobaito.co.uk/b/q-is-the-gg-s-simulator-a-virus';
-		}
-		
-		 function next()
-
-		 {
-
-		$("body").fadeOut(400);
-
-		window.location='step1.php';
-
-		}
-
-		</script>
-
-
-		<script>
-		
-
-		 function chicken()
-
-		 {
-		
-		 var chicken = new Howl({
-  urls: ['/Sound/chicken.wav']
-		}).play();
-
-		 $("body").fadeOut(400);
-
-		setTimeout('redirect()',3000);
-
-		}
-
-
-
-		</script>	
-
+    <footer>
+        <br>
+        <br>
 </div>
-
-<footer>
-
-<div id="wrap">
-
-<div class="footer">
-
-<div class="container">
-
-<div align="center">
-
-  <img style="border: 0px solid ; display: inline;" alt="counter" 
-	src="http://hit-counter.info/hit.php?id=437571&counter=34">
-	
-	&nbsp;
-	
-	<!--LiveInternet counter--><script type="text/javascript"><!--
-document.write("<a href='http://www.liveinternet.ru/click' "+
-"target=_blank><img src='//counter.yadro.ru/hit?t26.14;r"+
-escape(document.referrer)+((typeof(screen)=="undefined")?"":
-";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
-screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
-";"+Math.random()+
-"' alt='' title='LiveInternet: number of visitors for today is"+
-" shown' "+
-"border='0' width='88' height='15'><\/a>")
-//--></script><!--/LiveInternet-->
-
-</div>
-
-
-
-<div align="center"><br> 
-
-
-
-<script src="https://apis.google.com/js/plusone.js"></script>
-
-<div class="g-ytsubscribe" data-channel="hakobyte" data-layout="default"></div> 
-
-</div>
-
-<p class"muted credit"><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_3">-</span><span class="Googol_Colour_4">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_2">-</span><span class="Googol_Colour_1">-</span><span class="Googol_Colour_4">-</span></p>
-<br>
-
-
-<div style="margin: 0 auto; width: 328px; position:relative; text-align:center" >
-<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fggs.hakobaito.co.uk&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font=lucida+grande&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=341474015936755" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:79px; height:21px;" allowTransparency="true"></iframe>
-
-&nbsp;
-&nbsp;
-&nbsp;
-
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://ggs.hakobaito.co.uk">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-
-<div class="g-plusone" data-size="medium" data-href="http://ggs.hakobaito.co.uk"></div>
-<script>
-    
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-
-</script>
-
-</div>
-
-
-
-
-
-<p class"muted credit">
-  <a href="http://goo.gl/I7w8X" class="openwebicons-cc" title="Googol GLaDOS Simulator by Alex I'Anson is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License."></a><a href="http://goo.gl/I7w8X" class="openwebicons-cc-by"></a><a href="http://goo.gl/I7w8X" class="openwebicons-cc-nc active"></a><a href="http://goo.gl/I7w8X" class="openwebicons-cc-share"></a><a href="http://goo.gl/I7w8X" class="openwebicons-cc-remix"></a>
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <br>
+            <br>
+            <ul class="list-inline">
+              <li><a href="https://www.facebook.com/GoogolGLadosSimulator"><h3 class="icon-facebook"></h3></li>
+              <li><a href="https://www.youtube.com/watch?v=sDhc4mKtMkU"><h3 class="icon-social-youtube"></h3></li></a>
+              <li><a href="http://git.io/7O4kKQ"><h3 class="icon-social-github"></h3></li></a>
+              <li><a href="http://hakob.yt/donate" title="donate to hakobyte using paypal!"><h3 class="zocial-paypal"></h3></a></li>
+              <li><a href="http://www.hakobaito.co.uk/b/a-real-googol-glados"><h3 class="icon-social-windows"></h3></li></a>
+            </ul>
+            <p class"muted="" credit"=""><a href="http://www.hakobaito.co.uk">hakobaito.co.uk</a> | <a href="http://www.hakobaito.co.uk/ha.ko/4rbr4">privacy policy</a> | <a href="http://status.ggs.hakobaito.co.uk/">simulator status</a>
 </p>
+            <hr>
+            <p>&copy; 2014</p>
+            <small>The Googol GLaDOS Simulator by Alex I'Anson is licensed under a Creative Commons NC License.</small>
+            <br>
+            <small>v2.0.1-wheatley-release</small>
+
+          <?php
+          $start = microtime(true);
+           
+          $end = microtime(true);
+          $time = number_format(($end - $start), 2);
+           
+          echo '<br ><small>loaded in ', $time, 's</small>';
+          ?>
+                    
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+    <!-- /Footer -->
+
+  <!-- Bootstrap core JavaScript -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/howler.js"></script>
+
+  <!-- Transition -->
+  <script>
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+              || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
 
 
-<p class"muted credit">Maintained and (re)created with 
-<span style="color:#FF7373;" data-icon="&#x2e;"></span> in England by <a href="https://www.twitter.com/hakobyte">@hakobyte</a> 
-
-|  Originally made by <a href="https://twitter.com/BlahBlah_BEN">@BlahBlah_BEN</a>
-</p> 
-
-<p class"muted credit"><a href="http://www.hakobaito.co.uk">hakobaito.co.uk</a> | <a href="http://www.hakobaito.co.uk/ha.ko/4rbr4">privacy policy</a> | <a href="http://status.ggs.hakobaito.co.uk/">simulator status</a>
-</p>
-
-
-<p span style="color:#FF7373;" class"muted credit"><a href="http://git.io/7O4kKQ" title="fork me on github!"><span data-icon="&#x32;"></span></a>
-&nbsp;
-<a href="https://www.facebook.com/GoogolGLadosSimulator" title="like us on facebook!" <span data-icon="&#x31;"> </span></a>
-&nbsp;
-<a href="https://www.youtube.com/watch?v=sDhc4mKtMkU" title="watch the video on youtube!" class="zocial-youtube active"></a>
-&nbsp;
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6MUNXZRW3N24Q"title="donate to hakobyte using paypal!" class="zocial-paypal"></a>
-&nbsp;
-<a href="bitcoin:1hakogUQNe9ghrAmb1zZw44njtzhitDXh?amount=0.2&label=hako" title="donate to hakobyte using bitcoin!" class="zocial-bitcoin"></a>
-
-<p class"muted credit"> <a href="http://www.w3.org/html/logo/" class="footercusthtml5 openwebicons-html5"></a></p>
-
-<p class"muted credit"><small>v 2.0c wheatley</small></p>
-
-</div>
-
-
-</p>
-</p>
 
 
 
-</div>
-</div>
-
-</div>
-</footer>
-
-
-	<!-- Load JS here for the greater good =============================-->
-
-	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-	<script type="text/javascript" src="js/jquery-ui-1.10.0.custom.min.js"></script>
-	<script type="text/javascript" src="js/jquery.dropkick-1.0.0.js"></script>
-	<script type="text/javascript" src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-	<script type="text/javascript" src="js/custom_checkbox_and_radio.js"></script>
-	<script type="text/javascript" src="js/custom_radio.js"></script>
-	<script type="text/javascript" src="js/jquery.tagsinput.js"></script>
-	<script type="text/javascript" src="js/bootstrap-tooltip.js"></script>
-	<script type="text/javascript" src="js/bootstrap-transition.js"></script>
-    <script type="text/javascript" src="js/bootstrap-alert.js"></script>
-    <script type="text/javascript" src="js/bootstrap-modal.js"></script>
-    <script type="text/javascript" src="js/bootstrap-dropdown.js"></script>
-    <script type="text/javascript" src="js/bootstrap-scrollspy.js"></script>
-    <script type="text/javascript" src="js/bootstrap-tab.js"></script>
-    <script type="text/javascript" src="js/bootstrap-tooltip.js"></script>
-    <script type="text/javascript" src="js/bootstrap-popover.js"></script>
-    <script type="text/javascript" src="js/bootstrap-button.js"></script>
-    <script type="text/javascript" src="js/bootstrap-collapse.js"></script>
-    <script type="text/javascript" src="js/bootstrap-carousel.js"></script>
-    <script type="text/javascript" src="js/bootstrap-typeahead.js"></script>
-    <script type="text/javascript" src="js/bootstrap-affix.js"></script>
-    <script type="text/javascript" src="js/application.js"></script>
-	<script type="text/javascript" src="js/jquery.placeholder.js"></script>
-	<script type="text/javascript" src="http://vjs.zencdn.net/c/video.js"></script>
-	<script type="text/javascript" src="js/application.js"></script>
-	<script type="text/javascript" src="js/howler.js"></script>
-	<script type="text/javascript" src="js/classie.js"></script>
-	<script type="text/javascript" src="js/modalEffects.js"></script>
-	<script type="text/javascript" src="js/cssParser.js"></script>
-
-	<script>
-			// this is important for IEs
-			var polyfilter_scriptpath = "js/css-filters-polyfill/";
-	</script>
-	
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-40110018-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-  _paq.push(["setCookieDomain", "*.ggs.hakobaito.co.uk"]);
-  _paq.push(["setDomains", ["*.ggs.hakobaito.co.uk"]]);
-  _paq.push(["trackPageView"]);
-  _paq.push(["enableLinkTracking"]);
-
-  (function() {
-    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://www.hakobaito.co.uk/piwik-analytics/";
-    _paq.push(["setTrackerUrl", u+"piwik.php"]);
-    _paq.push(["setSiteId", "4"]);
-    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
-    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-
-<!-- End Piwik Code -->
-
-
-	<!-- Load JS here for the greater good =============================-->
+  <!-- Load JS here for the greater good =============================-->
 
     <!--[if lt IE 8]>
       <script src="js/icon-font-ie7.js"></script>
       <script src="js/icon-font-ie7-24.js"></script>
     <![endif]-->
 
-    </body>
+
+
+<!-- Redirect & Chicken noise.-->
+
+    <script>
+
+    function redirect()
+
+    {
+      window.location='http://www.hakobaito.co.uk/b/q-is-the-gg-s-simulator-a-virus';
+    }
+    
+     function next()
+
+     {
+
+    $("body").fadeOut(400);
+
+    window.location='step1.php';
+
+    }
+
+    </script>
+
+
+    <script>
+    
+
+     function chicken()
+
+     {
+    
+     var chicken = new Howl({
+  urls: ['Sound/chicken.wav']
+    }).play();
+
+     $("body").fadeOut(400);
+	 
+    setTimeout('redirect()',3000);
+
+    }
+
+    </script>
+
+  </body>
 
 </html>

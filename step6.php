@@ -67,7 +67,7 @@ step6.php
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <!--<![endif]-->
 
-<html lang="en" class="no-js" manifest="cache.appcache">
+<html lang="en" class="no-js">
 
 <head>
 
@@ -228,7 +228,7 @@ step6.php
     function give_link(){document.getElementById('linkdiv').innerHTML='<button class="animated shake Googol_Simulator_Font_Size btnl btn btn-large btn-success" input value="Ignore Me" onClick="next()" type="button" ><b>Ignore Me.</b><br></button>';}
     
 	var glados6 = new Howl({
-  urls: ['/Sound/glados_s6.wav']
+  urls: ['/new/Sound/glados_s6.wav']
 }).play();
 	
 	
@@ -295,41 +295,12 @@ function googleTranslateElementInit() {
 	<script type="text/javascript" src="http://vjs.zencdn.net/c/video.js"></script>
 	<script type="text/javascript" src="js/application.js"></script>
 	<script type="text/javascript" src="js/howler.js"></script>
-
-	
-	<script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-	</script>
 	
 	<script>
 	
 	function next(){window.location='step7.php';}
 	
 	</script>
-
-
-	<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-  _paq.push(["setCookieDomain", "*.ggs.hakobaito.co.uk"]);
-  _paq.push(["setDomains", ["*.ggs.hakobaito.co.uk"]]);
-  _paq.push(["trackPageView"]);
-  _paq.push(["enableLinkTracking"]);
-
-  (function() {
-    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://www.hakobaito.co.uk/piwik-analytics/";
-    _paq.push(["setTrackerUrl", u+"piwik.php"]);
-    _paq.push(["setSiteId", "4"]);
-    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
-    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Piwik Code -->
-
 
 	<!-- Load JS here for the greater good =============================-->
 
