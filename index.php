@@ -386,7 +386,7 @@ index.php
               <center>
             <h3>GitHub</h3>
             <div class="service-item">
-              <button class="white btn btn-6 btn-6d"> <a href="http://git.io/vVDqqw"><h1 class="icon-social-github white "></h1></a></button> 
+              <button class="white btn btn-6 btn-6d"> <a href="http://git.io/I_Qa2Q"><h1 class="icon-social-github white "></h1></a></button> 
               <h4>Download</h4>
               <p class="white">v2.0.1-wheatley</p>
                   <br>
