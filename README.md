@@ -3,6 +3,7 @@
 
 #googol glados simulator
 
+[![Gitter chat](https://badges.gitter.im/hako/googol-glados-simulator.png)](https://gitter.im/hako/googol-glados-simulator)
 
 A JS + PHP experimental recreation of the animation Googol GLaDOS.
 
