@@ -1,5 +1,4 @@
-![](https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash4/486568_255564404546345_1426487102_n.jpg)
-
+![1948142_443375062431944_1263199687_n](https://cloud.githubusercontent.com/assets/2040416/3561932/b0586d94-09d8-11e4-919c-3ab821165d4e.png)
 
 #googol glados simulator
 
@@ -7,114 +6,110 @@
 
 A JS + PHP experimental recreation of the animation Googol GLaDOS.
 
+(Not Googol GLaDOS 2.0)
 
-Googol GLaDOS - YouTube
+[Googol GLaDOS - YouTube](http://www.youtube.com/watch?v=sDhc4mKtMkU)
 
-http://www.youtube.com/watch?v=sDhc4mKtMkU
+Simulator in action:
 
+[http://ggs.hakobaito.co.uk](http://ggs.hakobaito.co.uk)
 
-Simulator in action
+Old version:
 
-http://ggs.hakobaito.co.uk
-
-
-NOTE: _Alex I'Anson's original link is 404'd and does not exist._
-
-<del>http://www.ienvyu.org/?googolglados<del>
-
-=======================
-
-
-Downloads
--
-
-You can grab the latest source code of the googol glados simulator here.
-
-https://github.com/hako/googol-glados-simulator/releases
-
-
-=======================
-
-TODO:
--
-
-+ Cross browser compatibility. ☐
-
- LAST TESTED: Mon, 08 Jul 2013 14:36:57 GMT
- 
- **You might as well use a HTML5 compatiable browser**
-
- + **Google Chrome** - **Perfect! :D** ☑
- + **Mozilla Firefox** - **Perfect! :D** ☑
- + **Opera** - **Perfect! :D** ☑
- + **Internet Explorer 10** - fair enough.. ☑
- + **Haiku WebPositive** - need to test. ☐
- + **Safari** - audio fail. :/ ✘
- + <del>3DS</del> - NO AUDIO SUPPORT. ✘✘
-
-
-+ REAL and better graphics (SVG's) ☑
-+ Add **impressive** JS or CSS animations. (my favorite!) ☑
-+ Mobile support (soso)
-+ Improving design. ☑
-+ Audio fixes for all browsers (Even mobile) ☐
-+ Replace current voices. ☑
-+ Make simulator even more cleaner & clearer ☑
-+ Minified version. ☑
+[http://archive.alexianson.co.uk/gg/1/](http://archive.alexianson.co.uk/gg/1/)
 
 <br>
 
 =======================
 
-
-Instructions:
+Tested browsers:
 -
+<br>
+
+  LAST TESTED: Sat 12 Jul 2014 19:37:05 BST
+
+ + **Google Chrome** ☑☑
+ + **Mozilla Firefox** ☑
+ + **Opera** ☑
+ + **Internet Explorer 10** ☑
+ + **Safari** ✘  
+
+Legend:
+
+
+☑☑ - Recommended.
+
+☑ - Working.
+
+✘ - Not working.
  
->
-**Before you continue this simulator, watch this video [Googol GLaDOS](http://www.youtube.com/watch?v=sDhc4mKtMkU) (if you haven't already)**
-
-   
-> Please note, **everything you see is just animations**, **_nothing_** is actually being downloaded & installed onto your computer.
-
-   
-> You must wait before running the simulator because it will cache all the files needed to run smoothly.
-   
-> The simulator can also be run offline once the files are all cached.
-(you will know this if the page has finished loading.)
-
-   
-> The simulator has been extensively **TESTED** on all major browsers. **Google Chrome is prefered.** 
-
-> _(other browsers may vary, use at your own risk.)_
+<br>
 
 =======================
 
-Install
+Downloads
 -
 
-+ Windows - WAMP or UniServer
+You can grab the latest source code of the googol glados simulator with the link below.
 
-+ Mac OS - Homebrew - Apache (with the Apache PHP module installed (mod_php) )
+[https://github.com/hako/googol-glados-simulator/releases](https://github.com/hako/googol-glados-simulator/releases)
 
- + ( MAMP Server is fine too.)
+<br>
 
-+ Linux - LAMP Server
 
-Use any of these to get cracking with the googol glados simulator on your server.
+========================
 
-_Place the whole source in var/www if you use *nix OS_
+Usage:
+-
+
+<br>
+
+###General Instructions:
+
+If you want general instructions on how to **use** the simulator, go here.
+
+[http://ggs.hakobaito.co.uk/instructions](http://ggs.hakobaito.co.uk/#intro)
+
+<br>
+
+###Install Instructions:
+
+If you want to run the simulator locally, clone this repository and put the files in your web server's directory. Below is a list of webservers you can use locally.
+
+
+#Windows 
++ WAMP or UniServer
+	+ Place the files in `htdocs` and run the server.
+
+#OS X
+
++ Apache + PHP (You can install via brew)
+	+ run `php -S localhost:8000`
++ (MAMP Server is fine too.)
+
+
+#Linux
+
++ Apache + PHP (You can install via apt)
+	+ run `php -S localhost:8000`
++ (XAMP, LAMP Servers are fine too.)
+	
+Use any of these to get cracking with the Googol GLaDOS Simulator.
+
+You are free to host the simulator on your own public server as well.
 
 =======================
-
 
 Credits:
 -
 
 + Alex I'Anson (@BlahBlah_BEN) - Original author + code
 
-+ Wesley Hill (@hakobyte) - Editing + additional code + Bug fixing
++ Wesley Hill (@hakobyte) - Maintaining + additional code + Bug fixing
 
-<insert name here>
+<br>
+
+=======================
 
 LICENSE
 -

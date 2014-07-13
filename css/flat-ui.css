@@ -1063,7 +1063,7 @@ textarea[readonly] {
 input,
 textarea,
 .uneditable-input {
-  width: 192px; }
+  /* width: 192px; */ }
 
 .checkbox,
 .radio {

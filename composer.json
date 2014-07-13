@@ -1,0 +1,15 @@
+{
+    "name": "hako/googol-glados-simulator",
+    "require": {
+        "mikecao/flight": "dev-master",
+        "mobiledetect/mobiledetectlib": "dev-master"
+    },
+    "license": "Creative Commons",
+    "authors": [
+        {
+            "name": "Wesley Hill",
+            "email": "wesley@hakobaito.co.uk"
+        }
+    ],
+    "minimum-stability": "dev"
+}

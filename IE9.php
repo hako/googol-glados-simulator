@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>HEY THERE 1E9 USER.</title>
+<title>HEY THERE IE9 USER.</title>
 
 <link rel="icon" href="images/GDOS.gif" type="image/gif" >
 

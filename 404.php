@@ -1,71 +1,3 @@
-<!--
-
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-   +VVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXY    V
-VVV    .VVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXI    VXXXV
-VVVVVVV     VIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXV     XXXXXXXV
-VVVVVVV         IIIIIIIIIIIII;;;;;;;;;;;;;;;;         XXXXXXXV
-VVVVVVV        :  IIIIIIIIIII;;;;;;;;;;;;;;  X        XXXXXXXV
-VVVVVVV       IIIIIIIIIIIIIII;;;;;;;;;;;;;;;;X       XXXXXXXXV
-VVVVVVVV     IIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XX     VXXXXXXXXV
-VVVVVVVVVV;iVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXX=iXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXX:XXXXV
-VVVVVV VVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXX XXXXXXV
-VVVVVVVV  VVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXX  XXXXXXXV
-VVVVVVVVV:   IIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXX.  YXXXXXXXXV
-VVVVVVVVVVV     :IIIIIIIIIIII;;;;;;;;;;;;;;;;X    .XXXXXXXXXXV
-VVVVVVVVVVVVV        ;IIIIIII;;;;;;;;;;;;,       XXXXXXXXXXXXV
-VVVVVVVVVVVVVII:                               XXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIII                          ;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIII                    ;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIi           ;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
-
-
-
-	   ,ad8888ba,    ,ad8888ba,   ad88888ba   
-	  d8"'    `"8b  d8"'    `"8b d8"     "8b  
-	 d8'           d8'           Y8,          
-       88            88            `Y8aaaaa,    
-       88      88888 88      88888   `"""""8b,  
-       Y8,        88 Y8,        88         `8b  
-        Y8a.    .a88  Y8a.    .a88 Y8a     a8P  
-	  `"Y88888P"    `"Y88888P"   "Y88888P"   
-
-
-
-
-<!--
-
-404 - Yeah.
-
--->
-
-
 <!DOCTYPE html>
 
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -85,7 +17,7 @@ VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="description" content="A HTML5 Simulator">
 		<meta name="viewport" content="width=device-width">
-	
+
 
 		<link href="img/GDOS.gif" rel="shortcut icon" >
 		<link rel="icon" type="image/png" href="favicon.png">
@@ -94,35 +26,35 @@ VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
 		<link href="css/normalize.min.css" rel="stylesheet" >
 		<link href="css/docs.css" rel="stylesheet">
 		<link href="css/main.css" rel="stylesheet" >
-		<link href="css/animate-custom.css" rel="stylesheet">	
+		<link href="css/animate-custom.css" rel="stylesheet">
 		<link href="css/flat-ui.css" rel="stylesheet">
 		<link href="css/bootstrap-responsive.css" rel="stylesheet">
         <link href="css/real-world.css" rel="stylesheet">
 		<link href="css/fonts.css" rel="stylesheet">
-		
-		<link rel="apple-touch-icon" href="apple-touch-icon-iphone.png" /> 
-		<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-ipad.png" /> 
+
+		<link rel="apple-touch-icon" href="apple-touch-icon-iphone.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-ipad.png" />
 		<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-iphone4.png" />
 		<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-ipad3.png" />
 
-		
+
 
 		<!--THEY LOAD ONE BY ONE IN PRECEDING ORDER.-->
 
 		<style type="text/css">
 
-		@import url(http://fonts.googleapis.com/css?family=Averia+Sans+Libre);
+		@import url(https://fonts.googleapis.com/css?family=Averia+Sans+Libre);
 
-		@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+		@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
 
 
 			.btnl
 
 			{
 
-			
+
 			box-shadow: 0px 5px 0px rgb(165, 48, 35);
-			
+
 
 
 
@@ -133,30 +65,30 @@ VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
 				font-size: 20px;
 				color: rgb(00, 00, 00);
 			}
-			
+
 
 			.jumbotron a:hover {
 			  color: #babdb6;
 			  text-shadow: 0 0 10px rgba(255,255,255,.25);
 			}
-			
-			
-			a:hover 
-			
+
+
+			a:hover
+
 			{
 			color: #E34C26;
-				
+
 			}
-			
-			
+
+
 			 html,
 		  body {
-			
-			
+
+
 			background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAALElEQVQYV2P8z8Dgw8jAsAVGM+AAQDUMDIQUgdQwkmQiLuuQxcFWEwOGlUIAJhcKC0UL9z0AAAAASUVORK5CYII=) repeat;
 			/* The html and body elements cannot have any padding or margin. */
 		  }
-	
+
 		  /* Wrapper for page content to push down footer */
 		  #wrap {
 			min-height: 100%;
@@ -165,7 +97,7 @@ VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
 			/* Negative indent footer by it's height */
 			margin: 0 auto -60px;
 		  }
-	
+
 		  /* Set the fixed height of the footer here */
 		  #push,
 		  #footer {
@@ -174,7 +106,7 @@ VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
 		  #footer {
 			background-color: #f5f5f5;
 		  }
-	
+
 		  /* Lastly, apply responsive CSS fixes as necessary */
 		  @media (max-width: 767px) {
 			#footer {
@@ -184,22 +116,22 @@ VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
 			  padding-right: 20px;
 			}
 		  }
-				
+
 			.Googol
 			{
 			font-family: 'Conv_Catull';
 			text-align: center;
 			font-size: 70px;
-			
+
 
 			}
-			
+
 			.Googol_Simulator_Font_Colour {
 				font-family: 'Averia Sans Libre', cursive;
 				color: #FFF;
 				font-size: 14px;
 			}
-			
+
 			.horizontal-break {
 			font-size: 90px;
 			font-weight: 900;
@@ -207,36 +139,36 @@ VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
 			line-height: 100px;
 			font-family: 'Averia Sans Libre', cursive;
 			}
-			
+
 			.Three-Dee{
 			font-family: 'Averia Sans Libre', cursive;
-		
+
 			color: #ff1212;
 			font-weight:bold;
 			font-size: 280px;
 			text-shadow:0px 0px 0 rgb(223,-14,-14),0px 1px 0 rgb(212,-25,-25),0px 2px 0 rgb(200,-37,-37),0px 3px 0 rgb(188,-49,-49),0px 4px 0 rgb(177,-60,-60),0px 5px 0 rgb(165,-72,-72),0px 6px 0 rgb(153,-84,-84),0px 7px 0 rgb(142,-95,-95),0px 8px 0 rgb(130,-107,-107),0px 9px 0 rgb(118,-119,-119),0px 10px 0 rgb(107,-130,-130),0px 11px 0 rgb(95,-142,-142), 0px 12px 0 rgb(83,-154,-154),0px 13px 12px rgba(0,0,0,0.55),0px 13px 1px rgba(0,0,0,0.5),0px 0px 12px rgba(0,0,0,.2);}
 
-			
-			
-			
-			
+
+
+
+
 		@-webkit-keyframes fadeIn2 {
-			  0% {opacity: 0;}	
+			  0% {opacity: 0;}
 			100% {opacity: 1;}
 		}
 
 		@-moz-keyframes fadeIn2 {
-			0% {opacity: 0;}	
+			0% {opacity: 0;}
 			100% {opacity: 1;}
 		}
 
 		@-o-keyframes fadeIn2 {
-			0% {opacity: 0;}	
+			0% {opacity: 0;}
 			100% {opacity: 1;}
 		}
 
 		@keyframes fadeIn2 {
-			0% {opacity: 0;}	
+			0% {opacity: 0;}
 			100% {opacity: 1;}
 		}
 
@@ -245,7 +177,7 @@ VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
 			-moz-animation-name: fadeIn2;
 			-o-animation-name: fadeIn2;
 			animation-name: fadeIn2;
-	
+
 			-webkit-animation-iteration-count: 1;
 			-moz-animation-iteration-count: 1;
 			-ms-animation-iteration-count: 1;
@@ -261,22 +193,22 @@ VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
 
 
 		@-webkit-keyframes fadeIn3 {
-			  0% {opacity: 0;}	
+			  0% {opacity: 0;}
 			100% {opacity: 1;}
 		}
 
 		@-moz-keyframes fadeIn3 {
-			0% {opacity: 0;}	
+			0% {opacity: 0;}
 			100% {opacity: 1;}
 		}
 
 		@-o-keyframes fadeIn3 {
-			0% {opacity: 0;}	
+			0% {opacity: 0;}
 			100% {opacity: 1;}
 		}
 
 		@keyframes fadeIn3 {
-			0% {opacity: 0;}	
+			0% {opacity: 0;}
 			100% {opacity: 1;}
 		}
 
@@ -285,7 +217,7 @@ VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
 			-moz-animation-name: fadeIn3;
 			-o-animation-name: fadeIn3;
 			animation-name: fadeIn3;
-	
+
 			-webkit-animation-iteration-count: 1;
 			-moz-animation-iteration-count: 1;
 			-ms-animation-iteration-count: 1;
@@ -298,25 +230,25 @@ VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
 			-o-animation-delay: 3s;
 			animation-delay: 3s;
 		}
-		
-		
+
+
 				@-webkit-keyframes fadeIn4 {
-			  0% {opacity: 0;}	
+			  0% {opacity: 0;}
 			100% {opacity: 1;}
 		}
 
 		@-moz-keyframes fadeIn4 {
-			0% {opacity: 0;}	
+			0% {opacity: 0;}
 			100% {opacity: 1;}
 		}
 
 		@-o-keyframes fadeIn4 {
-			0% {opacity: 0;}	
+			0% {opacity: 0;}
 			100% {opacity: 1;}
 		}
 
 		@keyframes fadeIn4 {
-			0% {opacity: 0;}	
+			0% {opacity: 0;}
 			100% {opacity: 1;}
 		}
 
@@ -325,7 +257,7 @@ VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
 			-moz-animation-name: fadeIn4;
 			-o-animation-name: fadeIn4;
 			animation-name: fadeIn4;
-	
+
 			-webkit-animation-iteration-count: 1;
 			-moz-animation-iteration-count: 1;
 			-ms-animation-iteration-count: 1;
@@ -341,8 +273,8 @@ VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
 
 
         </style>
-		
-	
+
+
 	</head>
 
 	<body>
@@ -379,18 +311,18 @@ VVVVVVVVVVVVVIIIIIIIIIIIIIIII;;;;;;;;;;;;;;;;XXXXXXXXXXXXXXXXV
 	<script type="text/javascript" src="js/bootstrap-tooltip.js"></script>
 	<script type="text/javascript" src="js/bootstrap-tab.js"></script>
 	<script type="text/javascript" src="js/jquery.placeholder.js"></script>
-	<script type="text/javascript" src="http://vjs.zencdn.net/c/video.js"></script>
+	<script type="text/javascript" src="https://vjs.zencdn.net/c/video.js"></script>
 	<script type="text/javascript" src="js/application.js"></script>
 	<script type="text/javascript" src="js/howler.js"></script>
-	
+
 		<script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
-		
-		
+
+
 	<script>
 
 			function next(){window.location.href='http://ggs.hakobaito.co.uk';}
