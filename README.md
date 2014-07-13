@@ -73,7 +73,9 @@ If you want general instructions on how to **use** the simulator, go here.
 ###Requirements
 
 PHP 5.4+
-Apache or any webserver below
+
+Apache _(or any webserver below.)_
+
 Composer
 
 If you want to run the simulator locally, clone this repository and put the files in your web server's directory. Below is a list of webservers you can use locally.
