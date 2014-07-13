@@ -70,8 +70,18 @@ If you want general instructions on how to **use** the simulator, go here.
 
 ###Install Instructions:
 
+###Requirements
+
+PHP 5.4+
+Apache or any webserver below
+Composer
+
 If you want to run the simulator locally, clone this repository and put the files in your web server's directory. Below is a list of webservers you can use locally.
 
+1. clone the repo into the root of your webserver using: 
+ + `git clone https://github.com/hako/googol-glados-simulator.git`
+
+2. run `composer install` or `php composer install` to install the dependencies.
 
 #Windows 
 + WAMP or UniServer
