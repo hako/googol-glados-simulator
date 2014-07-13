@@ -20,7 +20,6 @@ Old version:
 
 <br>
 
-=======================
 
 Tested browsers:
 -
@@ -45,7 +44,6 @@ Legend:
  
 <br>
 
-=======================
 
 Downloads
 -
@@ -56,8 +54,6 @@ You can grab the latest source code of the googol glados simulator with the link
 
 <br>
 
-
-========================
 
 Usage:
 -
@@ -98,7 +94,6 @@ Use any of these to get cracking with the Googol GLaDOS Simulator.
 
 You are free to host the simulator on your own public server as well.
 
-=======================
 
 Credits:
 -
@@ -109,7 +104,6 @@ Credits:
 
 <br>
 
-=======================
 
 LICENSE
 -
