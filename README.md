@@ -110,7 +110,7 @@ You are free to host the simulator on your own public server as well.
 Credits:
 -
 
-+ Alex I'Anson (@BlahBlah_BEN) - Original author + code
++ Alex I'Anson (@Gauntus) - Original author + code
 
 + Wesley Hill (@hakobyte) - Maintaining + additional code + Bug fixing
 
