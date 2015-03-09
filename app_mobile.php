@@ -385,7 +385,7 @@ echo ($randvars[$randint]);
 </script>with <span style="color:#FF7373;" data-icon="."></span> in England by:</h3>
             <br>
             <a href="https://twitter.com/hakobyte" style="padding: 25px 44px;" class="btn btn-1-1-1 btn-1d">@hakobyte</a>
-            <a href="https://twitter.com/BlahBlah_BEN" style="padding: 25px 44px;" class="btn btn-1-1-1 btn-1d">@BlahBlah_BEN</a>
+            <a href="https://twitter.com/Gauntus" style="padding: 25px 44px;" class="btn btn-1-1-1 btn-1d">@Gauntus</a>
           </div>
         </div>
       </div>
