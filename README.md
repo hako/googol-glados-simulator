@@ -1,6 +1,6 @@
 ![](https://cloud.githubusercontent.com/assets/2040416/3561932/b0586d94-09d8-11e4-919c-3ab821165d4e.png)
 
-#Googol GlaDOS Simulator
+#Googol GLaDOS Simulator
 
 An experimental recreation of the animation _['Googol GLaDOS'](http://www.youtube.com/watch?v=sDhc4mKtMkU)_ written entirely in Javascript.
 
