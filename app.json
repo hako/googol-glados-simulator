@@ -1,0 +1,7 @@
+{
+  "name": "Googol GLaDOS Simulator",
+  "description": "A web simulation recreating the animation Googol GLaDOS.",
+  "repository": "http://github.com/hako/googol-glados/simulator/",
+  "logo": "http://github.com/hako/googol-glados/simulator/public/img/logo.svg",
+  "keywords": [ "node", "express", "javascript", "animation", "glados"]
+}

@@ -1,0 +1,209 @@
+@import url(http://fonts.googleapis.com/css?family=Averia+Sans+Libre);
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+p {
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 36px;
+    color: #2e3436;
+}
+
+h1 {
+    font-family: 'Conv_Catull';
+}
+
+.Googol_Colour {
+    color: #2E5CEB;
+}
+
+.Googol_Colour_0 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_1 {
+    color: #FDBA17;
+}
+
+.Googol_Colour_2 {
+    color: #2E5CEB;
+}
+
+.Googol_Colour_3 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_4 {
+    color: #069519;
+}
+
+.Googol_Colour_5 {
+    color: #FDBA17;
+}
+
+.Googol_Colour_6 {
+    color: #069519;
+}
+
+.Googol_Colour_7 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_8 {
+    color: #2E5CEB;
+}
+
+.Googol_Colour_9 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_10 {
+    color: #2E5CEB;
+}
+
+.Googol_Simulator_Font_Colour {
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 36px;
+    color: #333
+}
+
+.Googol_Simulator_Adsense {
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 53px;
+    color: #333
+}
+
+.Googol_Simulator_Adsense_Account {
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 53px;
+    color: #cc0000
+}
+
+@-webkit-keyframes flashing {
+    0%, 50%, 100% {
+        opacity: 1;
+    }
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes flashing {
+    0%, 50%, 100% {
+        opacity: 1;
+    }
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+
+@-o-keyframes flashing {
+    0%, 50%, 100% {
+        opacity: 1;
+    }
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+
+@keyframes flashing {
+    0%, 50%, 100% {
+        opacity: 1;
+    }
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+
+.flashing {
+    -webkit-animation-name: flashing;
+    -moz-animation-name: flashing;
+    -o-animation-name: flashing;
+    animation-name: flashing;
+    -webkit-animation-delay: 3.5s;
+    -moz-animation-delay: 3.5s;
+    -ms-animation-delay: 3.5s;
+    -o-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+}
+
+@-webkit-keyframes bounceOut_Adsense {
+    0% {
+        -webkit-transform: scale(1);
+    }
+    25% {
+        -webkit-transform: scale(.95);
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: scale(1.1);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(.3);
+    }
+}
+
+@-moz-keyframes bounceOut_Adsense {
+    0% {
+        -moz-transform: scale(1);
+    }
+    25% {
+        -moz-transform: scale(.95);
+    }
+    50% {
+        opacity: 1;
+        -moz-transform: scale(1.1);
+    }
+    100% {
+        opacity: 0;
+        -moz-transform: scale(.3);
+    }
+}
+
+@-o-keyframes bounceOut_Adsense {
+    0% {
+        -o-transform: scale(1);
+    }
+    25% {
+        -o-transform: scale(.95);
+    }
+    50% {
+        opacity: 1;
+        -o-transform: scale(1.1);
+    }
+    100% {
+        opacity: 0;
+        -o-transform: scale(.3);
+    }
+}
+
+@keyframes bounceOut_Adsense {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(.95);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(.3);
+    }
+}
+
+.bounceOut_Adsense {
+    -webkit-animation-name: bounceOut;
+    -moz-animation-name: bounceOut;
+    -o-animation-name: bounceOut;
+    animation-name: bounceOut;
+    -webkit-animation-delay: 5.5s;
+    -moz-animation-delay: 5.5s;
+    -ms-animation-delay: 5.5s;
+    -o-animation-delay: 5.5s;
+    animation-delay: 5.5s;
+}

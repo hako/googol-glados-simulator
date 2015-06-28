@@ -1,0 +1,28 @@
+
+{% extends 'app_layout.html' %}
+
+{% block custom_css %}
+	<link href="css/app/7.css" rel="stylesheet">
+{% endblock %}
+
+{% block custom_js %}
+	<script src="js/app/7.js" type="text/javascript" charset="utf-8"></script>
+	<script src="components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="components/howler/howler.min.js" type="text/javascript" charset="utf-8"></script>
+{% endblock %}
+
+{% block content %}
+<div style="position:absolute;top:0;left:0;width:100%;height:100%;" id="gladosbody">
+    <center>
+        <br>
+        <br>
+        <br>
+        <img width="65%" src="img/googol_glados_evil.svg" id="gladosimg" style="position:auto;left:0%;"></img>
+    </center>
+    <div id="linkdiv" style="position:absolute;bottom:0;left:50%;margin-left:-150;width:300;"></div>
+    <script>
+    setTimeout('uninstall_driver()', 4000)
+    </script>
+</div>
+{% endblock %}

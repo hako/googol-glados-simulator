@@ -1,0 +1,126 @@
+@import url(http://fonts.googleapis.com/css?family=Averia+Sans+Libre);
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+.btnl {
+    box-shadow: 0px 5px 0px #27ad60;
+}
+
+p {
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 48px;
+    color: #2e3436;
+}
+
+h1 {
+    font-family: 'Conv_Catull';
+}
+
+.Googol_Colour {
+    color: #2E5CEB;
+}
+
+.Googol_Colour_0 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_1 {
+    color: #FDBA17;
+}
+
+.Googol_Colour_2 {
+    color: #2E5CEB;
+}
+
+.Googol_Colour_3 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_4 {
+    color: #069519;
+}
+
+.Googol_Colour_5 {
+    color: #FDBA17;
+}
+
+.Googol_Colour_6 {
+    color: #069519;
+}
+
+.Googol_Colour_7 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_8 {
+    color: #2E5CEB;
+}
+
+.Googol_Colour_9 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_10 {
+    color: #2E5CEB;
+}
+
+.Googol_Simulator_Font_Colour {
+    font-family: 'Averia Sans Libre', cursive;
+    color: #333 font-size: 32px;
+}
+
+.Googol_Simulator_Font_Size {
+    font-family: 'Averia Sans Libre';
+    color: #333 font-size: 128px;
+}
+
+@-webkit-keyframes fadeInDelay {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeInDelay {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeInDelay {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInDelay {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeInDelay {
+    -webkit-animation-name: fadeInDelay;
+    -moz-animation-name: fadeInDelay;
+    -o-animation-name: fadeInDelay;
+    animation-name: fadeInDelay;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-delay: 2.5s;
+    -moz-animation-delay: 2.5s;
+    -ms-animation-delay: 2.5s;
+    -o-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}

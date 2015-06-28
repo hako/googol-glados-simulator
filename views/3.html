@@ -1,0 +1,36 @@
+{% extends 'app_layout.html' %}
+
+{% block custom_css %}
+	<link href="css/app/3.css" rel="stylesheet">
+{% endblock %}
+
+{% block custom_js %}
+	<script src="js/app/3.js" type="text/javascript" charset="utf-8"></script>
+	<script src="components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script>start_install_persay()</script>
+{% endblock %}
+
+{% block content %}
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>
+    <div id="installprogress" style="position:relative;opacity:0;" class="animated wobble">
+        <p span class="Googol_Simulator_Font_Colour">Installing </span>
+            <font id="pnumber">0</font>
+            <font size="30">%</font>
+            <p class="Googol_Simulator_Font_Colour">
+        <p span id="whatisinstalling" style="position:relative;">
+    </div>
+</center>
+{% endblock %}

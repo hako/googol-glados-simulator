@@ -1,0 +1,270 @@
+{% extends 'index_layout.html' %}
+
+{% block mwl %}
+	{{ footerWords | random }}
+{% endblock %}
+
+{% block hosted_on %}
+ {% if on_heroku == "true" %}
+<div class="col-md-6 col-md-offset-3 text-center">
+    <li>
+        <br>
+        <p align="center">
+            <a href="https://heroku.com"><img src="img/built-on-heroku-dark-on-light.png"></a>
+        </p>
+    </li>
+</div>
+ {% endif %}
+{% endblock %}
+{% block custom_css %}
+        <link href="css/app/index.css" rel="stylesheet">
+{% endblock %}
+{% block custom_js %}
+    <!-- JS -->
+    <script src="components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="components/howler/howler.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/app/index.js" type="text/javascript" charset="utf-8"></script>
+    <!-- End JS  -->
+{% endblock %}
+
+{% block version %}
+	{% if v.show_release_name == "true" %}
+	{{ v.version }}-{{ v.release_name }}
+	{% else %}
+	{{ v.version }}
+	{% endif %}
+{% endblock %}
+{% block index %}
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <video class="animated-slow fadeIn" id="video_background" preload="auto" muted="true" autoplay="true" loop="loop">
+        <source src="media/ggs.mp4" type="video/mp4" />
+    </video>
+    <!-- Full Page Image Header Area -->
+    <div id="top" class="animated fadeInUp header">
+        <div class="vert-text">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <div align="center"> <span class="Googol_Colour"><span class="Googol">G</span><span class="Googol Googol_Colour_0">o</span><span class="Googol Googol_Colour_1">o</span><span class="Googol Googol_Colour_2">g</span><span class="Googol Googol_Colour_3">o</span><span class="Googol Googol_Colour_4">l</span> &nbsp; <span class="Googol Googol_Colour_5">G</span><span class="Googol Googol_Colour_6">L</span><span class="Googol Googol_Colour_7">a</span><span class="Googol Googol_Colour_8">D</span><span class="Googol Googol_Colour_9">O</span><span class="Googol Googol_Colour_10">S</span> </span><span class="p Googol_Simulator_Font_Colour"> simulator </span></div>
+                    <p>An <b>open source</b> experiment of recreating the animation <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU"><b>'Googol GLaDOS'</b></a> in <strong> <abbr title="Javascript">JS</abbr></p>
+                        <p><a href="#intro"><small>You <b>must</b> read the instructions before continuing.</small></a></p>
+                        <a href="#launch" class="btn btn-1 btn-1a">Launch Simulator!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Full Page Image Header Area -->
+        <!-- Intro -->
+        <div id="intro" class="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        <center>
+                        <h1 class="ion-alert-circled white"></h1>
+                        </center>
+                        <h2 class="white">Instructions</h2>
+                        <hr>
+                        <p class="lead">1. Watch the animation <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU">Googol GLaDOS</a></a>.</p>
+                        <p class="lead">2. You may have to wait a few seconds because the simulator caches all the files for offline use.</p>
+                        <p class="lead">3. <a href="#top">Launch</a> the simulator and have fun! :D</p>
+                        <h3 class="ion-information-circled white"></h3>
+                        <p class="lead">Note: <i>Everything you see from the simulator are just animations, it is harmless.</i></p>
+                        <h1 class="ion-social-chrome-outline white"></h3>
+                        <p class="lead">Google Chrome is the <b>recommended</b> browser for good results.</p>
+                        <p class="lead"><i>Use a different browser at your own risk!</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Intro -->
+        <!-- Mirrors -->
+        <div id="mirrors" class="mirrors">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4 text-center">
+                        <center>
+                        <h1 class="ion-ios-world white"></h1>
+                        </center>
+                        <h2>Mirrors</h2>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-2 text-center">
+                        <h5>Current.</h5>
+                        <div class="service-item">
+                            <a href="http://ggs.hakobaito.co.uk/"><h1 class="ion-ios-circle-filled white"></h1></a>
+                            <h5>ggs.hakobaito.co.uk </h5>
+                            <p class="white">The Official location for the Googol GLaDOS Simulator</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <h5>Double</h5>
+                        <div class="service-item">
+                            <a href="http://ggs.hakobaito.co.uk/list"><h1 class="ion-ios-circle-outline white"></h1></a>
+                            <h5>Other Mirrors</h5>
+                            <p class="white">A List of Googol GLaDOS Simulator Mirrors</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <h5>Social.</h5>
+                        <div class="service-item">
+                            <a href="https://www.facebook.com/appcenter/googolgladosimulator"><h1 class="ion-contrast white"></h1></a>
+                            <h4>Facebook</h4>
+                            <p class="white">Try the simulator on Facebook!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <h5>Genesis.</h5>
+                        <div class="service-item">
+                            <a href="http://alexianson.co.uk/archive/gg/"><h1 class="ion-record white"></h1></a>
+                            <h4>The Original</h4>
+                            <p class="white">The original Googol GLaDOS Simulator</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Mirrors -->
+        <!-- Downloads -->
+        <div id="download" class="block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        &nbsp;
+                        <br>
+                        <br>
+                        <center>
+                        <h1 class="ion-archive white"></h1>
+                        </center>
+                        <h2>Downloads</h2>
+                        <hr>
+                        <p class="white">You can download the source code of the simulator on github.</p>
+                        <div class="text-center">
+                            <center>
+                            <h3>GitHub</h3>
+                            <div class="service-item">
+                                <button class="white btn btn-6 btn-6d"> <a href="http://git.io/I_Qa2Q"><h1 class="ion-social-github white "></h1></a></button>
+                                <h4>Download</h4>
+                                <p class="white">{% block version %}{% endblock %}</p>
+                                <br>
+                                <br>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Downloads -->
+        <!-- Before You Continue... -->
+        <div id="block3" class="block_3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        &nbsp;
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <p id="launch"></p>
+                        <br>
+                        <br>
+                        <h2>Before you continue...</h2>
+                        <hr>
+                        <center>
+                        <h3>This simulator is an animated simulation of the cartoon "Googol GLaDOS".</h3>
+                        <br>
+                        <h2><u class="red">It is not a virus.</u></h2>
+                        <br>
+                        <h3>It's all just animations, nothing will happen to your computer.</h3>
+                        <p><i class="white">(Just, lettin you know.)</i></p>
+                        <br>
+                        <button class="btn btn-1-1 btn-default" OnClick="next()" style="padding: 29px 48px;">Continue!</button> <button class="btn btn-1-1 btn-warning" id="chicken" OnClick="chicken()" style="padding: 29px 50px;">I'm too scared!</button>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                </center>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Before You Continue-->
+<!-- About -->
+<div id="intro" class="block_2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <br>
+                <br>
+                <br>
+                <br>
+                <center>
+                <h1 class="ion-ios-information black"></h1>
+                </center>
+                <h2 class="black">About</h2>
+                <hr class="black">
+                <p class="lead">An <b>open source</b> experiment of recreating the animation <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU"><b>'Googol GLaDOS'</b></a> in <strong> <abbr title="Javascript">JS</abbr> </strong></p>
+                    <p align="center" class="lead"><b>Why open source + story</b></p>
+                    <p align="center">I started to work on this when a user (Alex) wrote this application and sent his recreated attempt to emulate the animation hakobyte made (googol glados) - search on google.</p>
+                    <p align="center">But the application was vulnerable and also close to becoming lost, so I quickly retrieved the raw files from Alex's hosting website</p>
+                    <p align="center">I fixed the raw code from the original simulator which is now a dead link, which is why you are seeing a refined version of the simulator right here.</p>
+                    <p align="center">Now that Alex is no-longer working on it, (hakobyte) has responsibility of maintaining and improving the simulator until I made it open source for anyone to download. </p>
+                    <p align="center">- <b>Hako  =[],</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About-->
+    <!-- Credits -->
+    <div id="credits" class="credits">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <h3>{% block mwl %}{% endblock %} with <span style="color:#FF7373;" class="ion-ios-heart"></span> in England by:</h3>
+                    <br>
+                    <a href="https://twitter.com/hakobyte" style="padding: 25px 44px;" class="btn btn-1-1-1 btn-1d">@hakobyte</a>
+                    <a href="https://twitter.com/Gauntus" style="padding: 25px 44px;" class="btn btn-1-1-1 btn-1d">@Gauntus</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Credits-->
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <ul class="list-inline">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        {% block hosted_on %}{% endblock %}
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 text-center">
+                            <ul class="list-inline">
+                                <li><a href="https://www.facebook.com/GoogolGLadosSimulator"><h3 class="icon-facebook-3"></h3></li>
+                                 <li><a href="https://www.youtube.com/watch?v=sDhc4mKtMkU"><h3 class="ion-social-youtube"></h3></li></a>
+                                    <li><a href="http://git.io/7O4kKQ"><h3 class="ion-social-github"></h3></li></a>
+                                        <li><a href="http://googolglados.tumblr.com/download"><h3 class="ion-social-windows"></h3></li></a></ul>
+                            <p class "muted=" " credit"=""><a href="http://www.hakobaito.co.uk">hakobaito.co.uk</a> | <a href="https://www.iubenda.com/privacy-policy/257375/legal">privacy policy</a> | <a href="http://status.ggs.hakobaito.co.uk/">simulator status</a> | <a href="http://hakob.yt/donate">donate</a>
+                            </p>
+                            <hr>
+                            <p>&copy; 2015</p>
+                            <small>The Googol GLaDOS Simulator by Alex I'Anson is licensed under a Creative Commons NC License.</small>
+                            <br>
+                            <small>{% block version %}{% endblock %}</small>
+                        </div>
+                    </div>
+            </div>
+    </footer>
+    <!-- End Footer -->
+{% endblock %}

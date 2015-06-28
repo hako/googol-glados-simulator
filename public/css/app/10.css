@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Averia+Sans+Libre);
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+.btnl {
+    box-shadow: 0px 5px 0px #27ad60;
+}
+
+p {
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 23px;
+    color: #2e3436;
+}
+
+h1 {
+    font-family: 'Conv_Catull';
+}
+
+html,
+body {
+    font-size: 30px;
+    color: #333
+    /* The html and body elements cannot have any padding or margin. */
+}
+/* Wrapper for page content to push down footer */
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    
+    margin: 0 auto -60px;
+}
+/* Set the fixed height of the footer here */
+
+#push,
+#footer {
+    height: 60px;
+}
+
+#footer {
+    background-color: #f5f5f5;
+}
+/* Lastly, apply responsive CSS fixes as necessary */
+
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.Googol_Colour {
+    color: #2E5CEB;
+}
+
+.Googol_Colour_0 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_1 {
+    color: #FDBA17;
+}
+
+.Googol_Colour_2 {
+    color: #2E5CEB;
+}
+
+.Googol_Colour_3 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_4 {
+    color: #069519;
+}
+
+.Googol_Colour_5 {
+    color: #FDBA17;
+}
+
+.Googol_Colour_6 {
+    color: #069519;
+}
+
+.Googol_Colour_7 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_8 {
+    color: #2E5CEB;
+}
+
+.Googol_Colour_9 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_10 {
+    color: #2E5CEB;
+}
+
+.Googol_Simulator_Font_Colour {
+    font-family: 'Averia Sans Libre', cursive;
+    color: #333 font-size: 32px;
+}
+
+.Googol_Simulator_Adsense {
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 33px;
+    color: #333
+}
+
+.Googol_Simulator_Adsense_Colour {
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 33px;
+    color: #204a87
+}

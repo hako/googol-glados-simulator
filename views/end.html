@@ -1,0 +1,126 @@
+{% extends 'index_layout.html' %}
+
+{% block mwl %}
+	  {{ footerWords | random }}
+{% endblock %}
+
+{% block hosted_on %}
+ {% if on_heroku == "true" %}
+<div class="col-md-6 col-md-offset-3 text-center">
+    <li>
+      <br>
+        <p align="center">
+            <a href="https://heroku.com"><img src="img/built-on-heroku-dark-on-light.png"></a>
+        </p>
+    </li>
+</div>
+ {% endif %}
+{% endblock %}
+{% block custom_css %}
+        <link href="css/app/11.css" rel="stylesheet">
+{% endblock %}
+{% block custom_js %}
+    <!-- JS -->
+    <script src="components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="components/howler/howler.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/app/11.js" type="text/javascript" charset="utf-8"></script>
+    <!-- End JS  -->
+{% endblock %}
+
+{% block version %}
+	{% if v.show_release_name == "true" %}
+	{{ v.version }}-{{ v.release_name }}
+	{% else %}
+	{{ v.version }}
+	{% endif %}
+{% endblock %}
+
+{% block index %}
+<video class="animated-slow fadeIn" id="video_background" preload="auto" muted="true" autoplay="true" loop="loop">
+  <source src="media/ggs.mp4" type="video/mp4" />
+</video>
+<!-- Full Page Image Header Area -->
+<div id="top" class="animated bounceInUp header">
+  <div class="vert-text">
+    <div align="center">
+    </div>
+    <h2 class="Googol_Simulator_Font_Colour"><span class="corrupt">Your OS is <i>"somehow"</i> corrupt ;)*</h2>
+    <br>
+    <p align="center"> <small>*well not really...</small></p>
+    <p> Well I hope you enjoyed the simulator.</p>
+    <p align="center" class="lead"> <small>Here's the <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU">YouTube</a> video. or...</small></p><small> </small>
+    <a href="/" class="btn btn-1-L btn-1a warning">reboot:simulator</a>
+  </div>
+</div>
+<!-- /Full Page Image Header Area -->
+<!-- Credits and Attributions -->
+<div id="intro" class="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center">
+        <center>
+        <h1 class="icon-thumbsup white"></h1>
+        </center>
+        <h2 class="white">Credits &amp; Attributions</h2>
+        <hr>
+        <p align="center"> The Googol GLaDOS Simulator was completely <b>(re)designed</b>, <b>coded</b>, <b>crafted</b> and made from scratch using <b>open source</b> tools and libraries:</p>
+        <p align="center">
+        </p>
+        <p align="center"> Constructed with Bootstrap 3.0.1 <a href="https://twitter.com/mdo">@mdo</a> &amp; <a href="https://twitter.com/fat">@fat</a></p>
+        <p align="center"> HTML5 Web Audio processed by the loud and proud <b>howler.js</b></p>
+        <p align="center"> Browser detection with <b>mobile-detect.js</b></p>
+        <p align="center"> Powered by <b>Express.js</b> and <b>JQuery</b>.</p>
+        <p align="center"> Dynamic CSS3 animations made with the help of <b>Animate.css</b>
+        </p>
+        <p align="center"> Icons by <a href="http://ionicons.com/">ionicons</a> and <a href="http://icomoon.io">icomoon</a></b></p>
+        <p align="center"> Built using <b>HTML5</b>, <b>CSS3</b>,<b>JavaScript</b> and <b>Node.js</b></p>
+        <br>
+        <h2> And finally...</h2>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- End About-->
+  <!-- Credits -->
+  <div id="credits" class="credits">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6 col-md-offset-3 text-center">
+                  <h3>{% block mwl %}{% endblock %} with <span style="color:#FF7373;" class="ion-ios-heart"></span> in England by:</h3>
+                  <br>
+                  <a href="https://twitter.com/hakobyte" style="padding: 25px 44px;" class="btn btn-1-1-1 btn-1d">@hakobyte</a>
+                  <a href="https://twitter.com/Gauntus" style="padding: 25px 44px;" class="btn btn-1-1-1 btn-1d">@Gauntus</a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- End Credits-->
+  <!-- Footer -->
+ <footer>
+        <div class="container">
+            <div class="row">
+                <ul class="list-inline">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        {% block hosted_on %}{% endblock %}
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 text-center">
+                            <ul class="list-inline">
+                                <li><a href="https://www.facebook.com/GoogolGLadosSimulator"><h3 class="icon-facebook-3"></h3></li>
+                                 <li><a href="https://www.youtube.com/watch?v=sDhc4mKtMkU"><h3 class="ion-social-youtube"></h3></li></a>
+                                    <li><a href="http://git.io/7O4kKQ"><h3 class="ion-social-github"></h3></li></a>
+                                        <li><a href="http://googolglados.tumblr.com/download"><h3 class="ion-social-windows"></h3></li></a></ul>
+                            <p class "muted=" " credit"=""><a href="http://www.hakobaito.co.uk">hakobaito.co.uk</a> | <a href="https://www.iubenda.com/privacy-policy/257375/legal">privacy policy</a> | <a href="http://status.ggs.hakobaito.co.uk/">simulator status</a> | <a href="http://hakob.yt/donate">donate</a>
+                            </p>
+                            <hr>
+                            <p>&copy; 2015</p>
+                            <small>The Googol GLaDOS Simulator by Alex I'Anson is licensed under a Creative Commons NC License.</small>
+                            <br>
+                            <small>{% block version %}{% endblock %}</small>
+                        </div>
+                    </div>
+            </div>
+    </footer>
+<!-- /Footer -->
+{% endblock %}
