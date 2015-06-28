@@ -1,0 +1,40 @@
+{
+  "name": "googol-glados-simulator",
+  "version": "3.0.1",
+  "description": "A web simulation recreating the animation Googol GLaDOS.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "postinstall": "./node_modules/bower/bin/bower install"
+  },
+  "dependencies": {
+    "appcache-node": "^0.2.0",
+    "body-parser": "^1.13.1",
+    "bower": "latest",
+    "chalk": "^1.0.0",
+    "express": "^4.13.0",
+    "lodash": "^3.9.3",
+    "mobile-detect": "^1.2.0",
+    "swig": "^1.4.2"
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hako/googol-glados-simulator/"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "javascript",
+    "animation",
+    "glados"
+  ],
+  "author": "Wesley Hill",
+  "contributors": [
+    "Wesley Hill <wesley@hakobaito.co.uk> (http://hakobaito.co.uk)",
+    "Alex I'Anson (http://alexianson.co.uk/)"
+  ],
+  "license": "CC-BY-NC-4.0"
+}

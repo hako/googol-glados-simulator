@@ -1,0 +1,29 @@
+{% extends 'app_layout.html' %}
+{% block custom_css %}
+    <link href="css/app/2.css" rel="stylesheet">
+{% endblock %}
+{% block custom_js %}
+    <script src="js/app/2.js" type="text/javascript" charset="utf-8"></script>
+    <script src="components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script>prepare_download_persay()</script>
+{% endblock %}
+{% block content %}
+    <div id="results">
+        <span class="Googol_Simulator_Font_Colour" style="position:absolute;top:0;left:0;">gnome</span>
+        <span class="Googol_Simulator_Font_Colour" id="kbsspeed" style="position:absolute;top:0;right:0;"></span>
+        <center>
+        <span class="Googol_Simulator_Font_Size">Thanks 10<sup>100</sup></span><span class="WOW">4</span>
+        <br>
+        <span class="downlaoding">Downloading</span>
+        <div  style="position: absolute; top: 232px; left: 46px; width: 90%; height: 0px; text-align: center ">
+            <div class="progress bar bar-info" style="width: 100%;" id="loadingbar"></div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div align="center"><span class="Googol"> <span class="Googol_Colour">G</span><span class="Googol_Colour_0">o</span><span class="Googol_Colour_1">o</span><span class="Googol_Colour_2">g</span><span class="Googol_Colour_3">o</span><span class="Googol_Colour_4">l</span> <span class="Googol_Colour_5">G</span><span class="Googol_Colour_6">L</span><span class="Googol_Colour_7">a</span><span class="Googol_Colour_8">D</span><span class="Googol_Colour_9">O</span><span class="Googol_Colour_10">S</span></span>
+    <span class="Googol_Simulator_Font_Size" style="position:absolute;bottom:0;right:0;">V.I.R.US</span>
+    </center>
+{% endblock %}

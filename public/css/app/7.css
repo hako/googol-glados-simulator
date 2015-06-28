@@ -1,0 +1,107 @@
+@import url(http://fonts.googleapis.com/css?family=Averia+Sans+Libre);
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+p {
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 24px;
+    color: #2e3436;
+}
+
+h1 {
+    font-family: 'Conv_Catull';
+}
+
+.Googol_Colour {
+    color: #2E5CEB;
+}
+
+.Googol_Colour_0 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_1 {
+    color: #FDBA17;
+}
+
+.Googol_Colour_2 {
+    color: #2E5CEB;
+}
+
+.Googol_Colour_3 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_4 {
+    color: #069519;
+}
+
+.Googol_Colour_5 {
+    color: #FDBA17;
+}
+
+.Googol_Colour_6 {
+    color: #069519;
+}
+
+.Googol_Colour_7 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_8 {
+    color: #2E5CEB;
+}
+
+.Googol_Colour_9 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_10 {
+    color: #2E5CEB;
+}
+
+.Googol_Simulator_Font_Colour {
+    font-family: 'Averia Sans Libre', cursive;
+    color: #333 font-size: 32px;
+}
+
+@-webkit-keyframes fadeOut-decrypting {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes fadeOut-decrypting {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-o-keyframes fadeOut-decrypting {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut-decrypting {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.fadeOut-decrypting {
+    -webkit-animation-name: fadeOut-decrypting;
+    -moz-animation-name: fadeOut-decrypting;
+    -o-animation-name: fadeOut-decrypting;
+    animation-name: fadeOut-decrypting;
+}

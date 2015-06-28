@@ -1,0 +1,23 @@
+{% extends 'app_layout.html' %}
+{% block custom_css %}
+    <link href="css/app/4.css" rel="stylesheet">
+{% endblock %}
+{% block custom_js %}
+    <script src="js/app/4.js" type="text/javascript" charset="utf-8"></script>
+    <script src="components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script>prepare_download_persay()</script>
+{% endblock %}
+{% block content %}
+<br>
+<br>
+<center>
+    <p class="animated fadeInLeft"><span class="animated flash"><span class="Warning"><b>Warning</b>: </span></span>12: Integer overflow<span class="animated flash">_</span></p>
+    <br>
+    <center>
+        <p class="animated fadeIn2 Googol_Simulator_Font_Colour">Installed</p>
+        <button class="animated fadeIn3 btn btn-1-1 btn-warning" input value="Reboot" onClick="next()" type="button"><b>Reboot</b>
+            <br>
+        </button>
+    </center>
+{% endblock %}

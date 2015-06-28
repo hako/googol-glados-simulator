@@ -1,0 +1,25 @@
+{
+  "name": "googol-glados-simulator",
+  "version": "3.0.1",
+  "authors": [
+    "Wesley Hill <wesley@hakobaito.co.uk>"
+  ],
+  "description": "A web simulation recreating the animation Googol GLaDOS.",
+  "license": "CC-BY-NC-4.0",
+  "homepage": "http://ggs.hakobaito.co.uk",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "animate.css": "~3.3.0",
+    "ionicons": "~2.0.1",
+    "icomoon": "~0.0.3",
+    "bootstrap": "~3.3.5",
+    "howler": "~1.1.26"
+  }
+}

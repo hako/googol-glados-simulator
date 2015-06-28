@@ -1,0 +1,172 @@
+@import url(http://fonts.googleapis.com/css?family=Averia+Sans+Libre);
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+p {
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 48px;
+    color: #2e3436;
+}
+
+h1 {
+    font-family: 'Conv_Catull';
+}
+
+.Googol_Colour {
+    color: #2E5CEB;
+}
+
+.Googol_Colour_0 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_1 {
+    color: #FDBA17;
+}
+
+.Googol_Colour_2 {
+    color: #2E5CEB;
+}
+
+.Googol_Colour_3 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_4 {
+    color: #069519;
+}
+
+.Googol_Colour_5 {
+    color: #FDBA17;
+}
+
+.Googol_Colour_6 {
+    color: #069519;
+}
+
+.Googol_Colour_7 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_8 {
+    color: #2E5CEB;
+}
+
+.Googol_Colour_9 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_10 {
+    color: #2E5CEB;
+}
+
+.Googol_Simulator_Font_Colour {
+    font-family: 'Averia Sans Libre', cursive;
+    color: #333 font-size: 32px;
+}
+
+@-webkit-keyframes wobble {
+    0% {
+        -webkit-transform: translateX(0%);
+    }
+    15% {
+        -webkit-transform: translateX(-25%) rotate(-5deg);
+    }
+    30% {
+        -webkit-transform: translateX(20%) rotate(3deg);
+    }
+    45% {
+        -webkit-transform: translateX(-15%) rotate(-3deg);
+    }
+    60% {
+        -webkit-transform: translateX(10%) rotate(2deg);
+    }
+    75% {
+        -webkit-transform: translateX(-5%) rotate(-1deg);
+    }
+    100% {
+        -webkit-transform: translateX(0%);
+    }
+}
+
+@-moz-keyframes wobble {
+    0% {
+        -moz-transform: translateX(0%);
+    }
+    15% {
+        -moz-transform: translateX(-25%) rotate(-5deg);
+    }
+    30% {
+        -moz-transform: translateX(20%) rotate(3deg);
+    }
+    45% {
+        -moz-transform: translateX(-15%) rotate(-3deg);
+    }
+    60% {
+        -moz-transform: translateX(10%) rotate(2deg);
+    }
+    75% {
+        -moz-transform: translateX(-5%) rotate(-1deg);
+    }
+    100% {
+        -moz-transform: translateX(0%);
+    }
+}
+
+@-o-keyframes wobble {
+    0% {
+        -o-transform: translateX(0%);
+    }
+    15% {
+        -o-transform: translateX(-25%) rotate(-5deg);
+    }
+    30% {
+        -o-transform: translateX(20%) rotate(3deg);
+    }
+    45% {
+        -o-transform: translateX(-15%) rotate(-3deg);
+    }
+    60% {
+        -o-transform: translateX(10%) rotate(2deg);
+    }
+    75% {
+        -o-transform: translateX(-5%) rotate(-1deg);
+    }
+    100% {
+        -o-transform: translateX(0%);
+    }
+}
+
+@keyframes wobble {
+    0% {
+        transform: translateX(0%);
+    }
+    15% {
+        transform: translateX(-25%) rotate(-5deg);
+    }
+    30% {
+        transform: translateX(20%) rotate(3deg);
+    }
+    45% {
+        transform: translateX(-15%) rotate(-3deg);
+    }
+    60% {
+        transform: translateX(10%) rotate(2deg);
+    }
+    75% {
+        transform: translateX(-5%) rotate(-1deg);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.wobble {
+    -webkit-animation-name: wobble;
+    -moz-animation-name: wobble;
+    -o-animation-name: wobble;
+    animation-name: wobble;
+    -webkit-animation-delay: 12.5s;
+    -moz-animation-delay: 12.5s;
+    -ms-animation-delay: 12.5s;
+    -o-animation-delay: 12.5s;
+    animation-delay: 12.5s;
+}

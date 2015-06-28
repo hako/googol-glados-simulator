@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/css?family=Averia+Sans+Libre);
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+.btnl {
+    box-shadow: 0px 5px 0px #BE392B;
+}
+
+p {
+    font-family: 'Averia Sans Libre', cursive;
+    text-align: center;
+    color: #2e3436;
+}
+
+.footercusthtml5 {
+    font-size: 34px;
+}
+
+a:hover {
+    color: #E34C26;
+}
+
+html,
+body {
+    /* The html and body elements cannot have any padding or margin. */
+}
+/* Wrapper for page content to push down footer */
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    
+    margin: 0 auto -60px;
+}
+/* Set the fixed height of the footer here */
+
+#push,
+#footer {
+    height: 60px;
+}
+
+#footer {
+    background-color: #f5f5f5;
+}
+/* Lastly, apply responsive CSS fixes as necessary */
+
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.Googol {
+    font-family: 'Conv_Catull';
+    text-align: center;
+    font-size: 85px;
+}
+
+.Googol_Colour {
+    color: #2E5CEB;
+}
+
+.Googol_Colour_0 {
+    color: #E92D3F;
+    font-family: "Conv_Catull";
+}
+
+.Googol_Colour_1 {
+    color: #FDBA17;
+}
+
+.Googol_Colour_2 {
+    color: #2E5CEB;
+}
+
+.Googol_Colour_3 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_4 {
+    color: #069519;
+}
+
+.Googol_Colour_5 {
+    color: #FDBA17;
+}
+
+.Googol_Colour_6 {
+    color: #069519;
+}
+
+.Googol_Colour_7 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_8 {
+    color: #2E5CEB;
+}
+
+.Googol_Colour_9 {
+    color: #E92D3F;
+}
+
+.Googol_Colour_10 {
+    color: #2E5CEB;
+}
+
+.Googol_Simulator_Font_Colour {
+    font-family: 'Averia Sans Libre', cursive;
+    color: #000000;
+    font-size: 58px;
+}
+
+h1 {
+    font-family: "Conv_Catull";
+    font-size: 140px;
+}
+
+h3 {
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 60px;
+    color: #2e3436;
+    -webkit-transform: translate(0px, -66px) rotate(12deg) rotateX(12deg) skew(0deg, 0deg) scale(0.7, 0.7);
+    -moz-transform: translate(0px, -66px) rotate(12deg) rotateX(12deg) skew(0deg, 0deg) scale(0.7, 0.7);
+    -o-transform: translate(0px, -66px) rotate(12deg) rotateX(12deg) skew(0deg, 0deg) scale(0.7, 0.7);
+    -ms-transform: translate(0px, -66px) rotate(12deg) rotateX(12deg) skew(0deg, 0deg) scale(0.7, 0.7);
+    transform: translate(0px, -66px) rotate(12deg) rotateX(12deg) skew(0deg, 0deg) scale(0.7, 0.7);
+}
+
+.Download {
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 30px;
+    color: #FFF;
+}
