@@ -6,7 +6,7 @@ An experimental recreation of the animation _['Googol GLaDOS'](http://www.youtub
 
 Here are some links below to help you understand the project.
 
- [Googol GLaDOS](http://www.youtube.com/watch?v=sDhc4mKtMkU) - YouTube video.
+[Googol GLaDOS](http://www.youtube.com/watch?v=sDhc4mKtMkU) - YouTube video.
 
 
 [http://ggs.hakobaito.co.uk](http://ggs.hakobaito.co.uk) - Googol GLaDOS Simulator
@@ -41,6 +41,13 @@ If you don't wish to download and run the simulator on your computer, you are fr
 If you really are in a hurry and want to get started quickly, You can deploy your own version to [Heroku](https://heroku.com) by clicking 'Deploy to Heroku' _(Requires a Heroku Account.)_
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+Contributions
+-
+
+All contributions are welcome, just clone this repo and submit a pull request.
+
+If you found a bug or want a feature, submit it [here](https://github.com/hako/googol-glados-simulator/issues).
 
 Credits
 -
