@@ -1,4 +1,3 @@
-/* index.js - Get rid of analytics for now. */
 $('#video_background').hide();
 $('#video_background').delay(1500).fadeIn(5000);
 
@@ -54,7 +53,6 @@ function next() {
         })
         .success(function(data) {
             if ($.isPlainObject(data)) {
-                //mixpanel.track("But was using an unsupported device, and got rejected!");
                 window.location = "/nope"
             } else {
                 setTimeout(function() {
@@ -74,7 +72,6 @@ $('#chicken').mouseenter(function(){
 });
 
 function chicken() {
-        //mixpanel.track("A user chickened out!");
         var chicken = new Howl({
             urls: ['../../sounds/chicken.wav']
         }).play();
@@ -83,15 +80,3 @@ function chicken() {
 
         setTimeout('redirect()', 3000);
     }
-    // pingdom - replace with node? remember to regenerate token.
-    /*
-      var _prum = [['id', '51e88df2abe53d9f4c000000'],
-             ['mark', 'firstbyte', (new Date()).getTime()]];
-      (function() {
-          var s = document.getElementsByTagName('script')[0]
-            , p = document.createElement('script');
-          p.async = 'async';
-          p.src = '//rum-static.pingdom.net/prum.min.js';
-          s.parentNode.insertBefore(p, s);
-      })();
-    */

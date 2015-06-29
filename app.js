@@ -111,10 +111,12 @@ if (!process.env.SHOW_RELEASE_NAME) {
 app.get('/', function(req, res) {
     on_heroku = process.env.ON_HEROKU
     footerWords = ['Made', 'Crafted', 'Designed', 'Built', 'Created']
+    date = new Date()
     res.render("index", {
         words: footerWords,
         on_heroku: on_heroku,
-        v: version
+        v: version,
+        year:date.getFullYear()
     })
 });
 
@@ -124,7 +126,6 @@ app.all('/robots.txt', function(req, res) {
     robotstxt += "User-Agent: *" 
     robotstxt += "\nDisallow: /app/"
     robotstxt += "\nDisallow: /end/"
-    robotstxt += "\nDisallow: /api/"
     robotstxt += "\nDisallow: /nope/"
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end(robotstxt)
@@ -133,7 +134,6 @@ app.all('/robots.txt', function(req, res) {
 // Nope.
 app.get('/nope', function(req, res, next) {
     md = new MobileDetect(req.headers['user-agent'])
-    console.log(md)
     if (md.mobile() || md.is("Console") || md.is("Watch") || md.is("MobileBot") || md.match("\b(Nintendo|Nintendo WiiU|Nintendo 3DS|PLAYSTATION|Xbox)\b")) {
         res.render("toobad",{device:md.mobile()})
     } else {
@@ -173,10 +173,12 @@ app.get('/app', function(req, res) {
             } else if (q == 11) {
                 on_heroku = process.env.ON_HEROKU
                 footerWords = ['Made', 'Crafted', 'Designed', 'Built', 'Created']
+                date = new Date()
                 res.render("end", {
                     words: footerWords,
                     on_heroku: on_heroku,
-                    v: version
+                    v: version,
+                    year:date.getFullYear()
                 })
             } else {
                 res.redirect("/")

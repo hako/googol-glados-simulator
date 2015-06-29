@@ -62,7 +62,6 @@
           })
           .success(function(data) {
               if ($.isPlainObject(data)) {
-                  //mixpanel.track("But was using an unsupported device, and got rejected!");
                   window.location = "/nope"
               } else {
                   setTimeout(function() {
