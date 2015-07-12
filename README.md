@@ -52,9 +52,9 @@ If you found a bug or want a feature, submit it [here](https://github.com/hako/g
 Credits
 -
 
-+ Alex I'Anson [@gauntus](twitter.com/gauntus) - Original author + code.
++ Alex I'Anson [@gauntus](https://twitter.com/gauntus) - Original author + code.
 
-+ Wesley Hill [@hakobyte](twitter.com/hakobyte) - Rewrite + Bug fixing.
++ Wesley Hill [@hakobyte](https://twitter.com/hakobyte) - Rewrite + Bug fixing.
 
 License
 -
