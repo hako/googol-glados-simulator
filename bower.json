@@ -20,6 +20,7 @@
     "ionicons": "~2.0.1",
     "icomoon": "~0.0.3",
     "bootstrap": "~3.3.5",
-    "howler": "~1.1.26"
+    "howler": "~1.1.26",
+    "normalize.css": "~3.0.3"
   }
 }

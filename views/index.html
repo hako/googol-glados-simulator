@@ -1,10 +1,10 @@
 {% extends 'index_layout.html' %}
 
-{% block mwl %}
-	{{ footerWords | random }}
-{% endblock %}
+{% macro mwl() %}
+    {{ words | random }}
+{% endmacro %}
 
-{% block hosted_on %}
+{% macro hosted_on() %}
  {% if on_heroku == "true" %}
 <div class="col-md-6 col-md-offset-3 text-center">
     <li>
@@ -15,10 +15,12 @@
     </li>
 </div>
  {% endif %}
-{% endblock %}
+{% endmacro %}
+
 {% block custom_css %}
         <link href="css/app/index.css" rel="stylesheet">
 {% endblock %}
+
 {% block custom_js %}
     <!-- JS -->
     <script src="components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
@@ -28,13 +30,14 @@
     <!-- End JS  -->
 {% endblock %}
 
-{% block version %}
-	{% if v.show_release_name == "true" %}
-	{{ v.version }}-{{ v.release_name }}
-	{% else %}
-	{{ v.version }}
-	{% endif %}
-{% endblock %}
+{% macro version() %}
+ {% if v.show_release_name == "true" %}
+    {{ v.version }}-{{ v.release_name }}
+    {% else %}
+    {{ v.version }}
+ {% endif %}
+{% endmacro %}
+
 {% block index %}
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -48,8 +51,8 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <div align="center"> <span class="Googol_Colour"><span class="Googol">G</span><span class="Googol Googol_Colour_0">o</span><span class="Googol Googol_Colour_1">o</span><span class="Googol Googol_Colour_2">g</span><span class="Googol Googol_Colour_3">o</span><span class="Googol Googol_Colour_4">l</span> &nbsp; <span class="Googol Googol_Colour_5">G</span><span class="Googol Googol_Colour_6">L</span><span class="Googol Googol_Colour_7">a</span><span class="Googol Googol_Colour_8">D</span><span class="Googol Googol_Colour_9">O</span><span class="Googol Googol_Colour_10">S</span> </span><span class="p Googol_Simulator_Font_Colour"> simulator </span></div>
-                    <p>An <b>open source</b> experiment of recreating the animation <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU"><b>'Googol GLaDOS'</b></a> in <strong> <abbr title="Javascript">JS</abbr></strong></p>
-                        <p><a href="#intro"><small>You <b>must</b> read the instructions before continuing.</small></a></p>
+                    <h6 class="black lead" align="center">An <b>open source</b> experiment of recreating the animation <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU"><i>'Googol GLaDOS'</i></a> for the web.</h6>
+                        <h6 class="black lead"><a href="#intro" style="text-decoration: underline;"><small>You <b>must</b> read the instructions before continuing.</small></a></h6>
                         <a href="#launch" class="btn btn-1 btn-1a">Launch Simulator!</a>
                     </div>
                 </div>
@@ -66,14 +69,16 @@
                         </center>
                         <h2 class="white">Instructions</h2>
                         <hr>
-                        <p class="lead">1. Watch the animation <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU">Googol GLaDOS</a></a>.</p>
-                        <p class="lead">2. You may have to wait a few seconds because the simulator caches all the files for offline use.</p>
-                        <p class="lead">3. <a href="#top">Launch</a> the simulator and have fun! :D</p>
-                        <h3 class="ion-information-circled white"></h3>
-                        <p class="lead">Note: <i>Everything you see from the simulator are just animations, it is harmless.</i></p>
-                        <h1 class="ion-social-chrome-outline white"></h3>
-                        <p class="lead">Google Chrome is the <b>recommended</b> browser for good results.</p>
-                        <p class="lead"><i>Use a different browser at your own risk!</i></p>
+                        <h4>1. Watch the animation <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU">Googol GLaDOS</a></a>.</h4>
+                        <br>
+                        <h4>2. You may have to wait a few seconds because the simulator caches all the files for offline use.</h4>
+                        <br>
+                        <h4>3. <a href="#top">Launch</a> the simulator and have fun! :D</h4>
+                        <br>
+                        <h4>Note: <i>Everything you see from the simulator are just animations, it is harmless.</i></h4>
+                        <h1 class="ion-social-chrome-outline white"></h4>
+                        <h4>Google Chrome is the <b>recommended</b> browser for good results.</h4>
+                        <h4><i>Use a different browser at your own risk!</i></h4>
                     </div>
                 </div>
             </div>
@@ -93,19 +98,20 @@
                 </div>
                 <div class="row">
                     <div class="col-md-2 col-md-offset-2 text-center">
-                        <h5>Current.</h5>
+                        <h5>First.</h5>
                         <div class="service-item">
                             <a href="http://ggs.hakobaito.co.uk/"><h1 class="ion-ios-circle-filled white"></h1></a>
-                            <h5>ggs.hakobaito.co.uk </h5>
-                            <p class="white">The Official location for the Googol GLaDOS Simulator</p>
+                            <h5></h5>
+                            <h5>Official</h5>
+                            <p class="white">The official location of the Googol GLaDOS Simulator.</p>
                         </div>
                     </div>
                     <div class="col-md-2 text-center">
-                        <h5>Double</h5>
+                        <h5>Others.</h5>
                         <div class="service-item">
                             <a href="http://ggs.hakobaito.co.uk/list"><h1 class="ion-ios-circle-outline white"></h1></a>
                             <h5>Other Mirrors</h5>
-                            <p class="white">A List of Googol GLaDOS Simulator Mirrors</p>
+                            <p class="white">A List of Googol GLaDOS Simulator Mirrors.</p>
                         </div>
                     </div>
                     <div class="col-md-2 text-center">
@@ -121,7 +127,7 @@
                         <div class="service-item">
                             <a href="http://alexianson.co.uk/archive/gg/"><h1 class="ion-record white"></h1></a>
                             <h4>The Original</h4>
-                            <p class="white">The original Googol GLaDOS Simulator</p>
+                            <p class="white">The original Googol GLaDOS Simulator.</p>
                         </div>
                     </div>
                 </div>
@@ -133,7 +139,6 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3 text-center">
-                        &nbsp;
                         <br>
                         <br>
                         <center>
@@ -141,14 +146,14 @@
                         </center>
                         <h2>Downloads</h2>
                         <hr>
-                        <p class="white">You can download the source code of the simulator on github.</p>
+                        <h4 class="white">You can download the source code of the simulator on github.</h4>
                         <div class="text-center">
                             <center>
                             <h3>GitHub</h3>
                             <div class="service-item">
                                 <button class="white btn btn-6 btn-6d"> <a href="http://git.io/I_Qa2Q"><h1 class="ion-social-github white "></h1></a></button>
                                 <h4>Download</h4>
-                                <p class="white">{% block version %}{% endblock %}</p>
+                                <p class="white">{{ version() }}</p>
                                 <br>
                                 <br>
                                 </center>
@@ -182,7 +187,12 @@
                         <h3>It's all just animations, nothing will happen to your computer.</h3>
                         <p><i class="white">(Just, lettin you know.)</i></p>
                         <br>
-                        <button class="btn btn-1-1 btn-default" OnClick="next()" style="padding: 29px 48px;">Continue!</button> <button class="btn btn-1-1 btn-warning" id="chicken" OnClick="chicken()" style="padding: 29px 50px;">I'm too scared!</button>
+                        {% if mob == true %}
+                        <button id="nextButton" class="btn btn-1-1 btn-default" disabled="disabled" style="color: black padding: 29px 48px;">Sorry, Your device is not supported!</button> 
+                        {% else %}
+                        <button id="nextButton" class="btn btn-1-1 btn-default" style="padding: 29px 48px;">Continue!</button> 
+                        <button id="chickenButton" class="btn btn-1-1 btn-warning" style="padding: 29px 50px;">I'm too scared!</button>
+                        {% endif %}
                         <br>
                         <br>
                         <br>
@@ -209,29 +219,32 @@
                 <br>
                 <br>
                 <br>
+                <br>
                 <center>
                 <h1 class="ion-ios-information black"></h1>
                 </center>
                 <h2 class="black">About</h2>
                 <hr class="black">
-                <p class="lead">An <b>open source</b> experiment of recreating the animation <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU"><b>'Googol GLaDOS'</b></a> in <strong> <abbr title="Javascript">JS</abbr> </strong></p>
-                    <p align="center" class="lead"><b>Why open source + story</b></p>
-                    <p align="center">I started to work on this when a user (Alex) wrote this application and sent his recreated attempt to emulate the animation hakobyte made (googol glados) - search on google.</p>
-                    <p align="center">But the application was vulnerable and also close to becoming lost, so I quickly retrieved the raw files from Alex's hosting website</p>
-                    <p align="center">I fixed the raw code from the original simulator which is now a dead link, which is why you are seeing a refined version of the simulator right here.</p>
-                    <p align="center">Now that Alex is no-longer working on it, (hakobyte) has responsibility of maintaining and improving the simulator until I made it open source for anyone to download. </p>
-                    <p align="center">- <b>Hako  =[],</b></p>
-                </div>
+                    <h3 class="black lead" align="center">The Googol GLaDOS Simulator is an experiment to recreate the animation <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU"><i>'Googol GLaDOS'</i></a> for the web.</h3>
+                    <h3 class="black lead"> It is <b>open source</b>. This means you are permitted to <b>view, modify, and distribute</b> the simulator.</h3>
+                    <h3 class="black lead" align="center">If for some reason the <a href="http://ggs.hakobaito.co.uk">official simulator</a> ever goes down, you can always use a mirror. See <a href="#mirrors">Mirrors</a>.</h3>
+                    <h3 class="black lead" align="center">Or you can download and host the simulator yourself right <a href="#download">here</a>.
+                    <h3 class="black lead" align="center">For more information on how to run the simulator, see the <a href="https://github.com/hako/googol-glados-simulator#installing">Installing</a> section.</h3>
+                </h3>
+                <br>
+                <br>
             </div>
         </div>
     </div>
+    <br>
+    <br>
     <!-- End About-->
     <!-- Credits -->
     <div id="credits" class="credits">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
-                    <h3>{% block mwl %}{% endblock %} with <span style="color:#FF7373;" class="ion-ios-heart"></span> in England by:</h3>
+                    <h3>{{ mwl() }} with <span style="color:#FF7373;" class="ion-ios-heart"></span> in England by:</h3>
                     <br>
                     <a href="https://twitter.com/hakobyte" style="padding: 25px 44px;" class="btn btn-1-1-1 btn-1d">@hakobyte</a>
                     <a href="https://twitter.com/Gauntus" style="padding: 25px 44px;" class="btn btn-1-1-1 btn-1d">@Gauntus</a>
@@ -246,7 +259,7 @@
             <div class="row">
                 <ul class="list-inline">
                     <div class="col-md-6 col-md-offset-3 text-center">
-                        {% block hosted_on %}{% endblock %}
+                        {{ hosted_on() }}
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-md-offset-3 text-center">
@@ -255,13 +268,14 @@
                                  <li><a href="https://www.youtube.com/watch?v=sDhc4mKtMkU"><h3 class="ion-social-youtube"></h3></li></a>
                                     <li><a href="http://git.io/7O4kKQ"><h3 class="ion-social-github"></h3></li></a>
                                         <li><a href="http://googolglados.tumblr.com/download"><h3 class="ion-social-windows"></h3></li></a></ul>
-                            <p class "muted=" " credit"=""><a href="http://www.hakobaito.co.uk">hakobaito.co.uk</a> | <a href="https://www.iubenda.com/privacy-policy/257375/legal">privacy policy</a> | <a href="http://hakob.yt/donate">donate</a>
-                            </p>
+                            <h6 class="muted credit"><a href="http://www.hakobaito.co.uk">hakobaito.co.uk</a>  &nbsp; <a href="https://www.iubenda.com/privacy-policy/257375/legal">privacy policy</a> &nbsp;  <a href="http://hakob.yt/donate">donate</a>
+                            </h6>
                             <hr>
-                            <p>&copy; {{ year }}</p>
-                            <small>The Googol GLaDOS Simulator by Alex I'Anson is licensed under a Creative Commons NC License.</small>
+                            <h6 class="black">&copy; {{ year }}</h6>
+                            <small class="black">The Googol GLaDOS Simulator by Alex I'Anson and Wesley Hill is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.</small>
                             <br>
-                            <small>{% block version %}{% endblock %}</small>
+                            <br>
+                            <small class="black">{{ version() }}</small>
                         </div>
                     </div>
             </div>

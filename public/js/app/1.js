@@ -1,3 +1,4 @@
+(function() {
 window.history.replaceState('Object', 'Title', '/app');
 
 function next() {
@@ -29,3 +30,9 @@ function next() {
         alert('Please agree with the terms & conditions to continue.')
     }
 }
+
+$('#download').click(function() {
+    next()
+})
+
+})();

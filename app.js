@@ -18,7 +18,7 @@ var MobileDetect = require('mobile-detect');
 var express = require('express');
 var chalk = require('chalk');
 var bp = require('body-parser');
-var swig = require('swig');
+var nunjucks = require('nunjucks');
 
 
 //var ac = require('appcache-node');
@@ -67,18 +67,26 @@ var glados = chalk.yellow("g") + chalk.green("l") + chalk.red("a") + chalk.blue(
 
 // Express settings.
 app.set('port', (process.env.PORT || 5000));
-app.engine('html', swig.renderFile);
 app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
 app.use(express.static(__dirname + '/public'));
 app.disable('x-powered-by');
 
-// Swig custom filters.
+//  Configure view template for nunjucks.
+var nunjucksTemplate = nunjucks.configure('views', {
+    autoescape:true,
+    express:app
+});
 
-// Select a random item in an array.
-swig.setFilter('random', function(array) {
+nunjucksTemplate.addFilter('random', function(array) {
     return array[Math.floor(Math.random() * array.length)]
-})
+});
+
+// Nunjucks custom filters.
+nunjucksTemplate.addFilter('json', function(obj) {
+    return JSON.stringify(obj);
+});
+
 
 // Configuration
 
@@ -109,12 +117,14 @@ if (!process.env.SHOW_RELEASE_NAME) {
 
 // Index.
 app.get('/', function(req, res) {
+    var ismob = isMobile(req)
     on_heroku = process.env.ON_HEROKU
     footerWords = ['Made', 'Crafted', 'Designed', 'Built', 'Created']
     date = new Date()
-    res.render("index", {
+    res.render("index.html", {
         words: footerWords,
         on_heroku: on_heroku,
+        mob:ismob,
         v: version,
         year:date.getFullYear()
     })
@@ -131,10 +141,19 @@ app.all('/robots.txt', function(req, res) {
     res.end(robotstxt)
 });
 
-// Nope.
-app.get('/nope', function(req, res, next) {
+// User-Agent Checker.
+function isMobile(req) {
     md = new MobileDetect(req.headers['user-agent'])
     if (md.mobile() || md.is("Console") || md.is("Watch") || md.is("MobileBot") || md.match("\b(Nintendo|Nintendo WiiU|Nintendo 3DS|PLAYSTATION|Xbox)\b")) {
+        return true
+    } else {
+        return false
+    } 
+}
+
+// Nope.
+app.get('/nope', function(req, res, next) {
+    if(isMobile(req) == true){
         res.render("toobad",{device:md.mobile()})
     } else {
         res.redirect("/")
@@ -143,8 +162,7 @@ app.get('/nope', function(req, res, next) {
 
 // App
 app.get('/app', function(req, res) {
-    md = new MobileDetect(req.headers['user-agent'])
-    if (md.mobile() || md.is("Console") || md.is("Watch") || md.is("MobileBot") || md.match("\b(Nintendo|Nintendo WiiU|Nintendo 3DS|PLAYSTATION|Xbox)\b")) {
+    if(isMobile(req) == true){
         res.render("toobad",{device:md.mobile()})
     } else {
         exists = req.get('X-IS-GGS')

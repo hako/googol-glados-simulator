@@ -1,24 +1,26 @@
 {% extends 'index_layout.html' %}
 
-{% block mwl %}
-	  {{ footerWords | random }}
-{% endblock %}
+{% macro mwl() %}
+    {{ words | random }}
+{% endmacro %}
 
-{% block hosted_on %}
+{% macro hosted_on() %}
  {% if on_heroku == "true" %}
 <div class="col-md-6 col-md-offset-3 text-center">
     <li>
-      <br>
+        <br>
         <p align="center">
             <a href="https://heroku.com"><img src="img/built-on-heroku-dark-on-light.png"></a>
         </p>
     </li>
 </div>
  {% endif %}
-{% endblock %}
+{% endmacro %}
+
 {% block custom_css %}
         <link href="css/app/11.css" rel="stylesheet">
 {% endblock %}
+
 {% block custom_js %}
     <!-- JS -->
     <script src="components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
@@ -28,13 +30,13 @@
     <!-- End JS  -->
 {% endblock %}
 
-{% block version %}
-	{% if v.show_release_name == "true" %}
-	{{ v.version }}-{{ v.release_name }}
-	{% else %}
-	{{ v.version }}
-	{% endif %}
-{% endblock %}
+{% macro version() %}
+ {% if v.show_release_name == "true" %}
+    {{ v.version }}-{{ v.release_name }}
+    {% else %}
+    {{ v.version }}
+ {% endif %}
+{% endmacro %}
 
 {% block index %}
 <video class="animated-slow fadeIn" id="video_background" preload="auto" muted="true" autoplay="true" loop="loop">
@@ -47,9 +49,9 @@
     </div>
     <h2 class="Googol_Simulator_Font_Colour"><span class="corrupt">Your OS is <i>"somehow"</i> corrupt ;)*</h2>
     <br>
-    <p align="center"> <small>*well not really...</small></p>
-    <p> Well I hope you enjoyed the simulator.</p>
-    <p align="center" class="lead"> <small>Here's the <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU">YouTube</a> video. or...</small></p><small> </small>
+    <h5 class="black lead" align="center"> <small>*well not really...</small></h5>
+    <h5 class="black lead">Well I hope you enjoyed the simulator.</h5>
+    <h6 class="black lead" align="center"> <small>Here's the <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU">YouTube</a> video. or...</small></h6><small> </small>
     <a href="/" class="btn btn-1-L btn-1a warning">reboot:simulator</a>
   </div>
 </div>
@@ -64,17 +66,17 @@
         </center>
         <h2 class="white">Credits &amp; Attributions</h2>
         <hr>
-        <p align="center"> The Googol GLaDOS Simulator was completely <b>(re)designed</b>, <b>coded</b>, <b>crafted</b> and made from scratch using <b>open source</b> tools and libraries:</p>
-        <p align="center">
+        <h4 class="lead" align="center"> The Googol GLaDOS Simulator was completely <b>(re)designed</b>, <b>coded</b>, <b>crafted</b> and made from scratch using <b>open source</b> tools and libraries:</p>
+        <h4 class="lead" align="center">
         </p>
-        <p align="center"> Constructed with Bootstrap 3.0.1 <a href="https://twitter.com/mdo">@mdo</a> &amp; <a href="https://twitter.com/fat">@fat</a></p>
-        <p align="center"> HTML5 Web Audio processed by the loud and proud <b>howler.js</b></p>
-        <p align="center"> Browser detection with <b>mobile-detect.js</b></p>
-        <p align="center"> Powered by <b>Express.js</b> and <b>JQuery</b>.</p>
-        <p align="center"> Dynamic CSS3 animations made with the help of <b>Animate.css</b>
-        </p>
-        <p align="center"> Icons by <a href="http://ionicons.com/">ionicons</a> and <a href="http://icomoon.io">icomoon</a></b></p>
-        <p align="center"> Built using <b>HTML5</b>, <b>CSS3</b>,<b>JavaScript</b> and <b>Node.js</b></p>
+        <h4 class="lead" align="center"> Constructed with Bootstrap 3.0.1 <a href="https://twitter.com/mdo">@mdo</a> &amp; <a href="https://twitter.com/fat">@fat</a></h4>
+        <h4 class="lead" align="center"> HTML5 Web Audio processed by the loud and proud <b>howler.js</b></h4>
+        <h4 class="lead" align="center"> Browser detection with <b>mobile-detect.js</b></h4>
+        <h4 class="lead" align="center"> Powered by <b>Express.js</b> and <b>JQuery</b>.</h4>
+        <h4 class="lead" align="center"> Dynamic CSS3 animations made with the help of <b>Animate.css</b>
+        </h4>
+        <h4 class="lead" align="center"> Icons by <a href="http://ionicons.com/">ionicons</a> and <a href="http://icomoon.io">icomoon</a></b></h4>
+        <h4 class="lead" align="center"> Built using <b>HTML5</b>, <b>CSS3</b>,<b>JavaScript</b> and <b>Node.js</b></h4>
         <br>
         <h2> And finally...</h2>
       </div>
@@ -87,7 +89,7 @@
       <div class="container">
           <div class="row">
               <div class="col-md-6 col-md-offset-3 text-center">
-                  <h3>{% block mwl %}{% endblock %} with <span style="color:#FF7373;" class="ion-ios-heart"></span> in England by:</h3>
+                  <h3>{{ mwl() }} with <span style="color:#FF7373;" class="ion-ios-heart"></span> in England by:</h3>
                   <br>
                   <a href="https://twitter.com/hakobyte" style="padding: 25px 44px;" class="btn btn-1-1-1 btn-1d">@hakobyte</a>
                   <a href="https://twitter.com/Gauntus" style="padding: 25px 44px;" class="btn btn-1-1-1 btn-1d">@Gauntus</a>
@@ -102,7 +104,7 @@
             <div class="row">
                 <ul class="list-inline">
                     <div class="col-md-6 col-md-offset-3 text-center">
-                        {% block hosted_on %}{% endblock %}
+                        {{ hosted_on() }}
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-md-offset-3 text-center">
@@ -111,13 +113,14 @@
                                  <li><a href="https://www.youtube.com/watch?v=sDhc4mKtMkU"><h3 class="ion-social-youtube"></h3></li></a>
                                     <li><a href="http://git.io/7O4kKQ"><h3 class="ion-social-github"></h3></li></a>
                                         <li><a href="http://googolglados.tumblr.com/download"><h3 class="ion-social-windows"></h3></li></a></ul>
-                            <p class "muted=" " credit"=""><a href="http://www.hakobaito.co.uk">hakobaito.co.uk</a> | <a href="https://www.iubenda.com/privacy-policy/257375/legal">privacy policy</a> | <a href="http://hakob.yt/donate">donate</a>
+                            <p class "muted=" " credit"=""><a href="http://www.hakobaito.co.uk">hakobaito.co.uk</a> &nbsp;  <a href="https://www.iubenda.com/privacy-policy/257375/legal">privacy policy</a> &nbsp;  <a href="http://hakob.yt/donate">donate</a>
                             </p>
                             <hr>
                             <p>&copy; {{ year }}</p>
-                            <small>The Googol GLaDOS Simulator by Alex I'Anson is licensed under a Creative Commons NC License.</small>
+                            <small>The Googol GLaDOS Simulator by Alex I'Anson and Wesley Hill is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.</small>
+                            ≈
                             <br>
-                            <small>{% block version %}{% endblock %}</small>
+                            <small class="black">{{ version() }}</small>
                         </div>
                     </div>
             </div>

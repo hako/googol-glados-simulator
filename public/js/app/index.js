@@ -1,3 +1,5 @@
+(function() {
+
 $('#video_background').hide();
 $('#video_background').delay(1500).fadeIn(5000);
 
@@ -36,11 +38,9 @@ $('a[href*=#]:not([href=#])').click(function() {
     }
 });
 
-function redirect() {
-    window.location = 'http://www.hakobaito.co.uk/b/q-is-the-gg-s-simulator-a-virus';
-}
-
 function next() {
+    $('#nextButton').attr('disabled','true')
+    $('#chickenButton').attr('disabled','true')
     $("body").fadeOut(400);
     $.ajax({
             url: "/app",
@@ -64,19 +64,33 @@ function next() {
         })
 }
 
-$('#chicken').mouseenter(function(){
-    $('#chicken').attr("class", "btn btn-1-1 btn-warning animated shake");
+$('#chickenButton').mouseenter(function(){
+    $('#chickenButton').attr("class", "btn btn-1-1 btn-warning animated shake");
     setTimeout(function() { 
-        $('#chicken').attr("class", "btn btn-1-1 btn-warning");
+        $('#chickenButton').attr("class", "btn btn-1-1 btn-warning");
     }, 500)
 });
 
+$('#nextButton').click(function() {
+    next()
+})
+
+$('#chickenButton').click(function() {
+    chicken()
+})
+
 function chicken() {
-        var chicken = new Howl({
-            urls: ['../../sounds/chicken.wav']
-        }).play();
+    $('#nextButton').attr('disabled','true')
+    $('#chickenButton').attr('disabled','true')
+    var chicken = new Howl({
+        urls: ['../../sounds/chicken.wav']
+    }).play();
 
-        $("body").fadeOut(400);
+    $("body").fadeOut(400);
 
-        setTimeout('redirect()', 3000);
-    }
+    setTimeout(function(){
+        window.location = 'http://www.hakobaito.co.uk/b/q-is-the-gg-s-simulator-a-virus';
+    }, 3000);
+
+}
+})();
