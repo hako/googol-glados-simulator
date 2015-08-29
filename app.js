@@ -160,6 +160,10 @@ app.get('/nope', function(req, res, next) {
     }
 });
 
+app.get('/end', function(req, res) {
+    res.redirect("/")
+})
+
 // App
 app.get('/app', function(req, res) {
     if(isMobile(req) == true){

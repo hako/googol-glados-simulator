@@ -18,41 +18,6 @@ a:hover {
     color: #E34C26;
 }
 
-html,
-body {
-    /* The html and body elements cannot have any padding or margin. */
-}
-/* Wrapper for page content to push down footer */
-
-#wrap {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    /* Negative indent footer by it's height */
-    
-    margin: 0 auto -60px;
-}
-/* Set the fixed height of the footer here */
-
-#push,
-#footer {
-    height: 60px;
-}
-
-#footer {
-    background-color: #f5f5f5;
-}
-/* Lastly, apply responsive CSS fixes as necessary */
-
-@media (max-width: 767px) {
-    #footer {
-        margin-left: -20px;
-        margin-right: -20px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
 .Googol {
     font-family: 'Conv_Catull';
     text-align: center;
@@ -121,13 +86,14 @@ h1 {
 
 h3 {
     font-family: 'Averia Sans Libre', cursive;
-    font-size: 60px;
+    font-size: 40px;
     color: #2e3436;
-    -webkit-transform: translate(0px, -66px) rotate(12deg) rotateX(12deg) skew(0deg, 0deg) scale(0.7, 0.7);
-    -moz-transform: translate(0px, -66px) rotate(12deg) rotateX(12deg) skew(0deg, 0deg) scale(0.7, 0.7);
-    -o-transform: translate(0px, -66px) rotate(12deg) rotateX(12deg) skew(0deg, 0deg) scale(0.7, 0.7);
-    -ms-transform: translate(0px, -66px) rotate(12deg) rotateX(12deg) skew(0deg, 0deg) scale(0.7, 0.7);
-    transform: translate(0px, -66px) rotate(12deg) rotateX(12deg) skew(0deg, 0deg) scale(0.7, 0.7);
+    
+    -webkit-transform: translate(0px, -66px) rotate(5.8deg) rotateX(12deg) skew(0deg, 0deg) scale(0.7, 0.7);
+    -moz-transform: translate(0px, -66px) rotate(5.8deg) rotateX(12deg) skew(0deg, 0deg) scale(0.7, 0.7);
+    -o-transform: translate(0px, -66px) rotate(5.8deg) rotateX(12deg) skew(0deg, 0deg) scale(0.7, 0.7);
+    -ms-transform: translate(0px, -66px) rotate(5.8deg) rotateX(12deg) skew(0deg, 0deg) scale(0.7, 0.7);
+    transform: translate(0px, -66px) rotate(5.8deg) rotateX(12deg) skew(0deg, 0deg) scale(0.7, 0.7);
 }
 
 .Download {

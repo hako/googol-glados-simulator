@@ -21,6 +21,7 @@
     "icomoon": "~0.0.3",
     "bootstrap": "~3.3.5",
     "howler": "~1.1.26",
-    "normalize.css": "~3.0.3"
+    "normalize.css": "~3.0.3",
+    "sweetalert": "~1.1.0"
   }
 }
