@@ -19,58 +19,40 @@ var express = require('express');
 var chalk = require('chalk');
 var bp = require('body-parser');
 var nunjucks = require('nunjucks');
+var morgan = require('morgan');
+var ac = require('appcache-node');
 
-
-//var ac = require('appcache-node');
 var app = express();
+
 // Create a cache for offline access, invalidate each hour.
 // add manifest="app.cache" to app_layout and index_layout
-// var cache = ac.newCache(["components/bootstrap/dist/css/bootstrap.css", 
-//                          "components/bootstrap/dist/js/bootstrap.min.js",
-//                          "components/howler/howler.min.js",
-//                          "components/animate.css/animate.css",
-//                          "components/jquery/dist/jquery.min.js",
-//                          "components/ionicons/css/ionicons.css",
-//                          "components/icomoon/dist/css/style.css",
-//                          "css/stylish-portfolio.css",
-//                          "css/modern-buttons.css",
-//                          "css/fonts.css",
-//                          "css/app/index.css",
-//                          "css/real-world.css",
-//                          "css/fonts/Averia/averia_sans_libre_regular.svg",
-//                          "css/fonts/Averia/averia_sans_libre_regular.ttf",
-//                          "css/fonts/Averia/averia_sans_libre_regular.woff",
-//                          "css/fonts/Catull.svg",
-//                          "css/fonts/Catull.ttf",
-//                          "css/fonts/Catull.woff",
-//                          "components/icomoon/dist/fonts/icomoon.svg",
-//                          "components/icomoon/dist/fonts/icomoon.ttf",
-//                          "components/icomoon/dist/fonts/icomoon.woff",
-//                          "components/ionicons/fonts/ionicons.svg?v=2.0.0#Ionicons",
-//                          "components/ionicons/fonts/ionicons.ttf?v=2.0.0",
-//                          "components/ionicons/fonts/ionicons.woff?v=2.0.0",
-//                          "components/bootstrap/dist/css/bootstrap.css.map",
-//                          "components/jquery/dist/jquery.min.map",
-//                          "sounds/chicken.wav",
-//                          "sounds/ignore.wav",
-//                          "sounds/glados_s6.wav",
-//                          "sounds/glados_s7.wav",
-//                          "sounds/glados_s8.wav",
-//                          "sounds/glados_s9.wav",
-//                          "sounds/glados_s10.wav",
-//                          "js/app/index.js",
-//                          ])
-// cache += "\nNETWORK:\n*"
+var cache = ac.newCache(["components/bootstrap/dist/css/bootstrap.css", 
+                         "components/howler/howler.min.js",
+                         "sounds/chicken.wav",
+                         "sounds/ignore.wav",
+                         "sounds/glados_s6.wav",
+                         "sounds/glados_s7.wav",
+                         "sounds/glados_s8.wav",
+                         "sounds/glados_s9.wav",
+                         "sounds/glados_s10.wav",
+                         ])
+cache += "\nNETWORK:\n*"
 
 var googol = chalk.blue("g") + chalk.red("o") + chalk.yellow("o") + chalk.blue("g") + chalk.red("o") + chalk.green("l");
 var glados = chalk.yellow("g") + chalk.green("l") + chalk.red("a") + chalk.blue("d") + chalk.red("o") + chalk.blue("s");
 
-// Express settings.
+// Express settings and middleware.
 app.set('port', (process.env.PORT || 5000));
 app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
 app.use(express.static(__dirname + '/public'));
 app.disable('x-powered-by');
+
+if (app.settings.env == "development") {
+    app.use(morgan('dev'))
+} else {
+    app.use(morgan('combined'))
+}
 
 //  Configure view template for nunjucks.
 var nunjucksTemplate = nunjucks.configure('views', {
@@ -107,11 +89,11 @@ if (!process.env.SHOW_RELEASE_NAME) {
     version['show_release_name'] = process.env.SHOW_RELEASE_NAME
 }
 
-// Cache
-// app.all('/app.cache', function(req, res){
-//     res.writeHead(200, {'Content-Type': 'text/cache-manifest'});
-//     res.end(cache);
-// })
+// Display app cache.
+app.all('/app.cache', function(req, res){
+    res.writeHead(200, {'Content-Type': 'text/cache-manifest'});
+    res.end(cache);
+})
 
 // Routes.
 

@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <div align="center"> <span class="Googol_Colour"><span class="Googol">G</span><span class="Googol Googol_Colour_0">o</span><span class="Googol Googol_Colour_1">o</span><span class="Googol Googol_Colour_2">g</span><span class="Googol Googol_Colour_3">o</span><span class="Googol Googol_Colour_4">l</span> &nbsp; <span class="Googol Googol_Colour_5">G</span><span class="Googol Googol_Colour_6">L</span><span class="Googol Googol_Colour_7">a</span><span class="Googol Googol_Colour_8">D</span><span class="Googol Googol_Colour_9">O</span><span class="Googol Googol_Colour_10">S</span> </span><span class="p Googol_Simulator_Font_Colour"> simulator </span></div>
-                    <h6 class="black lead" align="center">An <b>open source</b> experiment of recreating the animation <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU"><i>'Googol GLaDOS'</i></a> for the web.</h6>
+                    <h6 class="black lead" align="center">An  <b>experiment</b> of recreating the animation <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU"><i>'Googol GLaDOS'</i></a> for the web.</h6>
                         <h6 class="black lead"><a href="#intro" style="text-decoration: underline;"><small>You <b>must</b> read the instructions before continuing.</small></a></h6>
                         <a href="#launch" class="btn btn-1 btn-1a">Launch Simulator!</a>
                     </div>
@@ -127,7 +127,7 @@
                         <div class="service-item">
                             <a href="http://alexianson.co.uk/archive/gg/"><h1 class="ion-record white"></h1></a>
                             <h4>The Original</h4>
-                            <p class="white">The original Googol GLaDOS Simulator.</p>
+                            <p class="white">The original Googol GLaDOS Simulator. (Offline.)</p>
                         </div>
                     </div>
                 </div>
@@ -146,18 +146,24 @@
                         </center>
                         <h2>Downloads</h2>
                         <hr>
-                        <h4 class="white">You can download the source code of the simulator on github.</h4>
+                        <h4 class="white">The Googol GLaDOS Simulator is <b>open source</b>.</h4>
+                        <h5>This means you can host your own version of the simulator online.<h5>
+                        <h5>You can download the source code below from GitHub.<h5>
                         <div class="text-center">
                             <center>
                             <h3>GitHub</h3>
+                            <a href="http://git.io/I_Qa2Q"  target="_blank">
                             <div class="service-item">
-                                <button class="white btn btn-6 btn-6d"> <a href="http://git.io/I_Qa2Q"><h1 class="ion-social-github white "></h1></a></button>
-                                <h4>Download</h4>
-                                <p class="white">{{ version() }}</p>
-                                <br>
-                                <br>
-                                </center>
+                                <button class="white btn btn-6 btn-6d"><h1 class="ion-social-github white"></h1></button>
                             </div>
+                            </a>
+                            <p class="white">{{ version() }}</p>
+                            </center>
+                            <br>
+                            <h5>Or you can set one <a href="https://heroku.com/deploy?template=https://github.com/hako/googol-glados-simulator" class="black"><b> up right now!</b></a> <i>(Requires a Heroku account)</i><h5>
+                            <br>
+                            <br>
+                            <br>
                         </div>
                     </div>
                 </div>
@@ -165,86 +171,89 @@
         </div>
         <!-- End Downloads -->
         <!-- Before You Continue... -->
-        <div id="block3" class="block_3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3 text-center">
-                        &nbsp;
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <p id="launch"></p>
-                        <br>
-                        <br>
-                        <h2>Before you continue...</h2>
-                        <hr>
-                        <center>
-                        <h3>This simulator is an animated simulation of the cartoon "Googol GLaDOS".</h3>
-                        <br>
-                        <h2><u class="red">It is not a virus.</u></h2>
-                        <br>
-                        <h3>It's all just animations, nothing will happen to your computer.</h3>
-                        <p><i class="white">(Just, lettin you know.)</i></p>
-                        <br>
-                        {% if mob == true %}
-                        <button id="nextButton" class="btn btn-1-1 btn-default" disabled="disabled" style="color: black padding: 29px 48px;">Sorry, Your device is not supported!</button> 
-                        {% else %}
-                        <button id="nextButton" class="btn btn-1-1 btn-default" style="padding: 29px 48px;">Continue!</button> 
-                        <button id="chickenButton" class="btn btn-1-1 btn-warning" style="padding: 29px 50px;">I'm too scared!</button>
-                        {% endif %}
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-                </div>
-                </center>
+<div id="block3" class="block_3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                &nbsp;
+                <br>
+                <br>
+                <br>
+                <br>
+                <p id="launch"></p>
+                <br>
+                <br>
+                <h2>Before you continue...</h2>
+                <hr>
+                <center>
+                    <h3>This simulator is an animated simulation of the cartoon "Googol GLaDOS".</h3>
+                    <br>
+                    <h2><u class="red">It is not a virus.</u></h2>
+                    <br>
+                    <h3>It's all just animations, nothing will happen to your computer.</h3>
+                    <p><i class="white">(Just, lettin you know.)</i></p>
+                    <br>
+                    {% if mob == true %}
+                    <h3><i class="white">Sorry, Your device is not supported!</i></h3>
+                    <button id="nextButton" class="btn black btn-1-1 btn-default" disabled="disabled">
+                        <h2 class="ion-close-circled red"></h2>
+                    </button> 
+                    {% else %}
+                    <button id="nextButton" class="btn btn-1-1 btn-default" OnClick="next()" style="padding: 29px 48px;">Continue!</button> 
+                    <button id="chickenButton" class="btn btn-1-1 btn-warning" OnClick="chicken()"  style="padding: 29px 50px;">I'm too scared!</button>
+                    {% endif %}
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                <br>
             </div>
         </div>
+        </center>
     </div>
+</div>
+</div>
 </div>
 <!-- End Before You Continue-->
 <!-- About -->
 <div id="intro" class="block_2">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <center>
-                <h1 class="ion-ios-information black"></h1>
-                </center>
-                <h2 class="black">About</h2>
-                <hr class="black">
-                    <h3 class="black lead" align="center">The Googol GLaDOS Simulator is an experiment to recreate the animation <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU"><i>'Googol GLaDOS'</i></a> for the web.</h3>
-                    <h3 class="black lead"> It is <b>open source</b>. This means you are permitted to <b>view, modify, and distribute</b> the simulator.</h3>
-                    <h3 class="black lead" align="center">If for some reason the <a href="http://ggs.hakobaito.co.uk">official simulator</a> ever goes down, you can always use a mirror. See <a href="#mirrors">Mirrors</a>.</h3>
-                    <h3 class="black lead" align="center">Or you can download and host the simulator yourself right <a href="#download">here</a>.
-                    <h3 class="black lead" align="center">For more information on how to run the simulator, see the <a href="https://github.com/hako/googol-glados-simulator#installing">Installing</a> section.</h3>
-                </h3>
-                <br>
-                <br>
-            </div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <center>
+            <h1 class="ion-ios-information black"></h1>
+            </center>
+            <h2 class="black">About</h2>
+            <hr class="black">
+                <h3 class="black lead" align="center">The Googol GLaDOS Simulator is an open source* experiment to recreate the animation <a href="http://www.youtube.com/watch?v=sDhc4mKtMkU"><i>'Googol GLaDOS'</i></a> for the web.</h3>
+                <h3 class="black lead" align="center">If for some reason the <a href="http://ggs.hakobaito.co.uk">official simulator</a> ever goes down, you can always use a mirror. See <a href="#mirrors">Mirrors</a>.</h3>
+                <h3 class="black lead" align="center">Or you can download and host the simulator yourself right <a href="#download">here</a>.
+                <h3 class="black lead" align="center">For more information on how to run the simulator, see the <a href="https://github.com/hako/googol-glados-simulator#installing">Installing</a> section.</h3>
+            </h3>
+            <i>
+                <small class="black">*This means you are permitted to <b>view, modify, and distribute</b> the simulator under the terms of the <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License. (CC BY-NC 4.0)</a></small>
+            </i>
+            <br>
+            <br>
         </div>
     </div>
-    <br>
-    <br>
+</div>
+<br>
+<br>
     <!-- End About-->
     <!-- Credits -->
     <div id="credits" class="credits">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
-                    <h3>{{ mwl() }} with <span style="color:#FF7373;" class="ion-ios-heart"></span> in England by:</h3>
+                    <h3>{{ mwl() }} with <span style="color:#FF7373;" class="ion-ios-heart"></span> in the United Kingdom by:</h3>
                     <br>
                     <a href="https://twitter.com/hakobyte" style="padding: 25px 44px;" class="btn btn-1-1-1 btn-1d">@hakobyte</a>
                     <a href="https://twitter.com/Gauntus" style="padding: 25px 44px;" class="btn btn-1-1-1 btn-1d">@Gauntus</a>

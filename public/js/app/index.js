@@ -1,5 +1,7 @@
 (function() {
 
+preloadSounds();
+
 $('#video_background').hide();
 $('#video_background').delay(1500).fadeIn(5000);
 
@@ -92,5 +94,49 @@ function chicken() {
         window.location = 'http://www.hakobaito.co.uk/b/q-is-the-gg-s-simulator-a-virus';
     }, 3000);
 
+}
+
+function preloadSounds() {
+    var preloadChicken = new Howl({
+        urls: ['../../sounds/chicken.wav'],
+        autoplay:false,
+        buffer:true
+    }).stop();
+
+    var preloadS6 = new Howl({
+        urls: ['../../sounds/glados_s6.wav'],
+        autoplay:false,
+        buffer:true
+    }).stop();
+
+    var preloadIgnore = new Howl({
+        urls: ['../../sounds/ignore.wav'],
+        autoplay:false,
+        buffer:true
+    }).stop();
+
+    var preloadS7 = new Howl({
+        urls: ['../../sounds/glados_s7.wav'],
+        autoplay:false,
+        buffer:true
+    }).stop();
+
+    var preloadS8 = new Howl({
+        urls: ['../../sounds/glados_s8.wav'],
+        autoplay:false,
+        buffer:true
+    }).stop();
+
+    var preloadS9 = new Howl({
+        urls: ['../../sounds/glados_s9.wav'],
+        autoplay:false,
+        buffer:true
+    }).stop();
+
+    var preloadS10 = new Howl({
+        urls: ['../../sounds/glados_s10.wav'],
+        autoplay:false,
+        buffer:true
+    }).stop();
 }
 })();

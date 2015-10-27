@@ -2,7 +2,7 @@
 
 #Googol GLaDOS Simulator
 
-An open source experiment of recreating the animation _['Googol GLaDOS'](http://www.youtube.com/watch?v=sDhc4mKtMkU)_ for the web.
+The Googol GLaDOS Simulator is an experiment of recreating the animation _['Googol GLaDOS'](http://www.youtube.com/watch?v=sDhc4mKtMkU)_ for the web.
 
 Here are some links below to help you understand the project.
 
@@ -12,7 +12,7 @@ Here are some links below to help you understand the project.
 [http://ggs.hakobaito.co.uk](http://ggs.hakobaito.co.uk) - The official Googol GLaDOS Simulator.
 
 
-[http://alexianson.co.uk/archive/gg/](http://alexianson.co.uk/archive/gg/) - The original Googol GLaDOS Simulator (by Alex I'Anson)
+http://alexianson.co.uk/archive/gg/ - The original Googol GLaDOS Simulator (by Alex I'Anson) (Offline)
 
 _NOTE: This version of the simulator is the **web** version, not the Windows version. If you are looking for the Windows version, head over here:_
 
@@ -21,9 +21,9 @@ _NOTE: This version of the simulator is the **web** version, not the Windows ver
 Downloads
 -
 
-You can grab the latest beta release here.
+If you would like to run the Googol GLaDOS Simulator on your own machine, you can download the code here:
 
-[v3.0.1](https://github.com/hako/googol-glados-simulator/releases)
+[Googol GLaDOS Simulator v3.0.1](https://github.com/hako/googol-glados-simulator/releases)
 
 
 Installing
