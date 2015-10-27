@@ -1,10 +1,10 @@
-{% include '../public/media/banner' %}
+{% include 'banner' %}
 
-<html class="no-js">
-    {% include 'page_header.html' %}
-    {% block custom_css %}{% endblock %}
+<html manifest="app.cache" class="no-js">
+{% include 'page_header.html' %}
+{% block custom_css %}{% endblock %}
 <body>
-    {% block index %}{% endblock %}
+{% block index %}{% endblock %}
 </body>
-    {% block custom_js %}{% endblock %}
+{% block custom_js %}{% endblock %}
 </html>

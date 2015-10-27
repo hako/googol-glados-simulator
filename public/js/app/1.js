@@ -1,3 +1,4 @@
+(function() {
 window.history.replaceState('Object', 'Title', '/app');
 
 function next() {
@@ -26,6 +27,12 @@ function next() {
                 }
             })
     } else {
-        alert('Please agree with the terms & conditions to continue.')
+        sweetAlert({title:"Error", text:"Please agree with the terms & conditions to continue.", confirmButtonColor:"#FC2D1E"});
     }
 }
+
+$('#download').click(function() {
+    next()
+})
+
+})();

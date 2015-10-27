@@ -42,7 +42,7 @@
   }
 
   function decrypting() {
-      $('#gladosbody').append('<div id="decrypting" style="position:absolute;left:10;bottom:10;opacity:1;z-index:5;"><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <p>  Decrypting...</p>');
+      $('#gladosbody').append('<div id="decrypting" style="position:absolute;left:10;bottom:10;opacity:1;z-index:5;"><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <p>  DECRYPTING...</p>');
       setTimeout('next()', 4500);
   }
 
