@@ -1,6 +1,6 @@
 ![](https://cloud.githubusercontent.com/assets/2040416/3561932/b0586d94-09d8-11e4-919c-3ab821165d4e.png)
 
-#Googol GLaDOS Simulator
+#Googol GLaDOS Simulator [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 The Googol GLaDOS Simulator is an experiment of recreating the animation _['Googol GLaDOS'](http://www.youtube.com/watch?v=sDhc4mKtMkU)_ for the web.
 
